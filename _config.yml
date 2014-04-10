@@ -1,3 +1,4 @@
 name: Cesar Ramirez
 markdown: redcarpet
+pygments: true
 baseurl: /
