@@ -1,43 +1,35 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 3px;
+  padding: 2px;
 }
 
-html, body { height: 100%; }
+html, body {
+  height: 100%; 
+}
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 14px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%; 
+}
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+h1 { 
+  margin-bottom: 1em; 
+}
+
+p {
+ margin: 1em 0; 
+}
 
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
-.content {
-  float: left;
-}
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -53,38 +45,12 @@ a:visited { color: #a0a; }
   font-size: 80%;
 }
 
-/*****************************************************************************/
-/*
-/* Nav Bar
-/*
-/*****************************************************************************/
-.navbar {
-  list-style-type: none;
-  margin-bottom: 2em;
-  float: right;
-}
-
-.navbar li {
-  line-height: 1.75em;
-}
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 90%;
   margin: 3em auto 2em;
   line-height: 1.5em;
-}
-
-.header a {
-  font-weight: bold;
-  text-decoration: none;
 }
 
 .title {
@@ -98,6 +64,15 @@ a:visited { color: #a0a; }
 
 .title a:hover {
   color: #000;
+}
+
+.header {
+  width: 100%;
+}
+
+.header a {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .header a.extra {
@@ -119,6 +94,8 @@ a:visited { color: #a0a; }
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+  text-align: center;
+  width: 100%;
 }
 
 .footer .contact {
@@ -140,13 +117,20 @@ a:visited { color: #a0a; }
   border: 0;
 }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
+.navbar {
+  list-style-type: none;
+  margin-bottom: 2em;
+  float: right;
+}
 
-/* standard */
+.navbar li {
+  line-height: 1.75em;
+}
+
+.content {
+  float: left;
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
