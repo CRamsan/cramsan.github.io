@@ -1,0 +1,9 @@
+<div>
+  <ul>
+    {% for entry in site.data.sharing %}
+      <li>
+        <a href="{{ entry.url }}">{{ entry.username }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

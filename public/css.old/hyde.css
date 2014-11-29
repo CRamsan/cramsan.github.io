@@ -115,6 +115,61 @@ a.sidebar-nav-item:focus {
 }
 
 
+/*
+ * Bottombar
+ */
+
+.bottombar {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
+}
+
+/* bottombar links */
+.bottombar a {
+  color: #fff;
+}
+
+/* About section */
+.bottombar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "Abril Fatface", serif;
+  font-size: 2.25rem;
+}
+
+/* Sidebar nav */
+.bottombar-nav {
+  padding-left: 0;
+  list-style: none;
+}
+.bottombar-nav-item {
+  display: block;
+}
+a.bottombar-nav-item:hover,
+a.bottombar-nav-item:focus {
+  text-decoration: underline;
+}
+.bottombar-nav-item.active {
+  font-weight: bold;
+}
+
+/* Sticky bottombar
+ *
+ * Add the `bottombar-sticky` class to the bottombar's container to affix it the
+ * contents to the bottom of the bottombar in tablets and up.
+ */
+
+@media (min-width: 48rem) {
+  .bottombar-sticky {
+    vertical-align: top;
+    right:  1rem;
+    bottom: 1rem;
+    left:   1rem;
+  }
+}
+
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu

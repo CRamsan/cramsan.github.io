@@ -1,0 +1,12 @@
+---
+layout: page
+title: Projects
+---
+
+{% assign projects_list = site.data.projects %}
+{% for node in projects_list %}
+  <li>
+    <a href="{{ node.url }}">{{ node.name }}</a>
+  </li>
+{% endfor %}
+
