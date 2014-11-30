@@ -1,10 +1,24 @@
+html {
+}
+
+@media (min-width: 48rem) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin:  0px;
+}
+
 div {
-    border-style: solid;
+  border-style: solid;
+  border-width: 0.1rem;
 }
 
 img {
-    max-width:100%;
-    max-height:100%;
+  max-width:100%;
+  max-height:100%;
 }
 
 .sidebar {
@@ -30,6 +44,6 @@ img {
 
 @media (min-width: 48rem) {
   .content {
-    margin-left: 20rem;
+    margin-left: 20.1rem;
   }
 }
