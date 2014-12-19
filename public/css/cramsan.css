@@ -1,19 +1,25 @@
 html {
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: left;
 }
 
-@media (min-width: 48rem) {
-  html {
-    font-size: 16px;
-  }
+h1 {
+  margin: 1rem 0rem 0.2rem;
+}
+
+h2 {
+  margin: 1rem 0rem 0.2rem;
 }
 
 body {
-  margin:  0px;
+  margin: 0px;
 }
 
 div {
-  border-style: solid;
-  border-width: 0.1rem;
+
+}
+
+iframe {
 }
 
 img {
@@ -21,29 +27,29 @@ img {
   max-height:100%;
 }
 
-.sidebar {
-  text-align: center;
-  padding: 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
+.sidebar, .content {
+  margin: 0.3rem;
+  padding: 0.3rem;
+  overflow: auto;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #888888;
 }
 
-@media (min-width: 48rem) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
+.sidebar {
+  color: rgba(2,2,2,.5);
+  background-color: #EEEEEE;
+
+  position:fixed;
+  width: 20rem;
+  top: 0rem;
+  bottom: 0rem;
 }
 
 .content {
-}
-
-@media (min-width: 48rem) {
-  .content {
-    margin-left: 20.1rem;
-  }
+  position:fixed;
+  background-color: #EEEEEE;
+  width: (100%);
+  left: 21rem;
+  right: 0rem;
+  top: 0rem;
+  bottom: 0rem;
 }

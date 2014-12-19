@@ -2,10 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
   {% include head.html %}
   <body>
-    {% include sidebar.html %}
-    <div class="content">
-      {{ content }}
-      {% include bottombar.html %}
+    <div>
+	  <div class="sidebar">
+        {% include sidebar.html %}
+      </div>
+      <div class="content">
+        {{ content }}
+        {% include bottombar.html %}
+      </div>
     </div>
   </body>
 </html>

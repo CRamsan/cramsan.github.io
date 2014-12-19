@@ -1,25 +1,33 @@
-<div class="sidebar">
+<div>
   <div>
     <h1>{{ site.title }}</h1>
     <p>{{ site.description }}</p>
   </div>
 
+  <div>
+  <h2>Pages</h2>
   <ul>
     {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-          <li {% if page.url == node.url %} active{% endif %}">
-            <a href="{{ node.url }}">{{ node.title }}</a>
-          </li>
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <li {% if page.url == node.url %} active{% endif %}">
+              <a href="{{ node.url }}">{{ node.title }}</a>
+            </li>
+          {% endif %}
         {% endif %}
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
+      <li ><a href="{{ site.github.repo }}">GitHub Page</a></li>
+    </ul>
+  </div>
 
-    <li ><a href="{{ site.github.repo }}">GitHub Page</a></li>
-    <br>
-      Recent Posts:
-      {% include navigation.html  %}
-   </br>
-  </ul>
+  <div>
+    <h2>Recent Posts:</h2>
+    {% include navigation.html  %}
+  </div>
+  
+  <div>
+    <h2>Social:</h2>
+    {% include contact.html  %}
+  </div>
 </div>
