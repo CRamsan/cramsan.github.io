@@ -1,22 +1,12 @@
 html {
   font-family: "Lucida Console", Monaco, monospace;
-  text-align: left;
   background-color: #429859;
+  text-align: left;
 }
 
-h1 {
+h1, h2, h3 {
   margin: 0.4em 0em 0.2em;
   font-size: 1.3re;
-}
-
-h2 {
-  margin: 0.4em 0em 0.2em;
-  font-size: 1.2re;
-}
-
-h3 {
-  margin: 0.4em 0em 0.2em;
-  font-size: 1.1re;
 }
 
 body {
@@ -27,8 +17,15 @@ ul {
   margin: 0em;
 }
 
-div {
+p {
+  font-size: 85%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
 
+img {
+  max-width:100%;
+  max-height:100%;
 }
 
 .sidebar a:link {
@@ -47,62 +44,39 @@ div {
     color: #47FF75;
 }
 
-p {
-  font-size: 85%;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-}
-
-iframe {
-}
-
-img {
-  max-width:100%;
-  max-height:100%;
-}
-
 .sidebar {
-  color: #FFFFFF;
-  background-color: #444A45;
-  padding: 0.5em;
+  overflow: auto;
   position:fixed;
   width: 20em;
-  overflow: auto;
-  margin: 0.3em;
   top: 0em;
   bottom: 0em;
+  padding: 0.5em;
+  margin: 0.3em;
+  margin-bottom: 0.7em;  
+  color: #FFFFFF;
+  background-color: #444A45;
   box-shadow: 0.2em 0.2em 0.2em 0.2em #525252;
 }
 
 .content {
   overflow: auto;
-  margin-top: 0.3em;
-  margin-left: 0.3em;
-  margin-right: 0.3em;
   position:fixed;
   width: (100%);
   left: 22em;
   right: 0em;
   top: 0em;
   bottom: 0em;
+  margin-top: 0.3em;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
 }
 
-.post {
-  background-color: #EEEEEE;
-  padding-right: 1em;
+.page-content, .post, .post-footer{
   padding-left: 1em;
-  padding-top: 0.4em;
-  padding-bottom: 1.5em;
-  margin-bottom: 0.5em;
-  box-shadow: 0.2em 0.2em 0.2em 0.2em #525252;
-}
-
-.post-footer {
-  background-color: #EEEEEE;
   padding-right: 1em;
-  padding-left: 1em;
   padding-top: 0.4em;
   padding-bottom: 0.3em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.7em;
+  background-color: #EEEEEE;
   box-shadow: 0.2em 0.2em 0.2em 0.2em #525252;
 }
