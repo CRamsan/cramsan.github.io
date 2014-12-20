@@ -4,23 +4,36 @@ html {
 }
 
 h1 {
-  margin: 1rem 0rem 0.3rem;
+  margin: 0.4em 0em 0.2em;
+  font-size: 1.3re;
 }
 
 h2 {
-  margin: 1rem 0rem 0.2rem;
+  margin: 0.4em 0em 0.2em;
+  font-size: 1.2re;
 }
 
 h3 {
-  margin: 1rem 0rem 0.1rem;
+  margin: 0.4em 0em 0.2em;
+  font-size: 1.1re;
 }
 
 body {
-  margin: 0px;
+  margin: 0em;
+}
+
+ul {
+  margin: 0em;
 }
 
 div {
 
+}
+
+p {
+  font-size: 85%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 iframe {
@@ -32,10 +45,10 @@ img {
 }
 
 .sidebar, .content {
-  margin: 0.3rem;
-  padding: 0.3rem;
+  margin: 0.3em;
+  padding: 0.3em;
   overflow: auto;
-  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #888888;
+  box-shadow: 0.1em 0.1em 0.1em 0.1em #888888;
 }
 
 .sidebar {
@@ -43,17 +56,27 @@ img {
   background-color: #EEEEEE;
 
   position:fixed;
-  width: 20rem;
-  top: 0rem;
-  bottom: 0rem;
+  width: 20em;
+  top: 0em;
+  bottom: 0em;
 }
 
 .content {
   position:fixed;
   background-color: #EEEEEE;
   width: (100%);
-  left: 21rem;
-  right: 0rem;
-  top: 0rem;
-  bottom: 0rem;
+  left: 21em;
+  right: 0em;
+  top: 0em;
+  bottom: 0em;
+}
+
+.post {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.post-footer {
+  padding-right: 2em;
+  padding-left: 2em;
 }
