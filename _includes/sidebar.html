@@ -1,6 +1,6 @@
 <div>
   <div>
-    <h1>{{ site.title }}</h1>
+    <h1><a href="/">{{ site.title }}</a></h1>
     <p>{{ site.description }}</p>
   </div>
   <div>
@@ -15,7 +15,7 @@
     <h2>Social:</h2>
     {% include contact.html  %}
   </div> 
-  {% if page.url == "/" %}
+  {% if page.title == "Home" %}
     <h3>Navigation:</h3>
     {% include paginator_navigation.html %}
   {% endif %}  

@@ -1,19 +1,19 @@
 - name:        github
   url:         https://github.com/cesarramirez/
   username:    'cesarramirez'
-  icon:        ''
+  icon:        '/icons/GitHub.png'
 
 - name:        twitter
   url:         https://twitter.com/C_ramsan
   username:    '#C_ramsan'
-  icon:        ''
+  icon:        '/icons/twitter.png'
 
 - name:        googleplus
   url:         https://plus.google.com/+CesarRamirezSanchez
   username:    'CesarRamirezSanchez'
-  icon:        ''
+  icon:        '/icons/google_plus.png'
 
 - name:        twitch
   url:         http://www.twitch.tv/cramsanrs/
   username:    'CRamsanrs'
-  icon:        ''
+  icon:        '/icons/twitch.png'

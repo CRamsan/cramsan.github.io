@@ -69,14 +69,12 @@ img {
   right: 0em;
   top: 0em;
   bottom: 0em;
-}
-
-.post {
   padding-right: 1em;
   padding-left: 1em;
 }
 
+.post {
+}
+
 .post-footer {
-  padding-right: 2em;
-  padding-left: 2em;
 }

@@ -2,11 +2,10 @@
   <ul>
     {% assign pages_list = (site.pages | sort: 'index') %}
     {% for node in pages_list %}
-      {% case forloop.index %}
-        {% when 3 %}
-          {% continue %}
-      {% endcase %}
       {% if node.title != null %}
+        {% if node.title == "Home" %}
+          {% continue %}
+        {% endif %}
         {% if node.layout == "page" %}
           <li {% if page.url == node.url %} active{% endif %}">
             <a href="{{ node.url }}">{{ node.title }}</a>
