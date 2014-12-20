@@ -3,31 +3,20 @@
     <h1>{{ site.title }}</h1>
     <p>{{ site.description }}</p>
   </div>
-
   <div>
-  <h2>Pages</h2>
-  <ul>
-    {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <li {% if page.url == node.url %} active{% endif %}">
-              <a href="{{ node.url }}">{{ node.title }}</a>
-            </li>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      <li ><a href="{{ site.github.repo }}">GitHub Page</a></li>
-    </ul>
+    <h2>Pages</h2>
+    {% include pages.html  %}
   </div>
-
   <div>
     <h2>Recent Posts:</h2>
-    {% include navigation.html  %}
+    {% include recent_posts.html  %}
   </div>
-  
   <div>
     <h2>Social:</h2>
     {% include contact.html  %}
-  </div>
-</div>
+  </div> 
+  {% if page.url == "/" %}
+    <h3>Navigation:</h3>
+    {% include paginator_navigation.html %}
+  {% endif %}  
+ </div>

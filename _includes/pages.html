@@ -1,0 +1,15 @@
+<div>
+  <ul>
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <li {% if page.url == node.url %} active{% endif %}">
+            <a href="{{ node.url }}">{{ node.title }}</a>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    <li ><a href="{{ site.github.repo }}">GitHub Page</a></li>
+  </ul>
+</div>
