@@ -1,6 +1,7 @@
 html {
   font-family: "Lucida Console", Monaco, monospace;
   text-align: left;
+  background-color: #429859;
 }
 
 h1 {
@@ -30,6 +31,22 @@ div {
 
 }
 
+.sidebar a:link {
+    color: #FFFFFF;
+}
+
+.sidebar a:visited {
+    color: #C2C2C2;
+}
+
+.sidebar a:hover {
+    color: #47FF75;
+}
+
+.sidebar a:active {
+    color: #47FF75;
+}
+
 p {
   font-size: 85%;
   margin-top: 1.5em;
@@ -44,37 +61,48 @@ img {
   max-height:100%;
 }
 
-.sidebar, .content {
-  margin: 0.3em;
-  padding: 0.3em;
-  overflow: auto;
-  box-shadow: 0.1em 0.1em 0.1em 0.1em #888888;
-}
-
 .sidebar {
-  color: rgba(2,2,2,.5);
-  background-color: #EEEEEE;
-
+  color: #FFFFFF;
+  background-color: #444A45;
+  padding: 0.5em;
   position:fixed;
   width: 20em;
+  overflow: auto;
+  margin: 0.3em;
   top: 0em;
   bottom: 0em;
+  box-shadow: 0.2em 0.2em 0.2em 0.2em #525252;
 }
 
 .content {
+  overflow: auto;
+  margin-top: 0.3em;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
   position:fixed;
-  background-color: #EEEEEE;
   width: (100%);
-  left: 21em;
+  left: 22em;
   right: 0em;
   top: 0em;
   bottom: 0em;
-  padding-right: 1em;
-  padding-left: 1em;
 }
 
 .post {
+  background-color: #EEEEEE;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 0.4em;
+  padding-bottom: 1.5em;
+  margin-bottom: 0.5em;
+  box-shadow: 0.2em 0.2em 0.2em 0.2em #525252;
 }
 
 .post-footer {
+  background-color: #EEEEEE;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 0.4em;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.5em;
+  box-shadow: 0.2em 0.2em 0.2em 0.2em #525252;
 }

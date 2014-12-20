@@ -5,8 +5,8 @@ index: 1
 ---
 
 {% for post in paginator.posts %}
-  <div>
-    <h1>{{ post.title }}</h1>
+  <div class="post">
+    <h2>{{ post.title }}</h2>
     <span>{{ post.date | date_to_string }}</span>
     {{ post.content }}
   </div>

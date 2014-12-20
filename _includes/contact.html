@@ -2,7 +2,7 @@
   <ul>
     {% for entry in site.data.sharing %}
       <li>
-        <img src="{{ entry.icon }}">
+        <img src="{{ entry.icon }}" height="22" width="22">
         <a href="{{ entry.url }}">{{ entry.username }}</a>
       </li>
     {% endfor %}
