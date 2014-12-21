@@ -3,8 +3,10 @@ layout: default
 ---
 
 <div class="page-content">
-  {% if page.title != "Home" %}
-    <h2>{{ page.title }}</h2>
-  {% endif %}
+  <div class="post-header">
+    {% if page.title != "Home" %}
+      <h2>{{ page.title }}</h2>
+    {% endif %}
+  </div>
   {{ content }}
 </div>

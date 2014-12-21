@@ -80,3 +80,18 @@ img {
   background-color: #EEEEEE;
   box-shadow: 0.2em 0.2em 0.2em 0.2em #525252;
 }
+
+.post-header{
+  padding: 0.5em;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+  background-color: #004200;
+  box-shadow: 0.2em 0.2em 0.2em 0.2em #525252;
+}
+
+.post-header{
+  color: #FFFFFF;
+  background-color: #305E30;
+  box-shadow: 0.2em 0.2em 0.2em 0.2em #525252;
+
+}
