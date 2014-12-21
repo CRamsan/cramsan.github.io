@@ -15,8 +15,10 @@
     <h2>Social:</h2>
     {% include contact.html  %}
   </div> 
-  {% if page.title == "Home" %}
-    <h3>Navigation:</h3>
-    {% include paginator_navigation.html %}
-  {% endif %}  
+  <div>
+    {% if page.title == "Home" %}
+      <h3>Navigation:</h3>
+      {% include paginator_navigation.html %}
+    {% endif %}  
+  </div>
  </div>

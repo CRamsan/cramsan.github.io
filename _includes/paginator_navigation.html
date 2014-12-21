@@ -2,12 +2,12 @@
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}">Previous</a>
   {% else %}
-    <span>Previous</span>
+    Previous
   {% endif %}
-  <span>Page: {{ paginator.page }}/{{ paginator.total_pages }}</span>
+  Page: {{ paginator.page }}/{{ paginator.total_pages }}
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}">Next</a>
   {% else %}
-    <span>Next</span>
+    Next
   {% endif %}
 </div>
