@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
   {% include head.html %}
-  <body>
-    <div>
-	  <div class="sidebar">
-        {% include sidebar.html %}
-      </div>
+  <body undefined>
+    <core-scaffold>
+      <core-header-panel navigation flex>
+        <core-toolbar>
+          <span>SOMETHING GOES HERE</span>
+        </core-toolbar>
+        <core-menu>
+          {% include sidebar.html %}
+        </core-menu>
+      </core-header-panel>
+     
+      <span tool>Title</span>
+      
       <div class="content">
         {{ content }}
       </div>
-    </div>
+    </core-scaffold>
   </body>
 </html>

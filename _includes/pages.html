@@ -1,17 +1,16 @@
-<div>
-  <ul>
-    {% assign pages_list = (site.pages | sort: 'index') %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.title == "Home" %}
-          {% continue %}
-        {% endif %}
-        {% if node.layout == "page" %}
-          <li {% if page.url == node.url %} active{% endif %}">
-            <a href="{{ node.url }}">{{ node.title }}</a>
-          </li>
-        {% endif %}
+<h2>Pages</h2>
+<core-menu>
+  {% assign pages_list = (site.pages | sort: 'index') %}
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if node.title == "Home" %}
+        {% continue %}
       {% endif %}
-    {% endfor %}
-  </ul>
-</div>
+      {% if node.layout == "page" %}
+        <paper-item noink {% if page.url == node.url %}class="core-selected"{% endif %}">
+          <a href="{{ node.url }}">{{ node.title }}</a>
+        </paper-item>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</core-menu>

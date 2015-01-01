@@ -1,10 +1,9 @@
-<div>
-  <ul>
-    {% for entry in site.data.sharing %}
-      <li>
-        <img src="{{ entry.icon }}" height="22" width="22">
-        <a href="{{ entry.url }}">{{ entry.username }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+<h2>Social</h2>
+<core-menu>
+  {% for entry in site.data.sharing %}
+    <paper-item noink>
+      <core-image src="{{ entry.icon }}" style="width:22px; height:22px;" sizing="contain"></core-image>
+      <a href="{{ entry.url }}">{{ entry.username }}</a>
+    </paper-item>
+  {% endfor %}
+</core-menu>

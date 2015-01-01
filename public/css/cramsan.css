@@ -60,26 +60,16 @@ img {
 
 .sidebar {
   overflow: auto;
-  position:fixed;
-  width: 20rem;
-  top: 0rem;
-  bottom: 0rem;
   padding: 0.5rem;
   margin: 0.3rem;
   margin-bottom: 0.7rem;  
   color: #FFFFFF;
   background-color: #444A45;
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #525252;
 }
 
 .content {
   overflow: auto;
-  position:fixed;
   width: (100%);
-  left: 22rem;
-  right: 0rem;
-  top: 0rem;
-  bottom: 0rem;
   margin-top: 0.3rem;
   margin-left: 0.3rem;
   margin-right: 0.3rem;
@@ -93,7 +83,6 @@ img {
   padding-bottom: 0.3rem;
   margin-bottom: 0.7rem;
   background-color: #EEEEEE;
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #525252;
 }
 
 .post-header{
@@ -101,11 +90,13 @@ img {
   margin-top: 0.7rem;
   margin-bottom: 0.7rem;
   background-color: #004200;
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #525252;
 }
 
 .post-header{
   color: #FFFFFF;
   background-color: #305E30;
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #525252;
+}
+
+paper-item:hover {
+    background-color:#E0E0E0;
 }
