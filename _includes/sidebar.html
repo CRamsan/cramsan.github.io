@@ -1,24 +1,15 @@
 <div>
-  <div>
-    <h1><a href="/">{{ site.title }}</a></h1>
-    <p>{{ site.description }}</p>
-  </div>
-  <div>
-    <h2>Pages</h2>
-    {% include pages.html  %}
-  </div>
-  <div>
-    <h2>Recent Posts:</h2>
-    {% include recent_posts.html  %}
-  </div>
-  <div>
-    <h2>Social:</h2>
-    {% include contact.html  %}
-  </div> 
-  <div>
-    {% if page.title == "Home" %}
-      <h3>Navigation:</h3>
-      {% include paginator_navigation.html %}
-    {% endif %}  
-  </div>
- </div>
+  {% include pages.html  %}
+</div>
+<div>
+  {% include recent_posts.html  %}
+</div>
+<div>
+  {% include contact.html  %}
+</div> 
+<div>
+  {% if page.title == "Home" %}
+    {% include paginator_navigation.html %}
+  {% endif %}  
+</div>
+

@@ -1,9 +1,8 @@
-<div>
-  <ul>
-    {% for post in site.posts limit:5 %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+<h2>Recent Posts</h2>
+<core-menu>
+  {% for post in site.posts limit:5 %}
+    <paper-item onclick="cramsanHelper.goToUrl('{{ post.url }}')">
+      {{ post.title }}
+    </paper-item>
+  {% endfor %}
+</core-menu>

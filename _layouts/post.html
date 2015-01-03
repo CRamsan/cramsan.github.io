@@ -2,15 +2,8 @@
 layout: default
 ---
 
-<div class="post">
-  <div class="post-header">
-    <h2>{{ page.title }}</h2>
-    <h3>{{ page.date | date_to_string }}</h3>
-  </div>
-  {{ content }}
-</div>
+<h3>{{ page.date | date_to_string }}</h3>
 
-<div class="post-footer">
-  <h2>Related Posts</h2>
-  {% include related_posts.html  %}
-</div>
+{{ content }}
+
+{% include related_posts.html  %}
