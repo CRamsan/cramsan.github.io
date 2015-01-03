@@ -1,5 +1,5 @@
 cramsanHelper = {
   goToUrl: function(url) {
-    window.location = url;
+    setTimeout(function() { window.location = url; }, 500); 
   },
 };
