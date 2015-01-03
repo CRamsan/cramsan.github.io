@@ -7,7 +7,7 @@ html {
 }
 
 h1 {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -19,12 +19,7 @@ h3 {
 }
 
 h1, h2, h3 {
-  margin: 0.4rem 0rem 0.2rem;
-}
-
-
-p {
-  font-size: 0.8rem;
+  margin: 0rem;
 }
 
 img {
@@ -33,5 +28,9 @@ img {
 }
 
 paper-item:hover {
-    background-color:#E0E0E0;
+  background-color:#E0E0E0;
+}
+
+.paginatorText{
+  font-size: 0.7rem;
 }

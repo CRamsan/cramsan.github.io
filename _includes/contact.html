@@ -3,7 +3,9 @@
   {% for entry in site.data.sharing %}
     <paper-item onclick="cramsanHelper.goToUrl('{{  entry.url  }}')">
       <core-image src="{{ entry.icon }}" style="width:22px; height:22px;" sizing="contain"></core-image>
-      {{ entry.username }}
+      <a href="{{ entry.url }}">
+        {{ entry.username }}
+      </a>
     </paper-item>
   {% endfor %}
 </core-menu>

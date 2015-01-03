@@ -8,7 +8,9 @@
       {% endif %}
       {% if node.layout == "page" %}
         <paper-item {% if page.url == node.url %}class="core-selected"{% endif %}" onclick="cramsanHelper.goToUrl('{{  node.url  }}')">
-          {{ node.title }}
+          <a href="{{ page.url }}">
+            {{ node.title }}
+          </a>
         </paper-item>
       {% endif %}
     {% endif %}
