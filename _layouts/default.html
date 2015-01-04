@@ -5,13 +5,7 @@
     <core-scaffold responsivewidth="50rem">
       <core-header-panel navigation flex>
         <core-toolbar>
-          <paper-item onclick="cramsanHelper.goToUrl('{{ / }}')">
-            <h2>
-              <a href="/">
-                {{ site.title }}
-              </a>
-            </h2>
-          </paper-item>
+          {% include homebutton.html %}
         </core-toolbar>
         <core-menu>
           {% include sidebar.html %}
@@ -19,11 +13,11 @@
       </core-header-panel>
      
       <span tool>
-	{% if page.title != "Home" %}
-	  <h1>{{ page.title }}</h1>
-	{% else %}
-	  <h1>{{ site.tagline }}</h1>
-	{% endif %}
+        {% if page.title != "Home" %}
+          <h1>{{ page.title }}</h1>
+        {% else %}
+          <h1>{{ site.tagline }}</h1>
+        {% endif %}
       </span>
       
       <div>

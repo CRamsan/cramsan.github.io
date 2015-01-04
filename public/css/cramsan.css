@@ -27,6 +27,10 @@ img {
   max-height:100%;
 }
 
+paper-item {
+  text-align: left;
+}
+
 paper-item:hover {
   background-color:#E0E0E0;
 }
