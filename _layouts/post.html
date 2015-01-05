@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
+{% assign post = page %}
 
-<h3>{{ page.date | date_to_string }}</h3>
-
-{{ content }}
+{% include post_item.html  %}
 
 {% include related_posts.html  %}

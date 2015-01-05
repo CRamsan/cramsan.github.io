@@ -1,15 +1,9 @@
-<div>
-  {% include pages.html  %}
-</div>
-<div>
-  {% include recent_posts.html  %}
-</div>
-<div>
-  {% include contact.html  %}
-</div> 
-<div>
-  {% if page.title == "Home" %}
-    {% include paginator_navigation.html %}
-  {% endif %}  
-</div>
-
+{% include pages.html  %}
+<hr></hr>
+{% include recent_posts.html  %}
+<hr></hr>
+{% include contact.html  %}
+{% if page.title == "Home" %}
+  <hr></hr>
+  {% include paginator_navigation.html %}
+{% endif %}

@@ -35,6 +35,29 @@ paper-item:hover {
   background-color:#E0E0E0;
 }
 
+core-scaffold::shadow core-toolbar {
+  background: #33CC33;
+  color: black;
+}
+
+core-scaffold::shadow core-header-panel {
+
+}
+
+.content{
+  padding: 2rem;
+}
+
+.toolbar{
+  background: #66FF66;
+}
+
+.drawer{
+  background: #FFFFFF;
+}
+
 .paginatorText{
   font-size: 0.7rem;
+  text-align: center;
 }
+

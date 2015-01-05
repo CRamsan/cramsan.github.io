@@ -4,10 +4,10 @@
   <body undefined>
     <core-scaffold responsivewidth="50rem">
       <core-header-panel navigation flex>
-        <core-toolbar>
+        <core-toolbar class="toolbar">
           {% include homebutton.html %}
         </core-toolbar>
-        <core-menu>
+        <core-menu class="drawer">
           {% include sidebar.html %}
         </core-menu>
       </core-header-panel>
@@ -19,8 +19,8 @@
           <h1>{{ site.tagline }}</h1>
         {% endif %}
       </span>
-      
-      <div>
+
+      <div class="content">
         {{ content }}
       </div>
     </core-scaffold>
