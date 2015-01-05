@@ -37,7 +37,6 @@ paper-item:hover {
 
 core-scaffold::shadow core-toolbar {
   background: #33CC33;
-  color: black;
 }
 
 core-scaffold::shadow core-header-panel {
