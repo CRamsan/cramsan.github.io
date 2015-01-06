@@ -32,11 +32,16 @@ paper-item {
 }
 
 paper-item:hover {
-  background-color:#E0E0E0;
+  background-color:#E8F5E9;
 }
 
 core-scaffold::shadow core-toolbar {
-  background: #33CC33;
+  background: #4CAF50;
+  color: white;
+}
+
+core-icon {
+  color: black;
 }
 
 core-scaffold::shadow core-header-panel {
@@ -48,7 +53,11 @@ core-scaffold::shadow core-header-panel {
 }
 
 .toolbar{
-  background: #66FF66;
+  background: #66BB6A;
+}
+
+.toolbar paper-item:hover {
+  background-color:#81C784;
 }
 
 .drawer{

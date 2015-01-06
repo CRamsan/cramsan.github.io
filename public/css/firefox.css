@@ -1,5 +1,6 @@
 core-scaffold core-toolbar {
-  background: #33CC33;
+  background: #4CAF50;
+  color: white;
 }
 
 core-scaffold #main core-header-panel {

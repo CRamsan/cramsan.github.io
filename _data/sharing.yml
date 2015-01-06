@@ -10,7 +10,7 @@
 
 - name:        googleplus
   url:         https://plus.google.com/+CesarRamirezSanchez
-  username:    'CesarRamirezSanchez'
+  username:    'CesarRamirez'
   icon:        '/public/icons/google_plus.png'
 
 - name:        twitch
