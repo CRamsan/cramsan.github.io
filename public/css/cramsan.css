@@ -1,7 +1,6 @@
 /* General settings */
 html {
-  font-family: "Lucida Console", Monaco, monospace;
-  background-color: #429859;
+  font-family: 'RobotoDraft', sans-serif;
   text-align: left;
   font-size: 100%;
 }
@@ -27,41 +26,25 @@ img {
   max-height:100%;
 }
 
+a {
+}
+
+/* Polymer specific */
 paper-item {
   text-align: left;
 }
 
-paper-item:hover {
-  background-color:#E8F5E9;
-}
-
-core-scaffold::shadow core-toolbar {
-  background: #4CAF50;
+core-icon {
   color: white;
 }
 
-core-icon {
-  color: black;
+core-drawer-panel:not([narrow]) #navicon {
+  display: none;
 }
 
-core-scaffold::shadow core-header-panel {
-
-}
-
-.content{
+/* Classes */
+.content {
   padding: 2rem;
-}
-
-.toolbar{
-  background: #66BB6A;
-}
-
-.toolbar paper-item:hover {
-  background-color:#81C784;
-}
-
-.drawer{
-  background: #FFFFFF;
 }
 
 .paginatorText{
@@ -69,3 +52,55 @@ core-scaffold::shadow core-header-panel {
   text-align: center;
 }
 
+/* IDs */ 
+#navheader {
+  background-color:#4CAF50;
+}
+
+#drawermenu {
+  background-color:#4CAF50;
+}
+
+#drawercontent {
+}
+
+#drawercontent a{
+  color: black;
+}
+
+#drawercontent paper-item:hover {
+  background-color:rgba(0,0,0,0.2);
+}
+
+#navheader span{
+  height: 100%;
+  width: 100%;
+}
+
+#navheader a{
+  color: white;
+}
+
+#navheader paper-item:hover {
+  background-color:rgba(255,255,255,0.2);
+}
+
+#drawermenu{
+  background-color:#E8F5E9;
+  color: black;
+}
+
+#mainheader{
+  color: white;
+  background-color:#4CAF50;
+}
+
+#mainheader span{
+  white-space: nowrap;
+}
+
+#drawerpanel{
+}
+
+#navicon{
+}
