@@ -5,14 +5,16 @@
     <core-drawer-panel id="drawerpanel">
       <core-header-panel drawer id="drawermenu">
         <core-toolbar id="navheader">
-          <span>          
+          <span>
             {% include homebutton.html %}
           </span>
         </core-toolbar>
         <core-menu id="drawercontent">
-          {% include sidebar.html %}
+          <paper-shadow z="1">
+            {% include sidebar.html %}
+          </paper-shadow>
         </core-menu>
-       </core-header-panel>
+      </core-header-panel>
 
       <core-header-panel main>
         <core-toolbar id="mainheader">
@@ -26,9 +28,9 @@
             {% endif %}
           </span>
         </core-toolbar>
-        <div class="content">
-            {{ content }}
-        </div>
+        <paper-shadow z="1" class="content">
+          {{ content }}
+        </paper-shadow>
       </core-header-panel>
     </core-drawer-panel>
   </body>

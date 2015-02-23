@@ -42,9 +42,15 @@ core-drawer-panel:not([narrow]) #navicon {
   display: none;
 }
 
+core-menu{
+  margin-left: 0;
+  margin-right: 0;    
+}
+
 /* Classes */
 .content {
-  padding: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .paginatorText{
@@ -62,6 +68,8 @@ core-drawer-panel:not([narrow]) #navicon {
 }
 
 #drawercontent {
+    margin: 0.5rem;
+    background-color:#E8F5E9;
 }
 
 #drawercontent a{
@@ -86,7 +94,7 @@ core-drawer-panel:not([narrow]) #navicon {
 }
 
 #drawermenu{
-  background-color:#E8F5E9;
+  background-color:#FFFFFF;
   color: black;
 }
 
