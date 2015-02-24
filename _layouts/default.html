@@ -5,12 +5,10 @@
     <core-drawer-panel id="drawerpanel">
       <core-header-panel drawer id="drawermenu">
         <core-toolbar id="navheader">
-          <span>
             {% include homebutton.html %}
-          </span>
         </core-toolbar>
         <core-menu id="drawercontent">
-          <paper-shadow z="1">
+          <paper-shadow z="1" id="drawercontent-shadow" class="drawercontent-shadow-wide">
             {% include sidebar.html %}
           </paper-shadow>
         </core-menu>

@@ -47,6 +47,12 @@ core-menu{
   margin-right: 0;    
 }
 
+core-menu h1, h2, h3 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;    
+}
+
+
 /* Classes */
 .content {
   padding: 1rem;
@@ -58,17 +64,34 @@ core-menu{
   text-align: center;
 }
 
+.drawercontent-shadow-wide {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.drawercontent-shadow-narrow {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.drawercontent-narrow {
+    margin: 0rem;
+}
+
+.drawercontent-wide {
+    margin: 0.5rem;
+}
+
 /* IDs */ 
 #navheader {
   background-color:#4CAF50;
 }
 
-#drawermenu {
-  background-color:#4CAF50;
-}
-
 #drawercontent {
-    margin: 0.5rem;
     background-color:#E8F5E9;
 }
 
@@ -94,7 +117,6 @@ core-menu{
 }
 
 #drawermenu{
-  background-color:#FFFFFF;
   color: black;
 }
 
@@ -105,6 +127,12 @@ core-menu{
 
 #mainheader span{
   white-space: nowrap;
+}
+
+#homebutton{
+  height: 100%;
+  width: 100%;
+  margin: 0rem;
 }
 
 #drawerpanel{
