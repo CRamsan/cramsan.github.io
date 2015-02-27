@@ -17,3 +17,13 @@
   url:         http://www.twitch.tv/cramsanrs/
   username:    'CRamsanrs'
   icon:        '/public/icons/twitch.png'
+
+- name:        Youtube
+  url:         https://www.youtube.com/user/cesarramsan/
+  username:    'cesarramsan'
+  icon:        '/public/icons/youtube.png'
+  
+- name:        Youtube(Gaming)
+  url:         https://www.youtube.com/channel/UChxkLMK5xqQavjIya7_lPsA
+  username:    'CRamsanGaming'
+  icon:        '/public/icons/youtube.png'
