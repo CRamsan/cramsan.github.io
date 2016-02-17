@@ -1,43 +1,43 @@
 - name:        'Auraxis Control Center'
-  url:         https://github.com/cesarramirez/auraxiscontrolcenter
+  url:         https://github.com/cramsan/auraxiscontrolcenter
   description: 'Android app designed to access Planetside 2 information on the go.'
 
 - name:        'Android Drawable Generator'
-  url:         https://github.com/cesarramirez/ADG-Android_Drawable_Generator
+  url:         https://github.com/cramsan/ADG-Android_Drawable_Generator
   description: 'Perl script that will generate multiple size images for android projects. It uses imagemagik to do image processing.'
 
 - name:        'The ACM Camera'
-  url:         https://github.com/cesarramirez/ACMCamera
+  url:         https://github.com/cramsan/ACMCamera
   description: 'Camera application developed for the ACM at NDSU to automatically upload pictures to our server'
 
 - name:        'The PythonProxy'
-  url:         https://github.com/cesarramirez/auraxiscontrolcente://github.com/cesarramirez/thePythonProxy 
+  url:         https://github.com/cramsan/auraxiscontrolcente://github.com/cramsan/thePythonProxy 
   description: 'Proxy developed in python3'
 
 - name:        'PS2 Dashboard'
-  url:         https://github.com/cesarramirez/PS2_Dashboard
+  url:         https://github.com/cramsan/PS2_Dashboard
   description: 'Quick and hacky Planetside 2 overlay developed using the Overwolf API. It was developed for the Twitch contest'
 
 - name:         'Flood Monitor App'
-  url:          https://github.com/cesarramirez/Floodmonitor-Android
+  url:          https://github.com/cramsan/Floodmonitor-Android
   description:  'Android app developed at NDSU and funded by the NSF to monitor and submit marker to the flood monitor.'
 
 - name:         'A*-Java'
-  url:          https://github.com/cesarramirez/astart-java
+  url:          https://github.com/cramsan/astart-java
   description:  'A* Pathfinding implementation in Java'
 
 - name:        'Gnaw'
-  url:         https://github.com/cesarramirez/Gnaw
+  url:         https://github.com/cramsan/Gnaw
   description: 'Protocol to stablish communication in a P2P network. The current protocol and clients can only currently send files.'
 
 - name:        'TestStack'
-  url:         https://github.com/cesarramirez/teststack
+  url:         https://github.com/cramsan/teststack
   description: 'Script to quickly deploy an OpenStack instance. This script is more of a future reference'
 
 - name:         'CoNetPad'
-  url:          https://github.com/cesarramirez/CoNetPad
+  url:          https://github.com/cramsan/CoNetPad
   description:  'Texteditor that supports simultaneous coauthoring.'
 
 - name:         'MechTactics'
-  url:          https://github.com/cesarramirez/MechTactics
+  url:          https://github.com/cramsan/MechTactics
   description:  'Gameengine developed to simulate a simple 2d world with units runing through it.'

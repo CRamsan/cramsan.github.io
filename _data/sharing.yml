@@ -1,29 +1,24 @@
-- name:        github
-  url:         https://github.com/cesarramirez/
-  username:    'cesarramirez'
+- name:        Github
+  url:         https://github.com/cramsan/
+  username:    'cramsan'
   icon:        '/public/icons/GitHub.png'
 
-- name:        twitter
-  url:         https://twitter.com/C_ramsan
-  username:    '#C_ramsan'
+- name:        Twitter
+  url:         https://twitter.com/cramsan_dev
+  username:    '@cramsan_dev'
   icon:        '/public/icons/twitter.png'
 
-- name:        googleplus
-  url:         https://plus.google.com/+CesarRamirezSanchez
-  username:    'CesarRamirez'
+- name:        Facebook
+  url:         https://www.facebook.com/cramsan/
+  username:    cramsan
+  icon:        '/public/icons/facebook.jpg'
+
+- name:        Google+
+  url:         https://plus.google.com/105811875933900065918?
+  username:    'Cesar Ramirez'
   icon:        '/public/icons/google_plus.png'
 
-- name:        twitch
-  url:         http://www.twitch.tv/cramsanrs/
-  username:    'CRamsanrs'
-  icon:        '/public/icons/twitch.png'
-
-- name:        Youtube
-  url:         https://www.youtube.com/user/cesarramsan/
-  username:    'cesarramsan'
-  icon:        '/public/icons/youtube.png'
-  
-- name:        Youtube(Gaming)
-  url:         https://www.youtube.com/channel/UChxkLMK5xqQavjIya7_lPsA
-  username:    'CRamsanGaming'
-  icon:        '/public/icons/youtube.png'
+- name:         reddit
+  url:          https://www.reddit.com/u/CRamsan
+  username:     cramsan
+  icon:         '/public/icons/reddit-alien.png'
