@@ -14,3 +14,4 @@ author:
   url:            https://plus.google.com/+CesarRamirezSanchez
 
 paginate:         5
+gems:             [jekyll-paginate]
