@@ -1,5 +1,4 @@
 <h2>Pages</h2>
-<core-menu>
   {% assign pages_list = (site.pages | sort: 'index') %}
   {% for node in pages_list %}
     {% if node.title != null %}
@@ -7,12 +6,11 @@
         {% continue %}
       {% endif %}
       {% if node.layout == "page" %}
-        <paper-item {% if page.url == node.url %}class="core-selected"{% endif %}" onclick="cramsanHelper.goToUrl('{{  node.url  }}')">
+        <div {% if page.url == node.url %}class="core-selected"{% endif %}" onclick="cramsanHelper.goToUrl('{{  node.url  }}')">
           <a href="{{ node.url }}">
             {{ node.title }}
           </a>
-        </paper-item>
+        </div>
       {% endif %}
     {% endif %}
   {% endfor %}
-</core-menu>

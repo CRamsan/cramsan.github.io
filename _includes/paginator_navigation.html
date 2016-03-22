@@ -1,13 +1,13 @@
 <div class="paginatorText">
   {% if paginator.previous_page %}
-    <paper-button raised onclick="cramsanHelper.goToUrl('{{ paginator.previous_page_path }}')">
+    <button raised onclick="cramsanHelper.goToUrl('{{ paginator.previous_page_path }}')">
       Previous
-    </paper-button>
+    </button>
   {% endif %}
   Page: {{ paginator.page }}/{{ paginator.total_pages }}
   {% if paginator.next_page %}
-    <paper-button raised onclick="cramsanHelper.goToUrl('{{ paginator.next_page_path }}')">
+    <button raised onclick="cramsanHelper.goToUrl('{{ paginator.next_page_path }}')">
       Next
-    </paper-button>
+    </button>
   {% endif %}
 </div>
