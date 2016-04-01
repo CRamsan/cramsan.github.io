@@ -1,8 +1,10 @@
-<h2>Recent Posts</h2>
+<div>
+  <h2>Recent Posts</h2>
   {% for post in site.posts limit:5 %}
-    <div {% if page.url == post.url %}class="core-selected"{% endif %}" onclick="cramsanHelper.goToUrl('{{ post.url }}')">
+    <div {% if page.url == post.url %}class="selected"{% endif %} onclick="cramsanHelper.goToUrl('{{ post.url }}')">
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
     </div>
   {% endfor %}
+</div>
