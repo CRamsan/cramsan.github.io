@@ -7,7 +7,7 @@
         {% continue %}
       {% endif %}
       {% if node.layout == "page" %}
-        <div {% if page.url == node.url %}class="selected"{% endif %} onclick="cramsanHelper.goToUrl('{{  node.url  }}')">
+        <div {% if page.url == node.url %}class="selected"{% endif %}>
           <a href="{{ node.url }}">
             {{ node.title }}
           </a>

@@ -11,19 +11,23 @@
     
     <div class="w3-main" style="margin-left:350px;">
 
-      <div id="myTop" class="w3-top w3-container w3-padding-16 w3-theme w3-large">
+      <div id="myTop" class="w3-top w3-container w3-padding w3-theme w3-large">
         <i class="fa fa-bars w3-opennav w3-hide-large w3-xlarge w3-margin-left w3-margin-right" onclick="w3_open()"></i>
         <span id="myIntro" class="w3-hide">
-          {{ page.title }}
-        </span>
-      </div>
-
-      <header class="w3-container w3-theme w3-padding-64 w3-padding-jumbo">
-        <h1 class="w3-xxxlarge w3-padding-16">
           {% if page.title != "Home" %}
             <h1>{{ page.title }}</h1>
           {% else %}
             <h1>{% include motd.html %}</h1>
+          {% endif %}
+        </span>
+      </div>
+
+      <header class="w3-container w3-padding w3-padding-32 w3-theme w3-large">
+        <h1>
+          {% if page.title != "Home" %}
+            {{ page.title }}
+          {% else %}
+            {% include motd.html %}
           {% endif %}
         </h1>
       </header>
@@ -35,7 +39,6 @@
 
       <footer class="w3-container w3-theme w3-padding-jumbo">
         {% include footer.html %}
-        {% include post_history.html %}
       </footer>
          
     </div>

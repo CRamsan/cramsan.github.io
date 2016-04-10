@@ -6,5 +6,7 @@ index: 1
 
 {% for post in paginator.posts %}
   {% include post_item.html  %}
-  <br></br>
+  <br />
 {% endfor %}
+
+{% include paginator_navigation.html %}

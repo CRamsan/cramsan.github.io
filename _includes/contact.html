@@ -1,9 +1,9 @@
 <div>
   <h2>Social</h2>
   {% for entry in site.data.sharing %}
-    <div onclick="cramsanHelper.goToUrl('{{  entry.url  }}')">
-      <img src="{{ entry.icon }}" style="width:22px; height:22px;" sizing="contain"></img>
-      <a href="{{ entry.url }}">
+    <div>
+      <a href="{{ entry.url }}" class="socialLink">
+	    <img src="{{ entry.icon }}" class="socialIcon"></img>
         {{ entry.username }}
       </a>
 	</div>

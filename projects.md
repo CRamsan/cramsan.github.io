@@ -6,10 +6,6 @@ index: 1
 
 {% assign projects_list = site.data.projects %}
 {% for node in projects_list %}
-  <li>
-    <p>
-      <a href="{{ node.url }}">{{ node.name }}</a>: {{ node.description }}
-    </p>
-  </li>
+  * [{{ node.name }}]({{ node.url }}): {{ node.description }}
 {% endfor %}
 
