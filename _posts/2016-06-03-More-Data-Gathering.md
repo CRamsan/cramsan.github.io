@@ -8,16 +8,20 @@ This is the project that has been sucking my time lately, a lightweight hub for 
 The application is divided on three parts, the server, the API and the modules. Let me explain what each part does.
 
 
-###The server
+The server
+---------
+
 This is a python script that uses the scheduler to trigger events to poll devices. The server will import all the modules in the 'modules' folder and then it will instantiate an object for each module enabled in the senson_station.cfg file. Each module imported has the logic to check if a device is online and 
 
-###The Modules(Tentative title)
+The Modules(Tentative title)
+----------------------------
 
 I say tentative title because it is a bad idea to call something 'module' since it is such a common word.
 
 To handle multiple types of sensors, each module is a self contained python class that provides information to the server about how often should the polling happen as well as the logic to do the polling itself. Other pieces of information in each module also include a database version and also the format of the data to be retrieved. 
 
-###The API
+The API
+-------
 
 And in order to get the information out of the database there are two endpoints, a JSON endpoint and a simple HTML page. The JSON endpoint allows other application to get the summarized data in JSON format. While the HTML page is just a front-end that formats the JSON data into some ugly HTML tables.
 
