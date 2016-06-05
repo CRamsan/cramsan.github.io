@@ -6,17 +6,21 @@
   url:         https://github.com/cramsan/ADG-Android_Drawable_Generator
   description: 'Perl script that will generate multiple size images for android projects. It uses imagemagik to do image processing.'
 
+- name:         'Sensor Station'
+  url:         https://github.com/CRamsan/sensor_station
+  description: 'Python application to gather and display data from IoT devices around my home.'
+  
 - name:        'The ACM Camera'
   url:         https://github.com/cramsan/ACMCamera
-  description: 'Camera application developed for the ACM at NDSU to automatically upload pictures to our server'
+  description: 'Camera application developed for the ACM at NDSU to automatically upload pictures to our server.'
 
 - name:        'The PythonProxy'
   url:         https://github.com/cramsan/auraxiscontrolcente://github.com/cramsan/thePythonProxy 
-  description: 'Proxy developed in python3'
+  description: 'Proxy developed in python3.'
 
 - name:        'PS2 Dashboard'
   url:         https://github.com/cramsan/PS2_Dashboard
-  description: 'Quick and hacky Planetside 2 overlay developed using the Overwolf API. It was developed for the Twitch contest'
+  description: 'Quick and hacky Planetside 2 overlay developed using the Overwolf API. It was developed for the Twitch contest.'
 
 - name:         'Flood Monitor App'
   url:          https://github.com/cramsan/Floodmonitor-Android
@@ -24,7 +28,7 @@
 
 - name:         'A*-Java'
   url:          https://github.com/cramsan/astart-java
-  description:  'A* Pathfinding implementation in Java'
+  description:  'A* Pathfinding implementation in Java.'
 
 - name:        'Gnaw'
   url:         https://github.com/cramsan/Gnaw
@@ -32,7 +36,7 @@
 
 - name:        'TestStack'
   url:         https://github.com/cramsan/teststack
-  description: 'Script to quickly deploy an OpenStack instance. This script is more of a future reference'
+  description: 'Script to quickly deploy an OpenStack instance. This script is more of a future reference.'
 
 - name:         'CoNetPad'
   url:          https://github.com/cramsan/CoNetPad
