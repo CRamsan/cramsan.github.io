@@ -3,26 +3,17 @@
   {% include head.html %}
 
   <body>
-    <nav class="w3-sidenav w3-collapse w3-animate-left w3-card-2" style="z-index:3;width:350px;">
+    <nav class="w3-sidenav w3-collapse w3-animate-left w3-card" style="z-index:3;width:350px;">
+      <i class="fa fa-bars w3-hide-large w3-xlarge w3-right w3-padding" onclick="w3_close()"></i>
       {% include sidebar.html %}
     </nav>
-    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer">
-    </div>
-    
-    <div class="w3-main" style="margin-left:350px;">
 
-      <div id="myTop" class="w3-top w3-container w3-padding w3-theme w3-large">
-        <i class="fa fa-bars w3-opennav w3-hide-large w3-xlarge w3-margin-left w3-margin-right" onclick="w3_open()"></i>
-        <span id="myIntro" class="w3-hide">
-          {% if page.title != "Home" %}
-            <h1>{{ page.title }}</h1>
-          {% else %}
-            <h1>{% include motd.html %}</h1>
-          {% endif %}
-        </span>
+    <div class="w3-main" style="margin-left:350px;">
+      <div class="w3-top">
+        <i class="fa fa-bars w3-hide-large w3-xlarge w3-left w3-theme w3-container w3-padding" onclick="w3_open()"></i>
       </div>
 
-      <header class="w3-container w3-padding w3-padding-32 w3-theme w3-large">
+      <header class="w3-container w3-padding-large w3-theme w3-small">
         <h1>
           {% if page.title != "Home" %}
             {{ page.title }}
@@ -33,11 +24,11 @@
       </header>
       
       <br>
-      <div class="w3-container w3-padding-jumbo">
+      <div class="w3-container w3-padding-large">
         {{ content }}
       </div>
 
-      <footer class="w3-container w3-theme w3-padding-jumbo">
+      <footer class="w3-container w3-theme w3-padding-large">
         {% include footer.html %}
       </footer>
          

@@ -3,9 +3,9 @@
   {% for entry in site.data.sharing %}
     <div>
       <a href="{{ entry.url }}" class="socialLink">
-	    <img src="{{ entry.icon }}" class="socialIcon"></img>
-        {{ entry.username }}
+        <img src="{{ entry.icon }}" class="socialIcon"></img>
+        <span class="socialIconLabel">{{ entry.username }}</span>
       </a>
-	</div>
+    <div>
   {% endfor %}
 </div>

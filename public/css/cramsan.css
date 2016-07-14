@@ -15,8 +15,12 @@ html{
 .socialIcon {
   height: 34px;
   margin: 0px;
+  vertical-align: middle;
 }
 
+.socialIconLabel {
+  vertical-align: middle;
+}
 
 .imgurCatalog {
   width: 80%;
