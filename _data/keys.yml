@@ -1,0 +1,5 @@
+- name:        Personal
+  path:        '/public/keys/personal.pub'
+
+- name:        Twitter
+  path:        '/public/keys/pixelc.pub'
