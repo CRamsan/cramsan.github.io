@@ -1,5 +1,19 @@
 - name:        Personal
-  path:        '/public/keys/personal.pub'
+  path:        '/keys/personal.pub'
+  content:     'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCTSFWHK3HAnGi9Wf6GSRSv35GfrK2iXIchSbOcME1kBbiZCo26XMb6/5UM6X4SKaCa5NInipUQJETiEtIYBsz/9WLEMG0W/wCc90uVoR5fYYUBE8Vbk1zqBf++5PUnB1cQr1RY7Z3+XhlTRzVdn2VTrU1mgiFbsdyJw24P/eEleq8zyzFg+9REMf3X1qTk115+Df6HvM/LyVR4GkyIgOJ6sE9BdIbM7Fr0Q0iXipRBUn9MSagN4rzy1Wy27PNaTd+InbCmHsSdLaz5viiKTwGmJ8wy4JrBe+uPARHhmEGLKd1/hOAy7YbY2yThF1NX3dqYe+2zILnsU5to22ox0e0j ramirez@cesarandres.com'
 
-- name:        Twitter
-  path:        '/public/keys/pixelc.pub'
+- name:        Keroro
+  path:	       '/keys/keroro.pub'
+  content:     'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7Ru4g54voWX180dXenQkIDqVXZ4VTR3xDM5AXVFIIBbf/R+xRW/y2jsvVujI3mTE0vu3lThKbalmmrRv9Z2soXveRC5DupPrDPAal6ik8fukqT/YJWGlsSYmtB8tgcuxt3Gb0jjlGOP5QDYI0jUl1JDuOYsepvl5u6RwaOEqGhkWtEZnymqnJSZAt8CxhKzafYUB+af4UOtQvlpTVPzEJAXjTfIiIoBoFWGwChvidKx0jrCt8HMb6HkmBj/Ie5hlvqwWojC2dIGMoiXjC2ELliwxuHLwGdL+TvBVQg9yME8WK892rxBj1mGwsA78MbaffzbBehYonJvc5AjQxwoRl cramsan@keroro'
+
+- name:        Giroro
+  path:	       '/keys/giroro.pub'
+  content:     'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKI7kGjD/OnB9CdeW03q3RtJBY6ETcQiEtt0HojN//aOpgONkAMmVJIKwy/3iQbgbIiXDtduDJXSiuLz5vB665sVSgEPoJ3Rn3zan/394tG6Bt3ptXy7GXr3X9HxapUHnpDfupKIZI6+vcqqDCfW6Y0K6uwTxoT00RASX4edHav7TOZjX0vifPcEpnCdZGsMA/8LXVA1Zcy5nQabRErsjqg6ArE4FCn6upfRiaBj3aTJbkbxgy/es2qI1cI+nw1bns6WV3XhWBAP3OEFfCe7uDiD4qqh88LeXaysrM1rxZAMrmDYTd6oKN0HjSIXqkh0xwY6VIkmsdtgF6/f7uaHq5 cramsan@Giroro'
+
+- name:        Kururu
+  path:	       '/keys/kururu.pub'
+  content:     'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQ6UpZVEN6FK58OKXseKvQ01qIfcwdrnekFRgWFDcMfpQbpX2eUKEI7NBe+sbtpRqnp85UeZTJEKZ3hlyB02X+c5gSo2bIEZPLbOXuCtaObaBJimoRJMevXbw984ZXaR8WIspxjlkWO/afjJi7VpP11gqGFD8xTyrf2NnzQyuV8jp3c1zn4Qidg33viejPsWTe3E0xlbx8XSW/841FG5H8nKFuocew28hzIH3IC6KfHULmIoK8TZsV11GUz0L5vDyNnWQDhTzTKmUkAi7Pc1CMc80zyYIh2xZHdDYDnQPu3PNOcv7gQnKbENmixanHwUiUbjJNY8tDLvJ/MShHWbPV cesar@KURURU'
+
+- name:        PixelC
+  path:	       '/keys/pixelc.pub'
+  content:     'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD1wW49+R3w7X7ydiXjTg6JcAAqfcRApweCzdgaGzUqB8gjHdBkA6O/ad3vSki+RVbXDkSDxhAiD9Alt+soJJ4uR8ND0wCqkZRcczCrpMvRLFD/5BHg6plmO93rVpn8CSbw8PVNs+rfa9VOabwdMk8SBUxavKg5rjMveLtXwH4DbzWwiILeF9RLzJ1cV8ttCKYSXhJDen11lwHJKvWh/fnh1W71XHxaGIBG+ayzksQ3v8bq66hkvPrHc56+juLTmpcyuQTleMN8oKAI/AN+rvZEFqbSwS2/9bx1hv/TmUbNQPMgs4XGMO+3HfHiT6ECTnWykIEQUQNXYS09++hFRai5 u0_a81@localhost'

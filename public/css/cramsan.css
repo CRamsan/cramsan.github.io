@@ -1,7 +1,11 @@
 /* General settings */
-html{
+html {
   font-family: "RobotoDraft","Roboto",sans-serif;
   text-align: left;
+}
+
+p {
+  word-wrap: break-word;
 }
 
 /* ID selectors for specific elements */
