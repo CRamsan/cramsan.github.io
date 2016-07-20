@@ -3,18 +3,18 @@
   {% include head.html %}
 
   <body>
-    <nav class="w3-sidenav w3-collapse w3-animate-left w3-card" style="z-index:3;width:350px;">
+    <nav class="w3-sidenav w3-collapse w3-animate-left w3-card sidebarPosition">
       <i class="fa fa-bars w3-hide-large w3-xlarge w3-right w3-padding" onclick="w3_close()"></i>
       {% include sidebar.html %}
     </nav>
 
-    <div class="w3-main" style="margin-left:350px;">
+    <div class="w3-main sidebarMargin">
       <div class="w3-top">
         <i class="fa fa-bars w3-hide-large w3-xlarge w3-left w3-theme w3-container w3-padding" onclick="w3_open()"></i>
       </div>
 
       <header class="w3-container w3-padding-large w3-theme w3-small">
-        <h1>
+        <h1 class="title">
           {% if page.title != "Home" %}
             {{ page.title }}
           {% else %}

@@ -12,6 +12,19 @@ p {
 
 /* This is for classes */
 
+.title {
+  text-align: center;
+}
+
+.sidebarPosition {
+  width: 350px;
+  z-index: 3;
+}
+
+.sidebarMargin {
+  margin-left: 350px;
+}
+
 .socialLink {
   display: inline-block;
 }
@@ -37,4 +50,8 @@ p {
   width: 95%;
   display: block;
   margin: auto;
+}
+
+.shareButton {
+  width: 75px;
 }
