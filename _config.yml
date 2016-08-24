@@ -6,11 +6,11 @@ permalink:        pretty
 
 # Setup
 title:            Cesar Ramirez
-url:              http://cesarandres.com
+url:              https://cramsan.com
 
 author:
   name:           'Cesar Ramirez'
-  url:            https://plus.google.com/+CesarRamirezSanchez
+  url:            https://cramsan.com
 
 paginate:         5
 gems:             [jekyll-paginate]
