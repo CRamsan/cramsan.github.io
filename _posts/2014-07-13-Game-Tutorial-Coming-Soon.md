@@ -11,5 +11,5 @@ I am planning on starting to work on a game that has been in my mind for the pas
 Starting with LibGDX
 --------------------
 
-I found <a href="http://libgdx.badlogicgames.com/">LibGdx</a> last year and I worked on some simple demos. LibGDX is definetly more complex than AndEngine but it is also way more powerfull and also cross-compatible with OSX, Web and Dektop. I will document here my development process, remember I am just starting and learning with LibGDX, so this is not going to be a tutorial.
+I found <a href="https://libgdx.badlogicgames.com/">LibGdx</a> last year and I worked on some simple demos. LibGDX is definetly more complex than AndEngine but it is also way more powerfull and also cross-compatible with OSX, Web and Dektop. I will document here my development process, remember I am just starting and learning with LibGDX, so this is not going to be a tutorial.
 

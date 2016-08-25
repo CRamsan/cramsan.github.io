@@ -7,7 +7,7 @@ The last few months have been really slow for Auraxis Control Center. Most of th
 
 What is coming
 --------------
-With the change from Sony Online Entertainment to Day Break Game, their backend had to migrate from http://census.soe.com to http://census.daybreakgames.com and all the API calls had to be moved to new API endpoint. The API also added new namespaces for PS4 data, both EU and US data. Some other changes that were in the pipeline involve general improvements in some rough edges here and there(more on this can be found here: https://github.com/cesarramirez/auraxiscontrolcenter/issues)
+With the change from Sony Online Entertainment to Day Break Game, their backend had to migrate from https://census.soe.com to https://census.daybreakgames.com and all the API calls had to be moved to new API endpoint. The API also added new namespaces for PS4 data, both EU and US data. Some other changes that were in the pipeline involve general improvements in some rough edges here and there(more on this can be found here: https://github.com/cesarramirez/auraxiscontrolcenter/issues)
 
 Another aspect that was important for me to support was multiple languages. English is the dominant language in the Planetside 2 community but there is still a big number of other languages. The statistics showed that the most used languages are English, German, French, Spanish, Italian and Russian. The DBG census supports English, Spanish, German, Italian, French and Turkish so I am planning on at least supporting the first five for Auraxis Control Center. 
 
