@@ -14,3 +14,4 @@ author:
 
 paginate:         5
 gems:             [jekyll-paginate]
+exclude:          [CNAME, DEPLOY_DEBUG.sh, DEPLOY_PROD.sh, Gemfile, Gemfile.lock, generateMOTD.sh, INSTALL.sh, LICENSE.md, README.md, UPDATE.sh]
