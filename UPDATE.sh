@@ -1,3 +1,3 @@
 #!/bin/bash
-export PATH=~/.gem/ruby/2.2.0/bin:$PATH
+export PATH=~/.gem/ruby/2.3.0/bin:$PATH
 bundle update

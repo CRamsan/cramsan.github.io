@@ -1,4 +1,4 @@
-gem install bundler
-export PATH=~/.gem/ruby/2.2.0/bin:$PATH
-bundle install
-
+#!/bin/bash
+export PATH=~/.gem/ruby/2.3.0/bin:$PATH
+gem update
+gem install jekyll bundler
