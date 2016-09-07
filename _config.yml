@@ -10,7 +10,8 @@ url:              https://cramsan.com
 
 author:
   name:           'Cesar Ramirez'
-  url:            https://cramsan.com
+  url:            https://cramsan.com/
+  email:          contact@cramsan.com
 
 paginate:         5
 gems:             [jekyll-paginate]
