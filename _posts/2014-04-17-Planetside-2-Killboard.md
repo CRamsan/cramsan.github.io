@@ -11,11 +11,11 @@ One member, Beljoda, started working on a squad-lead assistant application for t
 
 But having a page that displays data straight from them API was nothing really new or special. So I decided to do something a bit more interesting and came to the idea of checking kills or deaths to trigger a screen shot. And this is the result:
 
-<img src="https://i.imgur.com/3jHUNDN.jpg" class="wideImage"/>
+{% include post_image.html image_id="3jHUNDN" %}
 
 I have a key bind that I use to show or hide this panel, and I also added a link to go to a 'lite' mode of the panel. This will minimize the window but it will keep taking screen shots based on the settings.
 
-<img src="https://i.imgur.com/F3RjwPn.jpg" class="wideImage"/>
+{% include post_image.html image_id="F3RjwPn" %}
 
 It is not Recursion Stat Tracker but it is a neat project, and I like keeping some records of my kills.
 
