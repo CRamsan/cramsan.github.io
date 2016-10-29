@@ -55,3 +55,8 @@ p {
 .shareButton {
   width: 75px;
 }
+
+.contentColumn {
+  max-width: 750px;
+  margin: 0 auto;
+}
