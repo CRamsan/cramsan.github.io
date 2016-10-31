@@ -39,14 +39,7 @@ p {
   vertical-align: middle;
 }
 
-.imgurCatalog {
-  width: 80%;
-  height: 550px;
-  display: block;
-  margin: auto;
-}
-
-.wideImage {
+.embeddedElement {
   width: 95%;
   display: block;
   margin: auto;
