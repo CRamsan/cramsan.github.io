@@ -26,7 +26,7 @@
   url:          https://github.com/cramsan/Floodmonitor-Android
   description:  'Android app developed at NDSU and funded by the NSF to monitor and submit marker to the flood monitor.'
 
-- name:         'A*-Java'
+- name:         'AStar Java'
   url:          https://github.com/cramsan/astart-java
   description:  'A* Pathfinding implementation in Java.'
 
