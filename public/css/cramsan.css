@@ -41,8 +41,9 @@ p {
 
 .embeddedElement {
   width: 95%;
+  height: 350px;
   display: block;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .shareButton {
