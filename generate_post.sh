@@ -21,6 +21,6 @@ echo "File $NEW_FILE will be created"
 
 echo "---" > $NEW_FILE
 echo "layout: post" >> $NEW_FILE
-echo "title: "$POST_TITLE >> $NEW_FILE
+echo "title: $INPUT" >> $NEW_FILE
 echo "---" >> $NEW_FILE
 echo >> $NEW_FILE
