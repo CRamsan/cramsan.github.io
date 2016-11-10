@@ -12,7 +12,7 @@
 
 - name:        Kururu
   path:	       '/keys/kururu.pub'
-  content:     'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQ6UpZVEN6FK58OKXseKvQ01qIfcwdrnekFRgWFDcMfpQbpX2eUKEI7NBe+sbtpRqnp85UeZTJEKZ3hlyB02X+c5gSo2bIEZPLbOXuCtaObaBJimoRJMevXbw984ZXaR8WIspxjlkWO/afjJi7VpP11gqGFD8xTyrf2NnzQyuV8jp3c1zn4Qidg33viejPsWTe3E0xlbx8XSW/841FG5H8nKFuocew28hzIH3IC6KfHULmIoK8TZsV11GUz0L5vDyNnWQDhTzTKmUkAi7Pc1CMc80zyYIh2xZHdDYDnQPu3PNOcv7gQnKbENmixanHwUiUbjJNY8tDLvJ/MShHWbPV cesar@KURURU'
+  content:     'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQEDgF1aZkB4ADEk9ZEpR5e5rebdR3jbf5S/XPPLIlDgptW/a2iTKP4S9c8ULPYfNAEZdkrtlYnX3G/2WbXKzwInYDgkRokYppt1R6uhxlkwa9ssMhwolJbO4czi89nwNRL2aZkCBZ9cASHU571tmutoeOFQM3bp5yMU7EWKU8Xurjb3Atd9oT1as/6Z4jgfsbcndoeE1iAY0vNxUXySuUD5Ff5gsUCgIq0RkS4jbyrU/ChRpReSHpADcttrVDaY6Rgs2oJ79zu5d8sdM1CQ7ADqlW/gpSwRE3TGNaFoN1KuheHUtBCOBBZqQxBfGhK+7NX4dwFbkw6rulEHScc+J7 cramsan@kururu'
 
 - name:        PixelC
   path:	       '/keys/pixelc.pub'
