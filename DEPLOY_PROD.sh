@@ -3,4 +3,4 @@
 # To run the server:
 export PATH=~/.gem/ruby/2.3.0/bin:$PATH
 bundle exec jekyll clean
-bundle exec jekyll build --trace 
+bundle exec jekyll build --trace --lsi
