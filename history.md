@@ -1,6 +1,6 @@
 ---
-layout: page
 title: History
+layout: page
 index: 2
 ---
 

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: My experience with Pokemon Go
+date: 2016-07-13 00:00:00 Z
+layout: post
 ---
 
 Few would have thought that Pokemon Go would be the hit that it has been. It has only been a few weeks and Pokemon is all the craze again, with people catching pokemons everywhere you go. As a pokemon fan of course I had to try Pokemon Go and I have spend several hours walking and catching pokemons while going and coming from work. The first few hours were really fun, looking for pokemons around me and trying find which ones live around my usual route, but as I keep catching them I started to feel that maybe my nostalgia and love for the Pokemon franchise was the reason I kept playing.

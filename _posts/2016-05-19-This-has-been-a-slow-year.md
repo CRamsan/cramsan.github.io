@@ -1,6 +1,7 @@
 ---
-layout: post
 title: This has been a slow year
+date: 2016-05-19 00:00:00 Z
+layout: post
 ---
 
 This is a reminder for myself that I should stop 'investing' into increasing my productivity. I am at a point in which if I were to actually work on something I would get it done much sooner than if I were to work on achieving 120% productivity.

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: This blog has moved... again
+date: 2016-04-14 00:00:00 Z
+layout: post
 ---
 
 After a long time debating with myself I finally made the decision to move this blog from Github Pages to an AWS EC instance. The reason I decided to do this is because Github Pages was a bit limiting in the capabilities I had and it also didn't provide an easy way to upload and manage blobs. But the main limitation was the inability to deliver E2E TLS support, there were some solutions using CDNs, but this does not ensure encryption from Github's servers to the user. 

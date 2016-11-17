@@ -1,6 +1,7 @@
 ---
-layout: post
 title: More Data Gathering
+date: 2016-06-03 00:00:00 Z
+layout: post
 ---
 
 This is the project that has been sucking my time lately, a lightweight hub for data that is collected in my home. The project started as a service to keep track of the energy consumption from two WeMos in my apartment. But When I was done I noticed that there is no reason why this wouldn't work for other kinds of data.

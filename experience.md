@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Experience
+layout: page
 index: 2
 ---
 

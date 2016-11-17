@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Progress in Auraxix Control Center
+date: 2014-04-22 00:00:00 Z
+layout: post
 ---
 
 I have spent the last several days working on a new release for Auraxis Control Center. My main focus for this release is to bring tablet support as well as to improve the documentation for the project.

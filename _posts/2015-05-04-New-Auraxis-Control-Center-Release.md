@@ -1,6 +1,7 @@
 ---
-layout: post
 title: New Auraxis Control Center Release
+date: 2015-05-04 00:00:00 Z
+layout: post
 ---
 
 The last few months have been really slow for Auraxis Control Center. Most of the features that I wanted were there and I have not getting any bug reports, and with the jobs and Youtube projects I had to push coding down the priority list. But lots of changes were coming and I decided it was time to get back into action.

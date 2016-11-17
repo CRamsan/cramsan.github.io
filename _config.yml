@@ -1,18 +1,31 @@
-# Dependencies
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
-
-# Setup
-title:            Cesar Ramirez
-url:              https://cramsan.com
-
+---
+title: Cesar Ramirez
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+highlighter: pygments
+permalink: pretty
+url: https://cramsan.com
 author:
-  name:           'Cesar Ramirez'
-  url:            "https://cramsan.com/"
-  email:          contact@cramsan.com
-
-paginate:         5
-gems:             [jekyll-paginate]
-exclude:          [CNAME, DEPLOY_DEBUG.sh, DEPLOY_PROD.sh, Gemfile, Gemfile.lock, generateMOTD.sh, INSTALL.sh, LICENSE.md, README.md, UPDATE.sh]
+  name: Cesar Ramirez
+  url: https://cramsan.com/
+  email: contact@cramsan.com
+paginate: 5
+gems:
+- jekyll-paginate
+exclude:
+- CNAME
+- DEPLOY_DEBUG.sh
+- DEPLOY_PROD.sh
+- Gemfile
+- Gemfile.lock
+- generateMOTD.sh
+- INSTALL.sh
+- LICENSE.md
+- README.md
+- UPDATE.sh

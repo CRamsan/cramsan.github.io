@@ -1,6 +1,7 @@
 ---
-layout: post
 title: New Year, New Projects
+date: 2015-02-24 00:00:00 Z
+layout: post
 ---
 
 Status Update

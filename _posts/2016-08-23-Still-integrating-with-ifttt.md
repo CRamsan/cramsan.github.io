@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Still Integrating This Blog with IFTTT
+date: 2016-08-23 00:00:00 Z
+layout: post
 ---
 
 I am still working on integrating this blog with IFTT. The goal is that every time I post something here both my Twitter and Facebook page will be updated. 

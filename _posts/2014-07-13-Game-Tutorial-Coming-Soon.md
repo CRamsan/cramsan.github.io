@@ -1,6 +1,7 @@
 ---
-layout: post
 title: LibGDX Game Tutorial Coming Soon
+date: 2014-07-13 00:00:00 Z
+layout: post
 ---
 
 Introduction

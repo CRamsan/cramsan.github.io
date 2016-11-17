@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Planetside 2 Killboard for Overwolf
+date: 2014-04-17 00:00:00 Z
+layout: post
 ---
 
 After being playing with Javascript, HTML and CSS for couple weeks, I decided it was time for me to give this technologies a chance. So I came up with this overlay for [Overwolf](https://www.overwolf.com/) that will give you live data as well as record you most epic moments.

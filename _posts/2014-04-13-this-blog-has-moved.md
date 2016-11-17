@@ -1,6 +1,7 @@
 ---
-layout: post
 title: This blog has moved
+date: 2014-04-13 00:00:00 Z
+layout: post
 ---
 
 After moving my previous blog through various platforms I finally found a method that matches more my personal goals. Using Github Pages and Jekyll I will be able to update things easier without having to manage all the crazyness of Drupal or WP.

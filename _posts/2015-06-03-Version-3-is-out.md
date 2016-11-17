@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Auraxis Control Center version 3 is out!
+date: 2015-06-03 00:00:00 Z
+layout: post
 ---
 
 This post is two weeks too late but Auraxis Control Center just hit version 3 this last month. I decided to bump up the version number since this release included some major work such as namespaces, localization, new panels and better crash reporting. 

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Progress Update
+date: 2014-04-22 00:00:00 Z
+layout: post
 ---
 
 Auraxis Control Center

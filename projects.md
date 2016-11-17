@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Projects
+layout: page
 index: 1
 ---
 
