@@ -1,6 +1,6 @@
 <div class="w3-padding-left w3-padding-right">
   <h2>Recent Posts</h2>
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts limit:8 %}
     <div {% if page.url == post.url %}class="selected"{% endif %}>
       <a href="{{ post.url }}">
         {{ post.title }}
