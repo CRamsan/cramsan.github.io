@@ -17,12 +17,12 @@ p {
 }
 
 .sidebarPosition {
-  width: 350px;
+  width: 250px;
   z-index: 3;
 }
 
 .sidebarMargin {
-  margin-left: 350px;
+  margin-left: 250px;
 }
 
 .socialLink {
@@ -40,8 +40,10 @@ p {
 }
 
 .embeddedElement {
-  width: 95%;
-  height: 350px;
+  max-width: 95%;
+  max-height: 250px;
+  width: auto;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
