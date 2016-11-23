@@ -41,7 +41,7 @@ p {
 
 .embeddedElement {
   max-width: 95%;
-  max-height: 250px;
+  max-height: 400px;
   width: auto;
   height: auto;
   display: block;
