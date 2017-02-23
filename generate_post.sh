@@ -1,5 +1,3 @@
-#!/bin/bash
-
 HELP_MESSAGE="generate_post.sh [POST TITLE]"
 
 if [ $# -eq 0 ]; then
