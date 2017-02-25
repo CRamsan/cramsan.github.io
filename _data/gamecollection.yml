@@ -1,21 +1,36 @@
-- Platform: Virtual Boy
-  Games:
-    - Red Alarm
-    - Teleroboxer
-    - Vertical Force
-    - Wario Land
-
-- Platform: Game Boy Color
-  Games:
-    - Pokemon Crystal
-
-- Platform: Game Boy Advance
-  Games:
+- name: Game Boy Advance
+  games:
     - Advanced Wars
     - Pokemon Sapphire
 
-- Platform: Nintendo DS
-  Games:
+- name: Game Boy Color
+  games:
+    - Pokemon Crystal
+
+- name: Nintendo 3DS
+  games:
+  - Bravely Default
+  - Monster Hunter Generations
+  - Pokemon Alpha Sapphire
+  - Pokemon Sun
+  - Super Smash Bros 3DS
+ 
+- name: Nintendo 64
+  games:
+  - 007 Golden Eye
+  - Diddy Kong Racing
+  - Forsaken 64
+  - Gauntlet Legends
+  - Perfect Dark
+  - Pokemon Stadium
+  - Star Wars Episode I Battle for Naboo
+  - Star Wars Rogue Squadron
+  - Star Wars Shadows of the Empire
+  - WF War Zone
+  - Xena Warrior Princess
+
+- name: Nintendo DS
+  games:
     - Advance Wars Days of Ruin
     - Advance Wars Dual Strike
     - Age of Empires The Age of Kings
@@ -24,17 +39,9 @@
     - Marvel Nemesis Rise of the Imperfects
     - Metroid Prime Hunters
     - Pokemon Pearl Version
-
-- Platform: Nintendo 3DS
-  Games:
-  - Bravely Default
-  - Monster Hunter Generations
-  - Pokemon Alpha Sapphire
-  - Pokemon Sun
-  - Super Smash Bros 3DS
-  
-- Platform: Nintendo Entertainment System
-  Games:
+ 
+- name: Nintendo Entertainment System
+  games:
   - 1943
   - Al Unser Jr. Turbo Racing
   - Bases Loaded II
@@ -80,27 +87,8 @@
   - Wrestlemania
   - Zelda II The Adventures of Link
 
-- Platform: Super Nintendo Entertainment System
-  Games:
-  - Donkey Kong Country
-  - Road Runner Death Valley Rally
-
-- Platform: Nintendo 64
-  Games:
-  - 007 Golden Eye
-  - Diddy Kong Racing
-  - Forsaken 64
-  - Gauntlet Legends
-  - Perfect Dark
-  - Pokemon Stadium
-  - Star Wars Episode I Battle for Naboo
-  - Star Wars Rogue Squadron
-  - Star Wars Shadows of the Empire
-  - WF War Zone
-  - Xena Warrior Princess
-
-- Platform: Nintendo Gamecube
-  Games:
+- name: Nintendo Gamecube
+  games:
   - 007 Nightfire
   - Baten Kaitos Eternal Wings and the Lost Ocean
   - Baten Kaitos Origins
@@ -121,7 +109,7 @@
   - Resident Evil 2
   - Resident Evil 3 Nemesis
   - Resident Evil 4
-  - Resident Evil Code: Veronica X
+  - "Resident Evil Code: Veronica X"
   - Resident Evil Zero
   - StarFox Adventures
   - StarFox Assault
@@ -132,71 +120,30 @@
   - The Legend Of Zelda Four Swords Adventures
   - Time Splitters 2
   - TimeSplitters Future Perfect
-  - Turok: Evolution
+  - "Turok: Evolution"
 
-- Platform: Wii
-  Games:
-  - Guitar Hero III Legends of Rock
-  - Indiana Jones 2 The Aventure Continues
-  - Lego Star Wars The Complete Saga
-  - MadWorld
-  - Mercury Meltdown Revolution
-  - Metroid Prime 3: Corruption
-  - Resident Evil The Darkside Chronicles
-  - Resident Evil The Umbrella Chronicles
-  - The Conduit
-
-- Platform: WiiU
-  Games:
-  - Bayonetta 2
-  - MarioKart 8
-  - Nintendo Land
-  - Pikmin 3
-  - Resident Evil Revelations
-  - Super Mario 3D World
-  - Super Smash Bros WiiU
-
-- Platform: Sega Genesis
-  Games:
-  - Alladin
-  - Altered Beast
-  - Jurassic Park
-  - Mortal Kombat 3
-  - Sonic the Hedgehog
-  - Sonic the Hedgehog 2
-  - Sub-Terraria
-  - Vectorman
-
-- Platform: Sega Dreamcast
-  Games:
-  - Alone in the Dark: The New Nightmare
-  - Phantasy Star Online
-  - Phantasy Star Online Ver. 2
-  - Sonic Adventures
-  - Star Wars Episode I Jedi Power Battles
-
-- Platform: PlayStation
-  Games:
+- name: PlayStation
+  games:
   - Croc: Legend of the Gobbos
   - CTR (Crash Team Racing)
   - Deception 3 Dark Desillution
-  - Future Cop: L.A.P.D.
-  - GEX 3: Deep Cover Gecko
+  - "Future Cop: L.A.P.D."
+  - "GEX 3: Deep Cover Gecko"
   - Harry Potter and the Sorcerer's Stone
   - Need for Speed III Hot Persuit
-  - Oddworld: Abe’s Exodus
+  - "Oddworld: Abe’s Exodus"
   - Silent Hill
-  - Spec Ops: Ranger Elite
-  - Spyro (2): Ripto’s Rage!
-  - Tenchu: Stealth Assasins
+  - "Spec Ops: Ranger Elite"
+  - "Spyro (2): Ripto’s Rage!"
+  - "Tenchu: Stealth Assasins"
   - The Unholy War
   - The X Files
   - Tomb Raider III
   - Worms
   - Xena Warrior Princess
 
-- Platform: PlayStation 2
-  Games:
+- name: PlayStation 2
+  games:
   - 007 Quantum of Solace
   - Ace Combat 04
   - Burnout Revenge
@@ -212,7 +159,7 @@
   - Harry Potter and the Goblet of Fire
   - Harry Potter and the Prisoner of Azkaban
   - Kuon
-  - Lara Croft Tomb Raider: Legend
+  - "Lara Croft Tomb Raider: Legend"
   - Lego Batman The Videogame
   - Lord of the Rings The Fellowship of the Ring
   - Lord of the Rings The Third Age
@@ -223,12 +170,12 @@
   - NHL 06
   - Onimusha
   - Ratchet and Clank
-  - Ratchet and Clank: Up Your Arsenal
+  - "Ratchet and Clank: Up Your Arsenal"
   - Red Faction
   - Resident Evil OutBreak
   - Siren
   - Sly Cooper and the Thievius Raccoonus
-  - Socom II: US Army SEALs
+  - "Socom II: US Army SEALs"
   - Sonic Mega Collections Plus
   - Spider-man 2
   - Star Wars Battlefront
@@ -240,8 +187,8 @@
   - Way of the Samurai
   - Whiplash
 
-- Platform: PlayStation 3
-  Games:
+- name: PlayStation 3
+  games:
   - 007 Quantum of Solace
   - Assassins Creed
   - Assassins Creed BrotherHood
@@ -253,7 +200,7 @@
   - Dark Sector
   - F.E.A.R.
   - God of War 3
-  - God of War: Ascension
+  - "God of War: Ascension"
   - GTA 4
   - GTA5 Prologue
   - Heavenly Sword
@@ -269,15 +216,15 @@
   - Resident Evil 5
   - Rock Band
   - Rock Band 2
-  - Rock Band: The Beatles
+  - "Rock Band: The Beatles"
   - Skyrim
   - South Park, The Stick of Truth
   - Tomb Raider
   - Valkyria Chronicles
   - Walking Dead
 
-- Platform: PlayStation 4
-  Games:
+- name: PlayStation 4
+  games:
   - Alien Isolation
   - Battlezone
   - Call of Duty Black Ops 3
@@ -290,3 +237,56 @@
   - Rock Band 4
   - Star Wars Battle Front
   - Valkyria Chronicles Remastered
+
+- name: Sega Dreamcast
+  games:
+  - "Alone in the Dark: The New Nightmare"
+  - Phantasy Star Online
+  - Phantasy Star Online Ver. 2
+  - Sonic Adventures
+  - Star Wars Episode I Jedi Power Battles
+
+- name: Sega Genesis
+  games:
+  - Alladin
+  - Altered Beast
+  - Jurassic Park
+  - Mortal Kombat 3
+  - Sonic the Hedgehog
+  - Sonic the Hedgehog 2
+  - Sub-Terraria
+  - Vectorman
+
+- name: Super Nintendo Entertainment System
+  games:
+  - Donkey Kong Country
+  - Road Runner Death Valley Rally
+
+- name: Wii
+  games:
+  - Guitar Hero III Legends of Rock
+  - Indiana Jones 2 The Aventure Continues
+  - Lego Star Wars The Complete Saga
+  - MadWorld
+  - Mercury Meltdown Revolution
+  - "Metroid Prime 3: Corruption"
+  - Resident Evil The Darkside Chronicles
+  - Resident Evil The Umbrella Chronicles
+  - The Conduit
+
+- name: WiiU
+  games:
+  - Bayonetta 2
+  - MarioKart 8
+  - Nintendo Land
+  - Pikmin 3
+  - Resident Evil Revelations
+  - Super Mario 3D World
+  - Super Smash Bros WiiU
+
+- name: Virtual Boy
+  games:
+    - Red Alarm
+    - Teleroboxer
+    - Vertical Force
+    - Wario Land
