@@ -4,12 +4,6 @@ layout: page
 index: 4
 ---
 
-{% assign console_list = site.data.gamecollection %}
-{% for console in console_list %}
-# {{ console.name }}
-{% assign game_list = console.games %}
-{% for game in game_list %}
-  * {{ game }}
-{% endfor %}
-{% endfor %}
+Gaming is always a fun hobby of mine. I do not consider myself a hard-core gamer, but I have a lot of appretiation for gaming as an art. 
 
+# [Game Collection](gamecollection/)
