@@ -7,7 +7,7 @@ This is a list of games and consoles that me and my girlfriend own together. Thi
 
 {% assign console_list = site.data.gamecollection %}
 {% for console in console_list %}
-# {{ console.name }}
+## {{ console.name }}
 {% assign game_list = console.games %}
 {% for game in game_list %}
   * {{ game }}
