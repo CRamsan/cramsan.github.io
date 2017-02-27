@@ -124,7 +124,7 @@
 
 - name: PlayStation
   games:
-  - Croc: Legend of the Gobbos
+  - "Croc: Legend of the Gobbos"
   - CTR (Crash Team Racing)
   - Deception 3 Dark Desillution
   - "Future Cop: L.A.P.D."
