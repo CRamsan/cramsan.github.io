@@ -1,6 +1,8 @@
 ---
 title: My experience with Pokemon Go
 date: 2016-07-13 00:00:00 Z
+tags: pokemon mobile nintendo
+categories: gaming
 layout: post
 ---
 

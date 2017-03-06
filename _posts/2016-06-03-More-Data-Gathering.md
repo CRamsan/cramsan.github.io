@@ -1,6 +1,8 @@
 ---
 title: More Data Gathering
 date: 2016-06-03 00:00:00 Z
+tags: programming iot wemo
+categories: programming
 layout: post
 ---
 

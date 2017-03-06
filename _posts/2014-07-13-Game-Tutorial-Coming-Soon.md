@@ -1,5 +1,7 @@
 ---
 title: LibGDX Game Tutorial Coming Soon
+tags: java libgdx gamedev
+categories: programming
 date: 2014-07-13 00:00:00 Z
 layout: post
 ---
