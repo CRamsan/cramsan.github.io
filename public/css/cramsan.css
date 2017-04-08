@@ -48,6 +48,15 @@ p {
   margin: 0 auto;
 }
 
+.embeddedFlickrSlideshow {
+  max-width: 95%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .embeddedYoutube {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */

@@ -1,7 +1,6 @@
 <div>
-  <blockquote class="imgur-embed-pub" lang="en" data-id="a/{{ include.image_id }}">
-    <a href="//imgur.com/{{ include.image_id }}"></a>
-  </blockquote>
-  <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+  <a data-flickr-embed="true" data-context="true" href="{{ include.image_id.source }}">
+    <img src="{{ include.image_id.first }}" class="embeddedFlickrSlideshow">
+  </a>
+  <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
-
