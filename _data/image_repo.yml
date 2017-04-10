@@ -21,6 +21,9 @@ albums:
     p6XhQ:
         source: https://www.flickr.com/photos/149389453@N05/33516806490/in/album-72157678987835494/
         first: https://c1.staticflickr.com/3/2845/33516806490_378d730f33_z.jpg
+    rcr2017album: 
+        source: https://www.flickr.com/photos/149389453@N05/33900509206/in/album-72157680636957130/
+        album: https://c1.staticflickr.com/3/2849/33900509206_0841328718_z.jpg
 youtube:
     gzcRDvooupQ: gzcRDvooupQ
 legacy:
