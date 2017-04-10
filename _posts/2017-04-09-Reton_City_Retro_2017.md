@@ -18,4 +18,4 @@ I just got back from Renton City Retro in Renton, an small expo for vintage toys
 
 In total it all came to roughly $40 and I got a lot of little things I wanted.
 
-{% include post_album.html image_id=site.data.image_repo.albums.rct2017album %}
+{% include post_album.html image_id=site.data.image_repo.albums.rcr2017album %}
