@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 highlighter: pygments
-permalink: /:year/:month/:day/:title.html
+permalink: pretty
 url: https://cramsan.com
 author:
   name: Cesar Ramirez
