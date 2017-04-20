@@ -22,10 +22,13 @@ exclude:
 - CNAME
 - DEPLOY_DEBUG.sh
 - DEPLOY_PROD.sh
+- DEPLOY_SERVE.sh
 - Gemfile
 - Gemfile.lock
 - generateMOTD.sh
+- generate_post.sh
 - INSTALL.sh
 - LICENSE.md
 - README.md
+- SYNC_DEPLOY.sh
 - UPDATE.sh
