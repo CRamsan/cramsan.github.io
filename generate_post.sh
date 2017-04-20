@@ -20,5 +20,7 @@ echo "File $NEW_FILE will be created"
 echo "---" > $NEW_FILE
 echo "layout: post" >> $NEW_FILE
 echo "title: $INPUT" >> $NEW_FILE
+echo "tags: random"
+echo "categories: other"
 echo "---" >> $NEW_FILE
 echo >> $NEW_FILE

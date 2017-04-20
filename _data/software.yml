@@ -1,0 +1,73 @@
+- IDEs:
+  - name: Eclipse
+    description:  "Good for some older Java projects as well as a general purpose IDE for Java/C/C++. It has a lot of extensibility."
+    plats: [W,L,M]
+  - name: Netbeans
+    description:  "Nice Java IDE with support for some other languages as well as a easy to use GUI builder."
+    plats: [W,L,M]
+  - name: MonoDevelop
+    description: "A very competent C#/.Net IDE that aims to be an open source version of Visual Studio."
+    plats: [W,L,M]
+  - name: AndroidStudio
+    description: "IDE develope by Google based on IntelliJ. It comes preconfigured with lots of tools that connect with Google and Android projects."
+    plats: [W,L,M]
+  - name: IntelliJ
+    description: "My current pick for Java IDE, very complete and configurable. Learning curve was steep but I feel it was a worth while investment."
+    plats: [W,L,M]
+  - name: Unity3D
+    description: "Full featured 3d game engine + IDE. Great tool for everything from quick prototyping to full games."
+    plats: [W,L,M]
+  - name: Visual Studio Community
+    description: "One of the most well known IDEs, perfect for C#/C++/.Net and everything Microsoft. It is also evolving as an IDE for cross platform development."
+    plats: [W]
+- Source Control:
+  - name: Git
+    description: "Fast and distributed source control management. Developed by Linus himself, it is the tool of choice for lots of developers. "
+    plats: [W,L,M]
+  - name: Mercurial
+    description: "Another option for scalable and distributed source control. Similar to git in design and use but with it's own syntax. Even though it is not as used as git, it is a completely valid alternative."
+    plats: [W,L,M]
+- Text Editors:
+  - name: Gedit
+    description: ""
+    plats: [L]
+  - name: Notepad++
+    description: ""
+    plats: [W]
+  - name: TextMate
+    description: ""
+    plats: [M]
+- Media:
+  - name: GIMP
+    description: ""
+    plats: [W,L,M]
+  - name: Inkscape
+    description: ""
+    plats: [W,L,M]
+  - name: OBS Studio
+    description: ""
+    plats: [W,L,M]
+- DE Tools:
+  - name: Nitrogen
+    description: ""
+    plats: [L]
+  - name: XScreensaver
+    description: ""
+    plats: [L]
+  - name: Spectacles
+    description: ""
+    plats: [M]
+- Graphical Interface:
+  - name: i3
+    description: ""
+    plats: [L]
+  - name: Gnome
+    description: ""
+    plats: [L]
+- Storage:
+  - name: Dropbox
+    description: ""
+    plats: [W,L,M,A,I]
+  - name: Insync
+    description: ""
+    plats: [W,L,M]
