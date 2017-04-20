@@ -8,6 +8,10 @@ p {
   word-wrap: break-word;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 /* ID selectors for specific elements */
 
 /* This is for classes */
