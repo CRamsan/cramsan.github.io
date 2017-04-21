@@ -12,6 +12,10 @@ h1 {
   font-weight: bold;
 }
 
+img {
+  margin: 0px;
+}
+
 /* ID selectors for specific elements */
 
 /* This is for classes */
@@ -87,4 +91,20 @@ h1 {
 .floating {
   float: left;
   padding: 5px;
+}
+
+.svgIcon { 
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.iconListGroup {
+  padding-left: 10px; 
+}
+
+.programDescriptionP {
+  margin-top: 0px;
 }

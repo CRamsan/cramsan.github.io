@@ -1,4 +1,5 @@
-- IDEs:
+- name: IDEs
+  list:
   - name: Eclipse
     description:  "Good for some older Java projects as well as a general purpose IDE for Java/C/C++. It has a lot of extensibility."
     plats: [W,L,M]
@@ -20,24 +21,35 @@
   - name: Visual Studio Community
     description: "One of the most well known IDEs, perfect for C#/C++/.Net and everything Microsoft. It is also evolving as an IDE for cross platform development."
     plats: [W]
-- Source Control:
+- name: Source Control
+  list:
   - name: Git
     description: "Fast and distributed source control management. Developed by Linus himself, it is the tool of choice for lots of developers. "
     plats: [W,L,M]
   - name: Mercurial
     description: "Another option for scalable and distributed source control. Similar to git in design and use but with it's own syntax. Even though it is not as used as git, it is a completely valid alternative."
     plats: [W,L,M]
-- Text Editors:
+- name: Text Editors
+  list: 
   - name: Gedit
-    description: ""
+    description: "The default text editor that comes wit Gnome. Even though it is not as full featured as other editors, it is usually readily available after installing Gnome."
     plats: [L]
   - name: Notepad++
-    description: ""
+    description: "Everybody knows notepad.exe, even though always available it lacks any sort of advanced capability. Notepad++ is what notepad should be and it is my text editor of choice in Windows. It also can be extended via the use of plugins."
     plats: [W]
   - name: TextMate
-    description: ""
+    description: "TextMate is the gedit equivalent for Mac. It has syntax higlingting, search/replace functionality but not much extensibility after that."
     plats: [M]
-- Media:
+  - name: Vim
+    description: "My console text editor of choice. With different input modes, commands, extensibility and a long history, it is more feature complete than most of the console and GUI editors out there. The arch-enemy of emacs."
+- name: Terminal Utilities
+  list:
+  - name: tmux
+    description: ""
+  - name: cowsay
+    description: ""
+- name: Media
+  list:
   - name: GIMP
     description: ""
     plats: [W,L,M]
@@ -47,7 +59,8 @@
   - name: OBS Studio
     description: ""
     plats: [W,L,M]
-- DE Tools:
+- name: DE Tools
+  list:
   - name: Nitrogen
     description: ""
     plats: [L]
@@ -57,14 +70,16 @@
   - name: Spectacles
     description: ""
     plats: [M]
-- Graphical Interface:
+- name: Graphical Interface
+  list:
   - name: i3
     description: ""
     plats: [L]
   - name: Gnome
     description: ""
     plats: [L]
-- Storage:
+- name: Storage
+  list:
   - name: Dropbox
     description: ""
     plats: [W,L,M,A,I]
