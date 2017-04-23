@@ -1,88 +1,274 @@
-- name: IDEs
-  list:
-  - name: Eclipse
-    description:  "Good for some older Java projects as well as a general purpose IDE for Java/C/C++. It has a lot of extensibility."
-    plats: [W,L,M]
-  - name: Netbeans
-    description:  "Nice Java IDE with support for some other languages as well as a easy to use GUI builder."
-    plats: [W,L,M]
-  - name: MonoDevelop
-    description: "A very competent C#/.Net IDE that aims to be an open source version of Visual Studio."
-    plats: [W,L,M]
-  - name: AndroidStudio
-    description: "IDE develope by Google based on IntelliJ. It comes preconfigured with lots of tools that connect with Google and Android projects."
-    plats: [W,L,M]
-  - name: IntelliJ
-    description: "My current pick for Java IDE, very complete and configurable. Learning curve was steep but I feel it was a worth while investment."
-    plats: [W,L,M]
-  - name: Unity3D
-    description: "Full featured 3d game engine + IDE. Great tool for everything from quick prototyping to full games."
-    plats: [W,L,M]
-  - name: Visual Studio Community
-    description: "One of the most well known IDEs, perfect for C#/C++/.Net and everything Microsoft. It is also evolving as an IDE for cross platform development."
-    plats: [W]
-- name: Source Control
-  list:
-  - name: Git
-    description: "Fast and distributed source control management. Developed by Linus himself, it is the tool of choice for lots of developers. "
-    plats: [W,L,M]
-  - name: Mercurial
-    description: "Another option for scalable and distributed source control. Similar to git in design and use but with it's own syntax. Even though it is not as used as git, it is a completely valid alternative."
-    plats: [W,L,M]
-- name: Text Editors
-  list: 
-  - name: Gedit
-    description: "The default text editor that comes wit Gnome. Even though it is not as full featured as other editors, it is usually readily available after installing Gnome."
-    plats: [L]
-  - name: Notepad++
-    description: "Everybody knows notepad.exe, even though always available it lacks any sort of advanced capability. Notepad++ is what notepad should be and it is my text editor of choice in Windows. It also can be extended via the use of plugins."
-    plats: [W]
-  - name: TextMate
-    description: "TextMate is the gedit equivalent for Mac. It has syntax higlingting, search/replace functionality but not much extensibility after that."
-    plats: [M]
-  - name: Vim
-    description: "My console text editor of choice. With different input modes, commands, extensibility and a long history, it is more feature complete than most of the console and GUI editors out there. The arch-enemy of emacs."
-- name: Terminal Utilities
-  list:
-  - name: tmux
-    description: ""
-  - name: cowsay
-    description: ""
-- name: Media
-  list:
-  - name: GIMP
-    description: ""
-    plats: [W,L,M]
-  - name: Inkscape
-    description: ""
-    plats: [W,L,M]
-  - name: OBS Studio
-    description: ""
-    plats: [W,L,M]
-- name: DE Tools
-  list:
-  - name: Nitrogen
-    description: ""
-    plats: [L]
-  - name: XScreensaver
-    description: ""
-    plats: [L]
-  - name: Spectacles
-    description: ""
-    plats: [M]
-- name: Graphical Interface
-  list:
-  - name: i3
-    description: ""
-    plats: [L]
-  - name: Gnome
-    description: ""
-    plats: [L]
-- name: Storage
-  list:
-  - name: Dropbox
-    description: ""
-    plats: [W,L,M,A,I]
-  - name: Insync
-    description: ""
-    plats: [W,L,M]
+list:
+  - name: Internet 
+    list:
+    - name: Network managers 
+      list:
+    - name: VPN clients 
+      list:
+    - name: Anonymizing networks 
+      list:
+    - name: Web browsers 
+      list:
+    - name: File sharing 
+      list:
+        - name: Dropbox
+          description: ""
+          plats: [W,L,M,A,I]
+        - name: Insync
+          description: ""
+          plats: [W,L,M]
+    - name: Communication 
+      list:
+    - name: News, RSS, and blogs 
+      list:
+    - name: Remote desktop 
+      list:
+    - name: Pastebin clients 
+      list:
+    - name: Bitcoin 
+      list:
+    - name: LAMP stack 
+      list:
+  - name: Multimedia 
+    list:
+    - name: Codecs 
+      list:
+    - name: Image 
+      list:
+        - name: Image Manipulation
+          list: 
+          - name: GIMP
+            description: ""
+            plats: [W,L,M]
+          - name: Inkscape
+            description: ""
+            plats: [W,L,M]
+    - name: Audio
+      list:
+    - name: Video 
+      list:
+        - name: Screencast
+          list:
+            - name: OBS Studio
+              description: ""
+              plats: [W,L,M]
+            - name: Shadowplay
+              description: ""
+              plats: [W]
+    - name: Mobile phone managers 
+      list:
+    - name: Digital camera managers 
+      list:
+    - name: Optical media burning 
+      list:
+    - name: Podcasts 
+      list:
+    - name: Collection managers 
+      list:
+    - name: Lyrics fetchers 
+      list:
+  - name: Utilities 
+    list:
+    - name: Partitioning tools 
+      list:
+    - name: Mount tools 
+      list:
+    - name: Terminal emulators 
+      list:
+        - name: Terminal tools
+          list: 
+          - name: tmux
+            description: ""
+            plats: [T]
+          - name: cowsay
+            description: ""
+            plats: [T]
+    - name: Text editors 
+      list:
+      - name: Gedit
+        description: "The default text editor that comes wit Gnome. Even though it is not as full featured as other editors, it is usually readily available after installing Gnome."
+        plats: [L]
+      - name: Notepad++
+        description: "Everybody knows notepad.exe, even though always available it lacks any sort of advanced capability. Notepad++ is what notepad should be and it is my text editor of choice in Windows. It also can be extended via the use of plugins."
+        plats: [W]
+      - name: TextMate
+        description: "TextMate is the gedit equivalent for Mac. It has syntax higlingting, search/replace functionality but not much extensibility after that."
+        plats: [M]
+      - name: Vim
+        description: "My console text editor of choice. With different input modes, commands, extensibility and a long history, it is more feature complete than most of the console and GUI editors out there. The arch-enemy of emacs."
+
+    - name: Integrated development environments 
+      list:
+      - name: Eclipse
+        description:  "Good for some older Java projects as well as a general purpose IDE for Java/C/C++. It has a lot of extensibility."
+        plats: [W,L,M]
+      - name: Netbeans
+        description:  "Nice Java IDE with support for some other languages as well as a easy to use GUI builder."
+        plats: [W,L,M]
+      - name: MonoDevelop
+        description: "A very competent C#/.Net IDE that aims to be an open source version of Visual Studio."
+        plats: [W,L,M]
+      - name: AndroidStudio
+        description: "IDE develope by Google based on IntelliJ. It comes preconfigured with lots of tools that connect with Google and Android projects."
+        plats: [W,L,M]
+      - name: IntelliJ
+        description: "My current pick for Java IDE, very complete and configurable. Learning curve was steep but I feel it was a worth while investment."
+        plats: [W,L,M]
+      - name: Unity3D
+        description: "Full featured 3d game engine + IDE. Great tool for everything from quick prototyping to full games."
+        plats: [W,L,M]
+      - name: Visual Studio Community
+        description: "One of the most well known IDEs, perfect for C#/C++/.Net and everything Microsoft. It is also evolving as an IDE for cross platform development."
+        plats: [W]
+    - name: Build automation 
+      list:
+    - name: Files 
+      list:
+    - name: Disk cleaning 
+      list:
+    - name: Disk usage display 
+      list:
+    - name: Clock synchronization 
+      list:
+    - name: System monitoring 
+      list:
+    - name: System information viewers 
+      list:
+    - name: Keyboard layout switchers 
+      list:
+    - name: Power management 
+      list:
+    - name: Clipboard managers 
+      list:
+    - name: Package management 
+      list:
+    - name: Input methods 
+      list:
+    - name: Source Controle
+      list:
+        - name: Git
+          description: "Fast and distributed source control management. Developed by Linus himself, it is the tool of choice for lots of developers. "
+          plats: [W,L,M]
+        - name: Mercurial
+          description: "Another option for scalable and distributed source control. Similar to git in design and use but with it's own syntax. Even though it is not as used as git, it is a completely valid alternative."
+          plats: [W,L,M]
+  - name: Documents and texts 
+    list:
+    - name: Office suites 
+      list:
+    - name: Word processors 
+      list:
+    - name: Document markup languages 
+      list:
+    - name: Spreadsheets 
+      list:
+    - name: Scientific documents 
+      list:
+    - name: Translation and localization 
+      list:
+    - name: Text editors 
+      list:
+    - name: Readers and Viewers 
+      list:
+    - name: Scanning software 
+      list:
+    - name: OCR software 
+      list:
+    - name: Mind-mapping tools 
+      list:
+    - name: Character Selector 
+      list:
+    - name: Stylus notes taking 
+      list:
+    - name: Bibliographic reference managers 
+      list:
+  - name: Security 
+    list:
+    - name: Network security 
+      list:
+    - name: Threat and vulnerability detection 
+      list:
+    - name: File security 
+      list:
+    - name: Anti malware 
+      list:
+    - name: Backup programs 
+      list:
+    - name: Screen lockers 
+      list:
+        - name: XScreensaver
+          description: ""
+          plats: [L]
+    - name: Hash checkers 
+      list:
+    - name: Encryption, signing, steganography 
+      list:
+    - name: Password managers 
+      list:
+  - name: Science 
+    list:
+    - name: Scientific documents 
+      list:
+    - name: Mathematics 
+      list:
+    - name: Chemistry and biology 
+      list:
+    - name: Astronomy 
+      list:
+    - name: Physics 
+      list:
+    - name: Geography 
+      list:
+  - name: Others 
+    list:
+    - name: Finance 
+      list:
+    - name: Education 
+      list:
+    - name: Time management 
+      list:
+    - name: Accessibility 
+      list:
+    - name: Amateur radio 
+      list:
+    - name: Display calibration 
+      list:
+    - name: Display managers 
+      list:
+    - name: Command shells 
+      list:
+    - name: Terminal multiplexers 
+      list:
+    - name: Desktop environments 
+      list:
+      - name: Window managers 
+        list:
+        - name: Console 
+          list:
+        - name: Graphical 
+          list:
+            - name: i3
+              description: ""
+              plats: [L]
+            - name: Gnome
+              description: ""
+              plats: [L]
+        - name: Composite managers 
+          list:
+      - name: Window tilers 
+        list:
+          - name: Spectacles
+            description: ""
+            plats: [M]
+
+      - name: Taskbars 
+        list:
+      - name: Application launchers 
+        list:
+      - name: Wallpaper setters 
+        list:
+          - name: Nitrogen
+            description: ""
+            plats: [L]
+      - name: Virtual desktop pagers
+        list:
