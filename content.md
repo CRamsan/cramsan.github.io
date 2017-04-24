@@ -1,7 +1,7 @@
 ---
 title: Content
 layout: page
-index: 2
+index: 1
 ---
 
 <div class="floating">

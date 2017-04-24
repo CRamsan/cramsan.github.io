@@ -1,7 +1,7 @@
 ---
 title: Projects
 layout: page
-index: 1
+index: 3
 ---
 
 {% assign projects_list = site.data.projects %}
