@@ -9,11 +9,14 @@ list:
       list:
     - name: Web browsers 
       list:
+        - name: Chromium/Chrome
+          description: ""
+          plats: [W,L,M,O,A]
     - name: File sharing 
       list:
         - name: Dropbox
           description: ""
-          plats: [W,L,M,A,I]
+          plats: [W,L,M,A]
         - name: Insync
           description: ""
           plats: [W,L,M]
@@ -23,6 +26,15 @@ list:
       list:
     - name: Remote desktop 
       list:
+        - name: Remmina
+          description: ""
+          plats: [L]
+        - name: Remote Desktop
+          description: ""
+          plats: [W,A,M]
+        - name: Remotix
+          description: ""
+          plats: [W,A,M]
     - name: Pastebin clients 
       list:
     - name: Bitcoin 
@@ -35,6 +47,9 @@ list:
       list:
     - name: Image 
       list:
+        - name: Eye of GNOME
+          description: ""
+          plats: [L]
         - name: Image Manipulation
           list: 
           - name: GIMP
@@ -47,6 +62,9 @@ list:
       list:
     - name: Video 
       list:
+        - name: VLC
+          description: ""
+          plats: [W,L,M]
         - name: Screencast
           list:
             - name: OBS Studio
@@ -71,15 +89,21 @@ list:
     list:
     - name: Partitioning tools 
       list:
+        - name: fdisk
+          description: ""
+          plats: [L,T]
+        - name: parted/GParted
+          descriprion: ""
+          plats: [L,T]
     - name: Mount tools 
       list:
     - name: Terminal emulators 
       list:
+        - name: LilyTerm
+          description: ""
+          plats: [L]
         - name: Terminal tools
           list: 
-          - name: tmux
-            description: ""
-            plats: [T]
           - name: cowsay
             description: ""
             plats: [T]
@@ -122,7 +146,7 @@ list:
         plats: [W]
     - name: Build automation 
       list:
-    - name: Files 
+    - name: Files
       list:
     - name: Disk cleaning 
       list:
@@ -142,6 +166,9 @@ list:
       list:
     - name: Package management 
       list:
+        - name: Pacman
+          description: ""
+          plats: [L]
     - name: Input methods 
       list:
     - name: Source Controle
@@ -156,17 +183,29 @@ list:
     list:
     - name: Office suites 
       list:
+        - name: Microsoft Office
+          description: ""
+          plats: [W,M,O,A,I]
     - name: Word processors 
       list:
+        - name: Google Docs
+          description: ""
+          plats: [O,A]
     - name: Document markup languages 
       list:
     - name: Spreadsheets 
       list:
+        - name: Google Sheets
+          description: ""
+          plats: [O,A]
+    - name: Presentations
+      list:
+        - name: Google Slides
+          description: ""
+          plats: [O,A] 
     - name: Scientific documents 
       list:
     - name: Translation and localization 
-      list:
-    - name: Text editors 
       list:
     - name: Readers and Viewers 
       list:
@@ -194,19 +233,34 @@ list:
       list:
     - name: Backup programs 
       list:
+        - name: CrashPlan
+          description: ""
+          plats: [W,L,M]
     - name: Screen lockers 
       list:
         - name: XScreensaver
+          description: ""
+          plats: [L]
+        - name: i3lock
           description: ""
           plats: [L]
     - name: Hash checkers 
       list:
     - name: Encryption, signing, steganography 
       list:
+        - name: Seahorse
+          description: ""
+          plats: [L]
     - name: Password managers 
       list:
+        - name: KeePass
+          description: ""
+          plats: [W,L,M]
+        - name: Keepass2Android
+          description: ""
+          plats: [A]
   - name: Science 
-    list:
+    list_ignore:
     - name: Scientific documents 
       list:
     - name: Mathematics 
@@ -237,8 +291,14 @@ list:
       list:
     - name: Command shells 
       list:
+        - name: Bash
+          description: ""
+          plats: [L]
     - name: Terminal multiplexers 
       list:
+        - name: tmux
+          description: ""
+          plats: [T]
     - name: Desktop environments 
       list:
       - name: Window managers 
@@ -265,6 +325,9 @@ list:
         list:
       - name: Application launchers 
         list:
+          - name: dmenu
+            description: ""
+            plats: [L]
       - name: Wallpaper setters 
         list:
           - name: Nitrogen
