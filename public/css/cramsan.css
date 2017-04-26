@@ -116,7 +116,7 @@ img {
 
 .programTitle {
   vertical-align: middle;
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 .programPlatListGroup {
