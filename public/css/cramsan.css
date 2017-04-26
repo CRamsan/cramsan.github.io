@@ -120,29 +120,29 @@ img {
   vertical-align: middle;
 }
 .programIdent1 {
-  margin-left: 0px;
-}
-
-.programIdent2 {
   margin-left: 10px;
 }
 
-.programIdent3 {
-  margin-left: 20px;
+.programIdent2 {
+  margin-left: 2px;
 }
 
-.programIdent4 {
+.programIdent3 {
   margin-left: 30px;
 }
 
-.programIdent5 {
+.programIdent4 {
   margin-left: 40px;
 }
 
-.programIdent6 {
+.programIdent5 {
   margin-left: 50px;
 }
 
-.programIdent7 {
+.programIdent6 {
   margin-left: 60px;
+}
+
+.programIdent7 {
+  margin-left: 70px;
 }

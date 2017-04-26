@@ -1,6 +1,6 @@
 {% assign software_item =  include.param %}
-{% if software_item.list %}
 {% capture _ %}{% increment depth_counter %}{% endcapture %}
+{% if software_item.list %}
 {% if software_item.name %}
 <h{{ depth_counter }} class="programIdent{{ depth_counter }}">{{ software_item.name }}</h{{ depth_counter }}>
 {% endif %}
@@ -12,13 +12,13 @@
 {% for list_item in software_item.list %}
 {% include application_list_item.html param=list_item %}
 {% endfor %}
-{% capture _ %}{% decrement depth_counter %}{% endcapture %}
 {% else %}
 {% if software_item.description %}
-<span class="programIdent{{ depth_counter }}">
+<div class="programIdent{{ depth_counter }}">
 <span class="programTitle">{{ software_item.name }}</span><span class="programPlatListGroup">{% for platform in software_item.plats %}{% case platform %}{% when 'W' %}<img src="/public/svg/icon/windows.svg" class="svgIcon"/>{% when 'L' %}<img src="/public/svg/icon/linux.svg" class="svgIcon" />{% when 'M' %}<img src="/public/svg/icon/macos.svg" class="svgIcon" />{% when 'A' %}<img src="/public/svg/icon/android.svg" class="svgIcon" />{% when 'I' %}<img src="/public/svg/icon/ios.svg" class="svgIcon" />{% when 'O' %}<img src="/public/svg/icon/chrome.svg" class="svgIcon" />{% when 'T' %}<img src="/public/svg/icon/terminal.svg" class="svgIcon" />{% endcase %}{% endfor %}
 </span><br>
 <span class="programDescriptionP">{{ software_item.description | strip_html }}</span>
-</span>
+</div>
 {% endif %}
 {% endif %}
+{% capture _ %}{% decrement depth_counter %}{% endcapture %}
