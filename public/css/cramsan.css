@@ -110,3 +110,39 @@ img {
 .programDescriptionP {
   margin-top: 0px;
 }
+
+.programTitle {
+  vertical-align: middle;
+  text-decoration: underline;
+}
+
+.programPlatListGroup {
+  vertical-align: middle;
+}
+.programIdent1 {
+  margin-left: 0px;
+}
+
+.programIdent2 {
+  margin-left: 10px;
+}
+
+.programIdent3 {
+  margin-left: 20px;
+}
+
+.programIdent4 {
+  margin-left: 30px;
+}
+
+.programIdent5 {
+  margin-left: 40px;
+}
+
+.programIdent6 {
+  margin-left: 50px;
+}
+
+.programIdent7 {
+  margin-left: 60px;
+}

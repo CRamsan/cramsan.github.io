@@ -143,6 +143,7 @@ list:
         plats: [M]
       - name: Vim
         description: "My console text editor of choice. With different input modes, commands, extensibility and a long history, it is more feature complete than most of the console and GUI editors out there. The arch-enemy of emacs."
+        plats: [T]
 
     - name: Integrated development environments 
       list:
