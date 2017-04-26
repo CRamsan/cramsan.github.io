@@ -101,6 +101,7 @@ img {
   vertical-align: middle;
   background-color: #dddddd;
   border-radius: 50%;
+  margin: 5px;
 }
 
 .iconListGroup {
@@ -109,6 +110,8 @@ img {
 
 .programDescriptionP {
   margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .programTitle {
@@ -124,7 +127,7 @@ img {
 }
 
 .programIdent2 {
-  margin-left: 2px;
+  margin-left: 20px;
 }
 
 .programIdent3 {

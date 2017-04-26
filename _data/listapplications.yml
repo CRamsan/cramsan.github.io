@@ -195,7 +195,7 @@ list:
           plats: [L]
     - name: Input methods 
       list:
-    - name: Source Controle
+    - name: Source Control
       list:
         - name: Git
           description: "Fast and distributed source control management. Developed by Linus himself, it is the tool of choice for lots of developers. "
