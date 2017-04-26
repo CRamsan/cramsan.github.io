@@ -12,6 +12,12 @@ list:
         - name: Chromium/Chrome
           description: ""
           plats: [W,L,M,O,A]
+        - name: Links
+          description: ""
+          plats: [T]
+        - name: Lynx
+          description: ""
+          plats: [T]
     - name: File sharing 
       list:
         - name: Dropbox
@@ -20,6 +26,9 @@ list:
         - name: Insync
           description: ""
           plats: [W,L,M]
+        - name: Google Drive
+          description: ""
+          plats: [W,M,A]
     - name: Communication 
       list:
     - name: News, RSS, and blogs 
@@ -87,6 +96,17 @@ list:
       list:
   - name: Utilities 
     list:
+    - name: Unix Environments
+      list:
+        - name: Cygwin
+          description: ""
+          plats: [W]
+        - name: Git Bash for Windows
+          description: ""
+          plats: [W]
+        - name: Termux
+          description: ""
+          plats: [A]
     - name: Partitioning tools 
       list:
         - name: fdisk
@@ -100,6 +120,9 @@ list:
     - name: Terminal emulators 
       list:
         - name: LilyTerm
+          description: ""
+          plats: [L]
+        - name: Gnome Terminal
           description: ""
           plats: [L]
         - name: Terminal tools
