@@ -7,26 +7,4 @@
 {"level": "1",
 "link": "listapplications",
 "name": "List of Applications"}
-,
-{"level": "1",
-"link": "development",
-"name": "Development"}
-,
-{"node":"development",
-"list": [
-{"level": "2",
-"link": "development/melee",
-"name": "Melee"}
-,
-{"node":"melee",
-"list": [
-{"level": "3",
-"link": "development/melee/stats",
-"name": "Stats"}
-]}
-,
-{"level": "2",
-"link": "development/brawl",
-"name": "Brawl1"}
-]}
 ]}
