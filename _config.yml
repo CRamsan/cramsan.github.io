@@ -2,8 +2,7 @@
 title: Cesar Ramirez
 timezone: UTC
 collections:
-  posts:
-    title: Posts
+  docs:
     output: true
 highlighter: pygments
 permalink: pretty
@@ -29,3 +28,4 @@ exclude:
 - README.md
 - SYNC_DEPLOY.sh
 - UPDATE.sh
+- generate_index.sh

@@ -2,6 +2,10 @@
   <hr></hr>
   {% include homebutton.html  %}
   <hr></hr>
+{% if page.collection %}
+  {% include collection_index.html %} 
+  <hr></hr>
+{% endif %}
   {% include pages.html  %}
   <hr></hr>
   {% include recent_posts.html  %}

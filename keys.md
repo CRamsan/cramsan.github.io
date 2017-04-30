@@ -1,7 +1,7 @@
 ---
 title: Keys
 layout: page
-index: 6
+index: 50
 ---
 
 {% assign keys_list = site.data.keys %}

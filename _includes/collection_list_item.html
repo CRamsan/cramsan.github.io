@@ -1,0 +1,12 @@
+{% assign collection_item = include.param %}
+{% if include.root %}
+{% assign collection_root = include.root %}
+{% else %}
+{% assign collection_root = collection_item.node %}
+{% endif %}
+{% for list_item in collection_item.list %}
+{% if list_item.link %}
+<a class="programIdent{{ list_item.level }}" href="{{ site.url }}/{{ collection_root }}/{{ list_item.link }}">{{ list_item.name }}</a>
+{% endif %}
+{% include collection_list_item.html param=list_item root=collection_root %}
+{% endfor %}
