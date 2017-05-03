@@ -2,7 +2,7 @@
   <hr></hr>
   {% include homebutton.html  %}
   <hr></hr>
-{% if page.collection %}
+{% if page.collection and page.collection != "posts" %}
   {% include collection_index.html %} 
   <hr></hr>
 {% endif %}
