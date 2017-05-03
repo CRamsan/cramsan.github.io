@@ -8,7 +8,7 @@ function listFiles() {
   local ROOT_FOLDER=$3
   local ROOT_LABEL=$4
   local FIRST_ITER=true;
-
+  
   echo "{\"node\":\"$ROOT_LABEL\","
   cd $TARGET_COLLECTION
   echo "\"list\": ["
@@ -48,9 +48,6 @@ function listFiles() {
 	  local NEW_ROOT="$FILE_BASENAME"
         fi
 	listFiles $line $NEW_DEPTH $NEW_ROOT $FILE_BASENAME
-      else
-        echo "Found something that is not file or directory!"
-        echo $line
       fi
     fi
   done
