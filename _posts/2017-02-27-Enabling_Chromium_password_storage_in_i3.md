@@ -11,7 +11,7 @@ Couple things that help me debug this issue was the information at [chrome://sig
 Also if you want to make the `--password-store` a permanent flag in Arch Linux, you can store it in chromium-flags.conf under $HOME/.config/.
 
 Sources:
-> - chromium --help
-> - https://wiki.archlinux.org/index.php/Chromium/Tips_and_tricks
-> - https://www.chromium.org/for-testers/enable-logging
-> - https://productforums.google.com/forum/#!topic/chrome/POKH5enbwgU
+ - chromium --help
+ - [https://wiki.archlinux.org/index.php/Chromium/Tips_and_tricks]()
+ - [https://www.chromium.org/for-testers/enable-logging]()
+ - [https://productforums.google.com/forum/#!topic/chrome/POKH5enbwgU]()
