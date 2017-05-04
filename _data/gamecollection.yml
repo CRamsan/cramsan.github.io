@@ -1,11 +1,11 @@
 - name: Game Boy Advance
   games:
-    - Advanced Wars
-    - Pokemon Sapphire
+  - Advanced Wars
+  - Pokemon Sapphire
 
 - name: Game Boy Color
   games:
-    - Pokemon Crystal
+  - Pokemon Crystal
 
 - name: Nintendo 3DS
   games:
@@ -33,22 +33,22 @@
 
 - name: Nintendo DS
   games:
-    - Advance Wars Days of Ruin
-    - Advance Wars Dual Strike
-    - Age of Empires The Age of Kings
-    - Brain Age
-    - Indiana Jones 2
-    - Kirby Squeak Squad
-    - Mario 64
-    - "Mario & Luigi: Bowser's Inside Story"
-    - Marvel Nemesis Rise of the Imperfects
-    - Metroid Prime Hunters
-    - Pokemon Heart Gold
-    - Pokemon Pearl Version
-    - Pokemon Soul Silver
-    - The World Ends with You
-    - Zelda Spirit Tracks
- 
+  - Advance Wars Days of Ruin
+  - Advance Wars Dual Strike
+  - Age of Empires The Age of Kings
+  - Brain Age
+  - Indiana Jones 2
+  - Kirby Squeak Squad
+  - Mario 64
+  - "Mario & Luigi: Bowser's Inside Story"
+  - Marvel Nemesis Rise of the Imperfects
+  - Metroid Prime Hunters
+  - Pokemon Heart Gold
+  - Pokemon Pearl Version
+  - Pokemon Soul Silver
+  - The World Ends with You
+  - Zelda Spirit Tracks
+
 - name: Nintendo Entertainment System
   games:
   - 1943
@@ -298,6 +298,6 @@
 
 - name: Virtual Boy
   games:
-    - Red Alarm
-    - Teleroboxer
-    - Wario Land 
+  - Red Alarm
+  - Teleroboxer
+  - Wario Land 
