@@ -11,6 +11,7 @@ function listFiles() {
   
   echo "{\"node\":\"$ROOT_LABEL\","
   cd $TARGET_COLLECTION
+  echo "\"level\": \"$TARGET_DEPTH\","
   echo "\"list\": ["
   find . -maxdepth 1 -name '*' | while read line; do
     if [ "$line" = "." ]; then
@@ -26,6 +27,7 @@ function listFiles() {
     local FILE_EXTENSION="${FILE_BASENAME##*.}"
     local FILE_FILENAME="${FILE_BASENAME%.*}"
     local FILE_TITLE="$(grep "title:" $line | sed 's/title: //g')"
+    local NEW_DEPTH=$((TARGET_DEPTH+1))
     if [ -z "$FILE_TITLE" ]; then
       local FILE_TITLE="UNTITLED"
     fi
@@ -36,12 +38,11 @@ function listFiles() {
 	local LINK_URL=""
       fi
       local LINK_URL="$LINK_URL$FILE_FILENAME"
-      echo "{\"level\": \"$TARGET_DEPTH\","
+      echo "{\"level\": \"$NEW_DEPTH\","
       echo "\"link\": \"$LINK_URL\","
       echo "\"name\": \"$FILE_TITLE\"}"
     else 
       if [ -d $line ]; then
-       	local NEW_DEPTH=$((TARGET_DEPTH+1))
         if [ ! -z $ROOT_FOLDER ]; then
           local NEW_ROOT="$ROOT_FOLDER/$FILE_BASENAME"
         else
@@ -54,5 +55,5 @@ function listFiles() {
   echo "]}"
   cd $ORIGINAL_FOLDER
 }
-listFiles "_docs" 1 "" "docs" > _data/collection_docs.json
+listFiles "_docs" 0 "" "docs" > _data/collection_docs.json
 

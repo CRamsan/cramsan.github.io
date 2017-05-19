@@ -4,7 +4,14 @@
 {% else %}
 {% assign collection_root = collection_item.node %}
 {% endif %}
-{% for list_item in collection_item.list %}{% if list_item.link %}
-<h{{ list_item.level | plus: 1 }}><a class="programIdent{{ list_item.level }}" href="{{ site.url }}/{{ collection_root }}/{{ list_item.link }}">{{ list_item.name }}</a></h{{ list_item.level | plus: 1 }}>{% endif %}
+{% for list_item in collection_item.list %}
+{% if list_item.link %}
+<h{{ list_item.level | plus: 1 }}><a class="programIdent{{ list_item.level }}" href="{{ site.url }}/{{ collection_root }}/{{ list_item.link }}">{{ list_item.name }}</a></h{{ list_item.level | plus: 1 }}>
+{% else %}
+<h{{ list_item.level | plus: 1 }}><span class="programIdent{{ list_item.level }}">{{ list_item.node }}</span></h{{ list_item.level | plus: 1 }}>
+{% endif %}
+{% if list_item.list %}
 {% include collection_list_item_full.html param=list_item root=collection_root %}
+{% else %}
+{% endif %}
 {% endfor %}
