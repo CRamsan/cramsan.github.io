@@ -1,5 +1,5 @@
 ---
-title: Game Collection
+title: Gaming
 layout: page
 ---
 

@@ -109,6 +109,19 @@ img {
   padding-left: 10px; 
 }
 
+.noPadding{
+  padding: 0px 0px 0px 0px !important;
+}
+
+.fakeLinkPadding {
+  padding-top: 4px;
+  padding-right: 2px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  height: 30px;
+  display: block;
+}
+
 .programDescriptionP {
   margin-top: 0px;
   margin-left: 10px;
@@ -123,30 +136,31 @@ img {
 .programPlatListGroup {
   vertical-align: middle;
 }
+
 .programIdent1 {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 .programIdent2 {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .programIdent3 {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .programIdent4 {
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .programIdent5 {
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .programIdent6 {
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
 .programIdent7 {
-  margin-left: 70px;
+  margin-left: 60px;
 }

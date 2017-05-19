@@ -8,7 +8,7 @@
 {% if list_item.link %}
 <a class="programIdent{{ list_item.level }}" href="{{ site.url }}/{{ collection_root }}/{{ list_item.link }}">{{ list_item.name }}</a>
 {% else %}
-<span class="programIdent{{ list_item.level }}">{{ list_item.node }}</span>
+<span class="fakeLinkPadding programIdent{{ list_item.level }}">{{ list_item.node }}</span>
 {% endif %}
 {% include collection_list_item.html param=list_item root=collection_root %}
 {% endfor %}
