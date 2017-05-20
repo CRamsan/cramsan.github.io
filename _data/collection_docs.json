@@ -2,6 +2,10 @@
 "level": "0",
 "list": [
 {"level": "1",
+"link": "fightinggame",
+"name": "Figthing Game"}
+,
+{"level": "1",
 "link": "gaming",
 "name": "Gaming"}
 ,
