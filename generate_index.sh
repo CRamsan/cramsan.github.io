@@ -12,7 +12,7 @@ function listFiles() {
   echo "\"level\": \"$TARGET_DEPTH\","
   cd "$TARGET_COLLECTION"
   echo "\"list\": ["
-  find . -maxdepth 1 -name '*' -printf '%h\0%p\n' | sort -t '\0' -n | awk -F '\0' '{print $2}' | while read line; do
+  find . -maxdepth 1 -name '*' -print | sort -n | while read line; do
     if [ "$line" = "." ]; then
       continue
     fi
