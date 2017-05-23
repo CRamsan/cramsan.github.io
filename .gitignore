@@ -1,3 +1,5 @@
 *~
 _site
 *.lock
+*.swp
+_data/collection_docs.json
