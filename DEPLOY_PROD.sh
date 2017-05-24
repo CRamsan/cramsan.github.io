@@ -2,6 +2,6 @@
 # To run the server:
 ./generate_index.sh
 bundle exec jekyll clean --dest tmp_site
-bundle exec jekyll build --trace --lsi --dest tmp_site
+bundle exec jekyll build --trace --dest tmp_site
 rm -rf _site
 mv tmp_site _site
