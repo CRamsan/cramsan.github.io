@@ -3,6 +3,8 @@ title: Milestones
 layout: page
 ---
 
+This page will track the progress of this demo. 
+
 # ~~Phase 1~~
  - ~~Input manager for keyboard & controller~~
  - ~~World collisions~~
@@ -29,18 +31,3 @@ layout: page
    - Foxtrot
    - Dash dancing
    - Directional influence
-
-Need to verify:
- - Dashing needs to be cancellable by:
-   - Dashing in opposite direction
-   - Shielding
-     - Will cancel any momentum
-   - Jumping
-   - Attacking
- - Running
-   - Turning will trigger turn animation
-     - Turn animation contains 29 frames
-     - Frame 9 will freeze animation until momentum is overcome
-       - Fast running will have 21 frames of freeze
-       - Slow running will have 10 frames of freeze
-     - Running can be cancelled by crouching, Shielding, jumping. All of which will retain the momentum. Attacking can also cancel the animation.
