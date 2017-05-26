@@ -6,7 +6,7 @@ layout: page
 This page will document the different states that a character can be in as well
 as the possible transitions. All the frame data is based on Marth frame data.
 
-# Wait
+# Waiting
  - Idle state for the character.
  - If input is jump button go into **PreJump** state
  - If input is attack go into into **PreAttack** state
@@ -30,10 +30,14 @@ as the possible transitions. All the frame data is based on Marth frame data.
    - Go into **DashRun** state
 
 # DashWait
- - **DashWait** is 11 frames and it would be frames 16-27 from **Dashing**. This transition happens when the dash animation will change into a walk/idle state.
+ - **DashWait** is 12 frames and it would be frames 16-27 from **Dashing**. This transition happens when the dash animation will change into a walk/idle state.
  - It cannot be cancelled
  - Once completed, go to **Wait** state.
- # DashRun
+
+# DashRun
+ - **DashWait** is 12 frames and it would be frames 16-27 from **Dashing**. This transition happens when the dash animation will change into a **Run** state.
+ - It cannot be cancelled
+ - Once completed, go to **Run** state.
 
 # Running
  - Turning will trigger turn animation
@@ -41,9 +45,21 @@ as the possible transitions. All the frame data is based on Marth frame data.
    - Frame 9 will freeze animation until momentum is overcome
        - Fast running will have 21 frames of freeze
        - Slow running will have 10 frames of freeze
-     - Running can be cancelled by crouching, Shielding, jumping. All of which will retain the momentum. Attacking can also cancel the animation.
+ - Running can be cancelled by crouching, shielding, jumping. All of which will retain the momentum. 
 
+# Turning
+ - **Turning** contains 29 frames of animation but it may take more than 29 frames to complete.
+ - Frames 1-8 happen continuously.
+ - Frame 9 will be hold until the character overcomes it's momentum.
+ - A high speed run will cause frame 9 to extend for 21 frames of time.
+ - A low speed run will extend frame 9 to only 10 frames.
 References:
 
+# Walking
+ - Is separated in three states, WalkSlow, WalkMiddle and WalkFast.
+ - **Walking** behaves just like **Waiting** in regards of all the transitions that can be made. 
+   - The exception is **Dashing**. Do do a dash from a walk you need to go into an **Waiting** state for at least one frame.
+
+References:
  - [https://smashboards.com/threads/marth-movement-mechanics.433988/]()
- - [https://docs.google.com/spreadsheets/d/1WqxJWDXbPDDYhjV5Vo34qTiCxmHSqg_Wr6GKKyLrH2M/edit#gid=0]()
+- [https://docs.google.com/spreadsheets/d/1WqxJWDXbPDDYhjV5Vo34qTiCxmHSqg_Wr6GKKyLrH2M/edit#gid=0]()
