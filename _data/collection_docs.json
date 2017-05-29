@@ -1,6 +1,14 @@
 {"node":"docs",
 "level": "0",
 "list": [
+{"level": "1",
+"link": "gaming",
+"name": "Gaming"}
+,
+{"level": "1",
+"link": "listapplications",
+"name": "List of Applications"}
+,
 {"node":"Melee Clone",
 "level": "1",
 "list": [
@@ -12,12 +20,4 @@
 "link": "Melee Clone/2states",
 "name": "States"}
 ]}
-,
-{"level": "1",
-"link": "gaming",
-"name": "Gaming"}
-,
-{"level": "1",
-"link": "listapplications",
-"name": "List of Applications"}
 ]}
