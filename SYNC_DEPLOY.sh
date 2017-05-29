@@ -2,4 +2,4 @@
 git reset --hard
 git pull origin master
 ./DEPLOY_PROD.sh
-# git push
+git push mirror master
