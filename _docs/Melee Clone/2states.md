@@ -12,7 +12,7 @@ as the possible transitions. All the frame data is based on Marth frame data.
  - If input is attack go into into **PreAttack** state
  - If input is shield go into **Shielding** state
  - If input for stickX can into **SlowWalk**, **MidWalk**, **FastWalk** or **Dashing**.
-   -  **DEFINE LOGIC FOR EACH TRANSITION**
+   - **DEFINE LOGIC FOR EACH TRANSITION**
 
 # Dashing:
  - **Dashing** is the state after the input is pulled far enough to start running. This state is the transition between walking/idle and running. 
@@ -61,5 +61,5 @@ References:
    - The exception is **Dashing**. Do do a dash from a walk you need to go into an **Waiting** state for at least one frame.
 
 References:
- - [https://smashboards.com/threads/marth-movement-mechanics.433988/]()
-- [https://docs.google.com/spreadsheets/d/1WqxJWDXbPDDYhjV5Vo34qTiCxmHSqg_Wr6GKKyLrH2M/edit#gid=0]()
+ - [https://smashboards.com/threads/marth-movement-mechanics.433988/](https://smashboards.com/threads/marth-movement-mechanics.433988/)
+- [https://docs.google.com/spreadsheets/d/1WqxJWDXbPDDYhjV5Vo34qTiCxmHSqg_Wr6GKKyLrH2M/edit#gid=0](https://docs.google.com/spreadsheets/d/1WqxJWDXbPDDYhjV5Vo34qTiCxmHSqg_Wr6GKKyLrH2M/edit#gid=0)
