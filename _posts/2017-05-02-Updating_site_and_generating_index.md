@@ -14,4 +14,4 @@ The solution was to use a bash script(of course) to generate an json file that c
 The result is neat and I can have pages organized across folders of different depths. Currently I only have two pages but I tested multiple pages and depths and it was working correctly. As I develop this blog I am sure more pages will be added.
 
 A picture of what my Pixel C looked like while I was working on finishing the changes.
-{% include post_image.html image_id=site.data.image_repo.images.androidScreenshot1 %}
+{% include post_image.html image_id=site.data.flickr.34033125200 %}
