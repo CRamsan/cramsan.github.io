@@ -4,7 +4,7 @@ import json
 api_key = u'92ff58ce873ed2a3fea11dc8f746f0cf'
 api_secret = u'bc4c31a72cc5a92d'
 target_user = '149389453@N05'
-
+OUTPUT_FILENAME = "_data/flickr.json"
 flickr = flickrapi.FlickrAPI(api_key, api_secret, format='parsed-json')
 
 current_page = 1
@@ -26,4 +26,7 @@ while(current_page <= last_page):
         out_photo_dict[photo_id] = photo
     current_page += 1
 
-print(json.dumps(out_photo_dict, indent=4, ensure_ascii=False).encode('ascii', 'ignore').decode('ascii', 'ignore'))
+fileHandler = open(OUTPUT_FILENAME, 'w')
+output = json.dumps(out_photo_dict, indent=4, ensure_ascii=False).encode('ascii', 'ignore').decode('ascii', 'ignore')
+fileHandler.write(output)
+print("Data was written to file " + OUTPUT_FILENAME)
