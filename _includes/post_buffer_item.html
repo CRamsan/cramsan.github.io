@@ -1,0 +1,11 @@
+<div>
+  {% if post.buffer %}
+  {{ post.date | date_to_string }}
+  {% endif %}
+  {% if page.title == "Home" %}
+    {{ post.content }}
+  {% else %}
+    {{ content }}
+  {% endif %}
+  <hr></hr>
+</div>

@@ -11,7 +11,7 @@ current_page = 1
 last_page = 1
 out_photo_dict = {}
 while(current_page <= last_page):
-    result = flickr.photos.search(user_id=target_user, per_page=10, page=current_page) # Get a page of the list of photos for this user
+    result = flickr.photos.search(user_id=target_user, per_page=10, page=current_page, extras="description") # Get a page of the list of photos for this user
     last_page = result['photos']['pages']
     total = result['photos']['total']
     page = result['photos']['page']

@@ -47,8 +47,10 @@ for service in data['services']:
         updateObject = buffDict[key]
         updateObject["created_at"] = update["created_at"]
         updateObject["services"].append(service['service'])
-        updateObject["text"] = trimmedText + "..." if shouldUseEllipsis else trimmedText
-        
+        updateObject["text"] = (trimmedText + "...") if shouldUseEllipsis else trimmedText
+        if "media" in update:
+            updateObject["media_" + service["service"]] = update["media"]
+
         buffDict[key] = updateObject
 
 # Now extract the list of updates from the dictionary. This list is unsorted so let's sort if by creation time

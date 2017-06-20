@@ -5,8 +5,11 @@ index: 1
 ---
 
 {% for post in paginator.posts %}
+  {% if post.buffer %}
+  {% include post_buffer_item.html %}
+  {% else %}
   {% include post_item.html  %}
-  <br />
+  {% endif %}
 {% endfor %}
 
 {% include paginator_navigation.html %}
