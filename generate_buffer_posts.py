@@ -22,16 +22,20 @@ for post in data:
     value = datetime.datetime.fromtimestamp(timestamp)
     dateString = value.strftime('%Y-%m-%d %H:%M:%S')
     fileDateString = value.strftime('%Y-%m-%d')
-    title = post["text"][:40].replace(':','')
+    titleFull = post["text"]
+    title = titleFull[:40]
     sanitazedTitle = title.replace('/', '').replace('\\', '').replace(' ', '_')
     filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-" + sanitazedTitle + ".md")
     if os.path.exists(filename):
         print ("File " + filename + " already exists and not going to overwrite.")
-        continue
+        #continue
     fileHandler = open(filename, 'w')
     fileHandler.write("---\nlayout: post\ncategories: social\ntags: buffer\nbuffer: true\n")
-    fileHandler.write("title: " + title + "\n")
+    fileHandler.write("title: \"" + titleFull + "\"\n")
     fileHandler.write("date: " + dateString + "\n")
+    fileHandler.write("services: \n")
+    for service in post['services']:
+        fileHandler.write("  - " + service + "\n")
     fileHandler.write("---\n")
     fileHandler.write(post["text"] + "\n")
     for media in ["media_twitter", "media_facebook", "media_google", "media_instagram"]:

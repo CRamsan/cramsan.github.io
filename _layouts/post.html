@@ -3,7 +3,9 @@ layout: default
 ---
 
 {% assign post = page %}
-
+{% if post.buffer %}
+{% include post_buffer_item.html %}
+{% else %}
 {% include post_item.html  %}
-
+{% endif %}
 {% include related_posts.html  %}

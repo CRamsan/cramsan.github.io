@@ -1,7 +1,10 @@
 <div>
   {% if post.buffer %}
-  {{ post.date | date_to_string }}
+  {{ post.date | date: '%Y/%m/%d:%H:%M:%S' }}
   {% endif %}
+  {% for service in post.services %}
+  {% include buffer_social_icon.html image_id=service %}
+  {% endfor %}
   {% if page.title == "Home" %}
     {{ post.content }}
   {% else %}
