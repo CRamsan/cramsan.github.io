@@ -28,7 +28,7 @@ for post in data:
     filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-" + sanitazedTitle + ".md")
     if os.path.exists(filename):
         print ("File " + filename + " already exists and not going to overwrite.")
-        #continue
+        continue
     fileHandler = open(filename, 'w')
     fileHandler.write("---\nlayout: post\ncategories: social\ntags: buffer\nbuffer: true\n")
     fileHandler.write("title: \"" + titleFull + "\"\n")
