@@ -2,6 +2,7 @@ import json
 import hashlib
 import datetime
 import os
+import sys
 
 INPUT_FILENAME = "_data/post_queue.json"
 INPUT_FLICKRDB = "_data/flickr.json"
@@ -29,9 +30,14 @@ for post in data:
         sanitazedTitle = sanitazedTitle.replace(character, '_')
     filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + ".md")
     if os.path.exists(filename):
-        print ("File " + filename + " already exists and not going to overwrite.")
-        #filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-" + sanitazedTitle + "_2.md")
-        #continue
+        print ("File " + filename + " already exists, adding service.")
+        extServices = post["services"]
+        if len(extServices) > 0:
+            filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + "_" + extServices[0]  +".md")
+        else:
+            print ("NO SERVICE?! Exiting")
+            sys.exit()
+        
     fileHandler = open(filename, 'w')
     fileHandler.write("---\nlayout: post\ncategories: social\ntags: buffer\nbuffer: true\n")
     fileHandler.write("title: \"" + titleFull + "\"\n")

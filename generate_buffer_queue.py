@@ -14,15 +14,9 @@ buffDict = {}
 for service in data['services']:
     # The 'updates' property has two properties "total" and "update_list"
     for update in service['updates']['update_list']:
-        # For updates from instagram, facebook and google, their media is embedded in the "media" property.
-        # But for twitter, any media is just an appended URL. It is usually at the end of the text but this
-        # is not always the case. To address this disparity I am using this hack, it it not perfect but it 
-        # should apply to most cases.
-        # If the service is of 'type' twitter, then use the text from the beggining until the first '<'.
-        # If the service if of other type, then just use the text from the first 140 characters.
-        # This text is going to be used as part of the key to identity posts.
-        if update['profile_service'] == "twitter" and update['type'] == "link":
-            textToTrim = update['text_formatted'][:update['text_formatted'].find("<")]
+        if service["service"] == "twitter" and update["type"] == "link":
+            textToTrim = update["text_formatted"]
+            textToTrim = textToTrim[:textToTrim.find('<')]
         else:
             textToTrim = update['text']
         # Now grab the first 140 characters
@@ -47,10 +41,16 @@ for service in data['services']:
         updateObject["created_at"] = update["created_at"]
         updateObject["services"].append(service['service'])
         updateObject["title"] = trimmedText
+        print (key)
+        print (trimmedText)
         if update["text_formatted"]:
             newText = update["text_formatted"]
         else:
             newText = trimmedText#(trimmedText + "...") if shouldUseEllipsis else trimmedText
+        #if service["service"] == "facebook" or service["service"] == "google":
+        #    if "media" in update and "link" in update["media"]:
+        #1        newText = newText + " " + update["media"]["link"]
+
         if len(newText) > len(updateObject["text"]):
             updateObject["text"] = newText
         if "media" in update:
