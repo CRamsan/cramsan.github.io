@@ -1,6 +1,6 @@
 {
     "_id": "56882cfb3d09300f70477a5f",
-    "activity_at": 1497814626,
+    "activity_at": 1498088273,
     "created_at": 1451764987,
     "id": "56882cfb3d09300f70477a5f",
     "name": "Cesar Ramirez (CRamsan)",
@@ -130,7 +130,7 @@
                     },
                     {
                         "_id": "593f7f7c739b8b252f6570be",
-                        "analytics_last": 1497477424,
+                        "analytics_last": 1497931479,
                         "clicks_caveat": false,
                         "client_id": "4e9680b8512f7e6b22000000",
                         "created_at": 1497333628,
@@ -169,7 +169,7 @@
                         "text_formatted": "",
                         "text_md5": "d41d8cd98f00b204e9800998ecf8427e",
                         "type": "picture",
-                        "updated_at": 1497477424,
+                        "updated_at": 1497931479,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -4446,7 +4446,7 @@
                     },
                     {
                         "_id": "593f7f7c739b8b252f6570bd",
-                        "analytics_last": 1497404620,
+                        "analytics_last": 1497857679,
                         "clicks_caveat": false,
                         "client_id": "4e9680b8512f7e6b22000000",
                         "created_at": 1497333628,
@@ -4482,7 +4482,7 @@
                         "text_formatted": "",
                         "text_md5": "d41d8cd98f00b204e9800998ecf8427e",
                         "type": "picture",
-                        "updated_at": 1497404620,
+                        "updated_at": 1497857679,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8276,7 +8276,7 @@
                         "text_formatted": "I finally got my N64RGB modchip. It is time to continue the journey to RGB all the things.",
                         "text_md5": "a6aa664ac6d65070cb137bcf111ee238",
                         "type": "picture",
-                        "updated_at": 1497812232,
+                        "updated_at": 1498085173,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8320,7 +8320,7 @@
                         "text_formatted": "I bought some goodies from a co-worker today :)",
                         "text_md5": "d41d8cd98f00b204e9800998ecf8427e",
                         "type": "picture",
-                        "updated_at": 1497812232,
+                        "updated_at": 1498085173,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8359,7 +8359,7 @@
                         "text_formatted": "It took me longer than expected but now I can load gamecube games from USB storage. Wii homebrew is great but still not perfect :/",
                         "text_md5": "6aec4f3e5fe10250c22af39dcc4f55bc",
                         "type": "text",
-                        "updated_at": 1497812232,
+                        "updated_at": 1498085173,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8404,7 +8404,7 @@
                         "text_formatted": "ElGato game capture does not have any lag when doing HDMI passthrough!",
                         "text_md5": "9dfcbfd4304a7c97c6426733646c4026",
                         "type": "picture",
-                        "updated_at": 1497812232,
+                        "updated_at": 1498085173,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8449,7 +8449,7 @@
                         "text_formatted": "I wish I had known about this list before buying a USB thumb drive :/",
                         "text_md5": "0a4244d2254c7563aadc7afe186ef945",
                         "type": "link",
-                        "updated_at": 1497812232,
+                        "updated_at": 1498085173,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8488,7 +8488,7 @@
                         "text_formatted": "I am done configuring my Wii, now time to start ripping games. Then I will look into PS2.",
                         "text_md5": "b5f1cd114cc0164fa56d3fb3620bdb81",
                         "type": "text",
-                        "updated_at": 1497812232,
+                        "updated_at": 1498085173,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8528,7 +8528,7 @@
                         "text": "Configuring Wii to load games from USB media\n\nThis guide was developed based on my very limited knowledge and the most up to date information that I could find.\n\nIn order to reduce the wear and tear in my GameCube and Wii, I have decided to configure one of my Wiis to load all the games from an external media. It took me longer than it should have so I am documenting the process I went through so other people dont have to go through the same thing.\n\nInstall the HomeBrew channel\n\nStarting from a vanilla Wii, you first need to install the Homebrew channel, which will be your door to load almost all homebrew software. Head over to Wiibrew and select the exploit that best matches your system, the main factor here is the OS version of the Wii. My favorite method is LetterBomb because of how easy it is to execute and it does not even need a game.\n\nRequirements\n\nSD or SDHC formatted as FAT16 or FAT32.\n\nSystem Menu 4.3 (anything lower will not work).\n\nYour Wiis WiFi MAC Address (available from your Wiis system settings). This is needed because the Wii will only accept messages addressed to its specific MAC address.\n\nA way to copy the files from your PC to the SD card (card reader, printer, etc.)\n\nSome homebrew software to load. Although this isnt necessary, its highly recommended. The exploit will attempt to load boot.elf (or boot.dol if it cant be found) from the SD card root directory. For this example we will load the homebrew channel.\n\nInstructions\n\nOn your computer\n\nGo to BootMii and download the latest HackMii installer.\n\nExtract the content of the installer and find the boot.elf file.\n\nCopy the bool.elf file to the root of your sd card.\n\nGo to the LetterBomb page and enter the Mac address of your Wii, now a file will be downloaded.\n\nIf there is a folder titled private on your SD card, rename it to privateold\n\nCopy the private directory from the LetterBomb download to the root of your SD card.\n\nOn your Wii\n\nPut your SD card in your Wii and turn it on.\n\nGo into the Wii Message Board and navigate to Today, Yesterday or Two days ago.\n\nClick on the appropriate envelope, sit back and prepare for the hacking glory.\n\nWait for the Hackmii Installer to run tests on your Wii\n\nPress Wiimote 1 Button when told to continue installing HBC and BootMii.\n\nThe installation should be automatic from this point on, and your Wii will reboot.\n\nAt this point you should have the Homebrew channel installed and accesible from the Wii main menu. Now that the Homebrew channel is installed you have the power to load homebrew software directly from the SD card.\n\nInstall a WAD manager\n\nYou will also need a tool called a WAD manager. I suggest this page for detailed instructions.\n\nInstall the loader\n\nNow that we have access to loading homebrew from the SD card, the next step is to load something to read data from USB storage. For this we are going to use a USB loader, which does pretty much what its name say, it loads stuff from USB storage. The USB loader is the equivalent of user-space drivers to read and write from a device. It will handle accessing the storage device connected through USB as well as manage the filesystem. You can find the list of loaders [6][here]. Most loaders will work with the Wii in Wii mode, so they will be able to read Wii discs as well as load games from the disc tray. To been able to load gamecube games you will also need a Gamecube loader.\n\nWe will use USBLoaderGX as our USB loader and Nintendont as our Gamecube loader. When I started looking into using a Gamecube loader I wanted to user Devolution because it supports network connectivity for GC games, but sadly I was not able to get it to work.\n\nInstall USBLoaderGX\n\nRequirements\n\nYou will need the SD card previously configured\n\nA thumbdrive or USB hard-drive formatted as FAT32 to store games.\n\nInstructions\n\nThis is very important. You need to ensure you are using the latest files, otherwise things will not work as expected. Double check the version of everything.\n\nGo to the USBLoaderGX download page and download the latest file. As of now that is / Releases/New revisions (3.0+)/USBLoaderGX r1262.7z\n\nExtract the file and place it its content in the SD card. Now the folder called usbloader_gx should be inside sd:/apps/.\n\nNow you can load USBLoaderGX from the Homebrew channel. Give it a try to make sure everything is working as expected.\n\nAt this point you have USBLoaderGX working and you are ready to install Nintendont and rip some games.\n\nTo install Nintendont follow the instructions from here. If you dont see the settings to configure Nintendont in USBLoaderGX it may mean you have an old version of the USB loader. Please verify you have the latest version installed.\n\nConnect the USB media you want to rip your games to. On the USBLoaderGX settings, go to the Custom path settings and then change the default path for save and write games to, from the SD card to the USB drive. Now if you insert a gamecube disc, you will have the ",
                         "text_formatted": "Configuring Wii to load games from USB media<br />\n<br />\nThis guide was developed based on my very limited knowledge and the most up to date information that I could find.<br />\n<br />\nIn order to reduce the wear and tear in my GameCube and Wii, I have decided to configure one of my Wiis to load all the games from an external media. It took me longer than it should have so I am documenting the process I went through so other people dont have to go through the same thing.<br />\n<br />\nInstall the HomeBrew channel<br />\n<br />\nStarting from a vanilla Wii, you first need to install the Homebrew channel, which will be your door to load almost all homebrew software. Head over to Wiibrew and select the exploit that best matches your system, the main factor here is the OS version of the Wii. My favorite method is LetterBomb because of how easy it is to execute and it does not even need a game.<br />\n<br />\nRequirements<br />\n<br />\nSD or SDHC formatted as FAT16 or FAT32.<br />\n<br />\nSystem Menu 4.3 (anything lower will not work).<br />\n<br />\nYour Wiis WiFi MAC Address (available from your Wiis system settings). This is needed because the Wii will only accept messages addressed to its specific MAC address.<br />\n<br />\nA way to copy the files from your PC to the SD card (card reader, printer, etc.)<br />\n<br />\nSome homebrew software to load. Although this isnt necessary, its highly recommended. The exploit will attempt to load boot.elf (or boot.dol if it cant be found) from the SD card root directory. For this example we will load the homebrew channel.<br />\n<br />\nInstructions<br />\n<br />\nOn your computer<br />\n<br />\nGo to BootMii and download the latest HackMii installer.<br />\n<br />\nExtract the content of the installer and find the boot.elf file.<br />\n<br />\nCopy the bool.elf file to the root of your sd card.<br />\n<br />\nGo to the LetterBomb page and enter the Mac address of your Wii, now a file will be downloaded.<br />\n<br />\nIf there is a folder titled private on your SD card, rename it to privateold<br />\n<br />\nCopy the private directory from the LetterBomb download to the root of your SD card.<br />\n<br />\nOn your Wii<br />\n<br />\nPut your SD card in your Wii and turn it on.<br />\n<br />\nGo into the Wii Message Board and navigate to Today, Yesterday or Two days ago.<br />\n<br />\nClick on the appropriate envelope, sit back and prepare for the hacking glory.<br />\n<br />\nWait for the Hackmii Installer to run tests on your Wii<br />\n<br />\nPress Wiimote 1 Button when told to continue installing HBC and BootMii.<br />\n<br />\nThe installation should be automatic from this point on, and your Wii will reboot.<br />\n<br />\nAt this point you should have the Homebrew channel installed and accesible from the Wii main menu. Now that the Homebrew channel is installed you have the power to load homebrew software directly from the SD card.<br />\n<br />\nInstall a WAD manager<br />\n<br />\nYou will also need a tool called a WAD manager. I suggest this page for detailed instructions.<br />\n<br />\nInstall the loader<br />\n<br />\nNow that we have access to loading homebrew from the SD card, the next step is to load something to read data from USB storage. For this we are going to use a USB loader, which does pretty much what its name say, it loads stuff from USB storage. The USB loader is the equivalent of user-space drivers to read and write from a device. It will handle accessing the storage device connected through USB as well as manage the filesystem. You can find the list of loaders [6][here]. Most loaders will work with the Wii in Wii mode, so they will be able to read Wii discs as well as load games from the disc tray. To been able to load gamecube games you will also need a Gamecube loader.<br />\n<br />\nWe will use USBLoaderGX as our USB loader and Nintendont as our Gamecube loader. When I started looking into using a Gamecube loader I wanted to user Devolution because it supports network connectivity for GC games, but sadly I was not able to get it to work.<br />\n<br />\nInstall USBLoaderGX<br />\n<br />\nRequirements<br />\n<br />\nYou will need the SD card previously configured<br />\n<br />\nA thumbdrive or USB hard-drive formatted as FAT32 to store games.<br />\n<br />\nInstructions<br />\n<br />\nThis is very important. You need to ensure you are using the latest files, otherwise things will not work as expected. Double check the version of everything.<br />\n<br />\nGo to the USBLoaderGX download page and download the latest file. As of now that is / Releases/New revisions (3.0+)/USBLoaderGX r1262.7z<br />\n<br />\nExtract the file and place it its content in the SD card. Now the folder called usbloader_gx should be inside sd:/apps/.<br />\n<br />\nNow you can load USBLoaderGX from the Homebrew channel. Give it a try to make sure everything is working as expected.<br />\n<br />\nAt this point you have USBLoaderGX working and you are ready to install Nintendont and rip some games.<br />\n<br />\nTo install Nintendont follow the instructions from here. If you dont see the settings to configure Nintendont in USBLoaderGX it may mean you have an old version of the USB loader. Please verify you have the latest version installed.<br />\n<br />\nConnect the USB media you want to rip your games to. On the USBLoaderGX settings, go to the Custom path settings and then change the default path for save and write games to, from the SD card to the USB drive. Now if you insert a gamecube disc, you will have the ",
                         "type": "link",
-                        "updated_at": 1497812232,
+                        "updated_at": 1498085174,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "facebook"
                     },
@@ -8573,7 +8573,7 @@
                         "text_formatted": "Time to start ripping all my GCN/Wii games. The plan is to be able to play 100% from USB + PSO online from the Wii.",
                         "text_md5": "93c894a2427b76c636de89b42d45eb6e",
                         "type": "picture",
-                        "updated_at": 1497812233,
+                        "updated_at": 1498085174,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8617,7 +8617,7 @@
                         "text_formatted": "Mt Rainier in a clear afternoon.",
                         "text_md5": "bab69758694f64fb485a60c390d50f07",
                         "type": "picture",
-                        "updated_at": 1497812233,
+                        "updated_at": 1498085174,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8660,7 +8660,7 @@
                         "text_formatted": "I am glad I can run OBS on Linux to record mi Wii/GCN with the ElGato. And everything is working great so far :)",
                         "text_md5": "4d1b28e5f01224ef6d189f5aba906080",
                         "type": "picture",
-                        "updated_at": 1497812233,
+                        "updated_at": 1498085174,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8709,7 +8709,7 @@
                         "text_formatted": "1 Year Anniversary - Overwatch",
                         "text_md5": "2c92e78ae9eb5b553ecfda0d401a912d",
                         "type": "link",
-                        "updated_at": 1497812233,
+                        "updated_at": 1498085174,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8748,7 +8748,7 @@
                         "text_formatted": "I guess I was wrong. My TV just does not do 480p, it only handles 480i. At least that mystery is solved.",
                         "text_md5": "69ae047922757e3f28743b56b751174e",
                         "type": "text",
-                        "updated_at": 1497812233,
+                        "updated_at": 1498085174,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8792,7 +8792,7 @@
                         "text_formatted": "It&#039;s official. My TV does not handle Y/Pb/Pr anymore. I don&#039;t really know what is busted :/. Looks like a sync issue to me.",
                         "text_md5": "8e1df03cf38a3bcd8732eb1daabdc91a",
                         "type": "picture",
-                        "updated_at": 1497812233,
+                        "updated_at": 1498085174,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8831,7 +8831,7 @@
                         "text_formatted": "Is Eren becoming the next Shinji?",
                         "text_md5": "05ff75f879d0117de65754122e6b6b04",
                         "type": "text",
-                        "updated_at": 1497812233,
+                        "updated_at": 1498085174,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -8871,7 +8871,7 @@
                         "text": "Updating site and generating index\n\nI finally cleaned up this blog. I moved the Game Collection and List of Applications pages to collections in the docs folder. My plan was to have a location where I can drop documents and pages that do not change often but that also do not need to be located in the root level. To accomplish this I used Jekylls collection which was both a blessing and a curse.\n\nJekylls Collections are useful to hold documents that share a common characteristic, in a similar way as categories. But where they differ is that you will have more power and control over a collection, with the power to define properties and variables across all pages of the same collection. The problem for me was that I wanted my pages to have hierarchical structure as well as an index on the first page, two features that are not available natively.\n\nThe solution was to use a bash script(of course) to generate an json file that contained the structure of the collection and then this file could be exposed via site.data. The script is located here and it currently works based on how I wanted to present my collection, but the plan is for the future to make it more flexible.\n\nThe result is neat and I can have pages organized across folders of different depths. Currently I only have two pages but I tested multiple pages and depths and it was working correctly. As I develop this blog I am sure more pages will be added.\n\nA picture of what my Pixel C looked like while I was working on finishing the changes.",
                         "text_formatted": "Updating site and generating index<br />\n<br />\nI finally cleaned up this blog. I moved the Game Collection and List of Applications pages to collections in the docs folder. My plan was to have a location where I can drop documents and pages that do not change often but that also do not need to be located in the root level. To accomplish this I used Jekylls collection which was both a blessing and a curse.<br />\n<br />\nJekylls Collections are useful to hold documents that share a common characteristic, in a similar way as categories. But where they differ is that you will have more power and control over a collection, with the power to define properties and variables across all pages of the same collection. The problem for me was that I wanted my pages to have hierarchical structure as well as an index on the first page, two features that are not available natively.<br />\n<br />\nThe solution was to use a bash script(of course) to generate an json file that contained the structure of the collection and then this file could be exposed via site.data. The script is located here and it currently works based on how I wanted to present my collection, but the plan is for the future to make it more flexible.<br />\n<br />\nThe result is neat and I can have pages organized across folders of different depths. Currently I only have two pages but I tested multiple pages and depths and it was working correctly. As I develop this blog I am sure more pages will be added.<br />\n<br />\nA picture of what my Pixel C looked like while I was working on finishing the changes.",
                         "type": "link",
-                        "updated_at": 1497812233,
+                        "updated_at": 1498085174,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "facebook"
                     },
@@ -8916,7 +8916,7 @@
                         "text_formatted": "My GBA needs the on/off switch replaced. One more thing on my to-do list.",
                         "text_md5": "271d92987c662ac3fd66557f1f8443c3",
                         "type": "picture",
-                        "updated_at": 1497812233,
+                        "updated_at": 1498085174,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -9006,7 +9006,7 @@
                         "text_formatted": "30$ for everything! Yay!",
                         "text_md5": "112143aca1bb9c6579bc5f093ae2a91a",
                         "type": "picture",
-                        "updated_at": 1497812233,
+                        "updated_at": 1498085174,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -9050,7 +9050,7 @@
                         "text_formatted": "Hacking my Jekyll blog from&nbsp;&nbsp;my Pixel C :D",
                         "text_md5": "4e3389a39c4fef016b8b0e3bdcb1c54f",
                         "type": "picture",
-                        "updated_at": 1497812233,
+                        "updated_at": 1498085175,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -9095,7 +9095,7 @@
                         "text_formatted": "Back for the second day of the <a href=\"https://www.facebook.com/hashtag/SeaVRHack\" title=\"#SeaVRHack\" class=\"hashtag\" rel=\"external nofollow\" target=\"_blank\">#SeaVRHack</a>",
                         "text_md5": "e76f4942139364b559c2df2bbc2fe19b",
                         "type": "picture",
-                        "updated_at": 1497812233,
+                        "updated_at": 1498085175,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },
@@ -9140,7 +9140,7 @@
                         "text_formatted": "Too soon! Club penguin shut down less than a month ago. Not cool. <a href=\"https://www.facebook.com/hashtag/seavrhack\" title=\"#seavrhack\" class=\"hashtag\" rel=\"external nofollow\" target=\"_blank\">#seavrhack</a>",
                         "text_md5": "5e4c00e31029776ba39350d261e8ef51",
                         "type": "picture",
-                        "updated_at": 1497812234,
+                        "updated_at": 1498085175,
                         "user_id": "56882cfb3d09300f70477a5f",
                         "via": "api"
                     },

@@ -22,13 +22,16 @@ for post in data:
     value = datetime.datetime.fromtimestamp(timestamp)
     dateString = value.strftime('%Y-%m-%d %H:%M:%S')
     fileDateString = value.strftime('%Y-%m-%d')
-    titleFull = post["text"]
-    title = titleFull[:40]
-    sanitazedTitle = title.replace('/', '').replace('\\', '').replace(' ', '_')
-    filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-" + sanitazedTitle + ".md")
+    titleFull = post["title"]
+    title = post["title"][:40]
+    sanitazedTitle = title.replace('/', '').replace('\\', '')
+    for character in [' ', '&', '?', ':', '^']:
+        sanitazedTitle = sanitazedTitle.replace(character, '_')
+    filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + ".md")
     if os.path.exists(filename):
         print ("File " + filename + " already exists and not going to overwrite.")
-        continue
+        #filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-" + sanitazedTitle + "_2.md")
+        #continue
     fileHandler = open(filename, 'w')
     fileHandler.write("---\nlayout: post\ncategories: social\ntags: buffer\nbuffer: true\n")
     fileHandler.write("title: \"" + titleFull + "\"\n")

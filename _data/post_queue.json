@@ -6,6 +6,7 @@
             "facebook"
         ],
         "text": "I am not very happy with the quality of the camera in my Pixel C :/",
+        "title": "I am not very happy with the quality of the camera in my Pixel C :/",
         "media_google": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/5814fce27da291dc6b788e90/ee9ec79af028928914cf127cbd067b50.100x100.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/5814fce27da291dc6b788e90/114f9bd33582c122867b9bac0bed8bb8.jpg"
@@ -23,6 +24,7 @@
             "facebook"
         ],
         "text": "This is probably the best portable system I have ever tried. Lit screen, clam shell, large rechargeable battery. It also fits in any pocket.",
+        "title": "This is probably the best portable system I have ever tried. Lit screen, clam shell, large rechargeable battery. It also fits in any pocket.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58150233819b06f91e5ad684/9b096bf51cab8f37b3413db047656501.100x100.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58150233819b06f91e5ad684/863127eb5196eba9988d5b235adeec0f.jpg"
@@ -43,6 +45,7 @@
             "facebook"
         ],
         "text": "Driving in Washington can be so pretty :)",
+        "title": "Driving in Washington can be so pretty :)",
         "media_google": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/uploads/1477872533942-2016-10-30%252011.21.35.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/uploads/1477872533942-2016-10-30%252011.21.35.jpg"
@@ -58,6 +61,7 @@
             "google"
         ],
         "text": "Unity Prototype",
+        "title": "Unity Prototype",
         "media_google": {
             "original": "http://ift.tt/2eODfhv",
             "description": "Pages",
@@ -74,7 +78,8 @@
             "google",
             "facebook"
         ],
-        "text": "Today after several years I finally feel comfortable with the look and feel of my blog :)",
+        "text": "Today after several years I finally feel comfortable with the look and feel of my blog :)<br />\n<a class=\"url\" href=\"http://buff.ly/2fcPdAf\" rel=\"external nofollow\" target=\"_blank\">http://buff.ly/2fcPdAf</a>",
+        "title": "Today after several years I finally feel comfortable with the look and feel of my blog :)",
         "media_google": {
             "link": "http://buff.ly/2fcPaUO",
             "title": "Cesar Ramirez",
@@ -97,6 +102,7 @@
             "google"
         ],
         "text": "Another cloudy day in Seattle :)",
+        "title": "Another cloudy day in Seattle :)",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/581e43c72fe56c217d56561f/0299f683a3febe890173cd720a75e7a8_36858e04ea3af2f5e2758fd83f9f59ca2648dd1f_thumbnail.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/581e43c72fe56c217d56561f/0299f683a3febe890173cd720a75e7a8_38c8abfdda1c955e8452402421d29dcf31035389_twitter.jpg"
@@ -114,6 +120,7 @@
             "facebook"
         ],
         "text": "Finally completed Advanced Wars ;)",
+        "title": "Finally completed Advanced Wars ;)",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/5821314ecad8768c673be72f/0bcb4845dee8ec135d93b83a256796be_d524376c16f2512853b8aad6d01df04695c9814a_thumbnail.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/5821314ecad8768c673be72f/0bcb4845dee8ec135d93b83a256796be_732a456a793db949a09a760724ca58cec7cb68b4_twitter.jpg"
@@ -134,6 +141,7 @@
             "google"
         ],
         "text": "Empathy going to work",
+        "title": "Empathy going to work",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/5824aa73244d2a28084fa154/19b3f38affa4ac06ea6e4c25539725b4_253e9df605523a9571120f4c6057422ffa1cbebc_thumbnail.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/5824aa73244d2a28084fa154/19b3f38affa4ac06ea6e4c25539725b4_0938d963af03e2bc1f4d9c5d589e94564abf3d81_twitter.jpg"
@@ -150,7 +158,8 @@
             "google",
             "facebook"
         ],
-        "text": "Some days I love my job and some days I hate it(not really) :/"
+        "text": "Some days I love my job and some days I hate it(not really) :/",
+        "title": "Some days I love my job and some days I hate it(not really) :/"
     },
     {
         "created_at": 1479090997,
@@ -160,6 +169,7 @@
             "facebook"
         ],
         "text": "I already finished the fist and last game. Might as well go all the way and finish the whole series.",
+        "title": "I already finished the fist and last game. Might as well go all the way and finish the whole series.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/5829232336f507ef378ff603/1750881e418bf94b96a2791af21670dd.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/5829232336f507ef378ff603/1750881e418bf94b96a2791af21670dd.original.jpg"
@@ -179,6 +189,7 @@
             "google"
         ],
         "text": "Trying SiteLeaf now",
+        "title": "Trying SiteLeaf now",
         "media_google": {
             "original": "http://ift.tt/2f2ewTC",
             "description": "Pages",
@@ -194,7 +205,8 @@
         "services": [
             "twitter"
         ],
-        "text": "I stopped by @gameovervideogames today and I found this awesome game :)",
+        "text": "I stopped by @<a class=\"username\" href=\"https://twitter.com/gameovervideogames\" rel=\"external nofollow\" target=\"_blank\">gameovervideogames</a> today and I found this awesome game :)",
+        "title": "I stopped by @gameovervideogames today and I found this awesome game :)",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/5830bbaa8328db7911249fcb/9e6b2d20ffb8c498a688075f6666234a_9e2ec1d1ec7c2bf9613b32d18eb73ea6daf3a86f_twitter_49a9b6029f34826f2cd6add87671245573f21168_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/5830bbaa8328db7911249fcb/9e6b2d20ffb8c498a688075f6666234a_9e2ec1d1ec7c2bf9613b32d18eb73ea6daf3a86f_twitter_2bd37e13123bc90ee091cd65672ff2ad004f21fa_twitter"
@@ -207,6 +219,7 @@
             "facebook"
         ],
         "text": "I stopped by GameOver today and I found this awesome game :)",
+        "title": "I stopped by GameOver today and I found this awesome game :)",
         "media_google": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/5830bbaa8328db7911249fca/9e6b2d20ffb8c498a688075f6666234a_0ff0c35b3cf260f37c98d17bf2453f234b793d10_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/5830bba645c0d2b90bd2619d/9e6b2d20ffb8c498a688075f6666234a.original.jpg"
@@ -223,7 +236,8 @@
             "google",
             "facebook"
         ],
-        "text": "This Armada guy is ok. Maybe one day he will win something. Top in his neighborhood maybe?",
+        "text": "This Armada guy is ok. Maybe one day he will win something. Top in his neighborhood maybe? <a class=\"url\" href=\"https://clips.twitch.tv/armadaugs/EnchantingHedgehogTTours\" rel=\"external nofollow\" target=\"_blank\">https://clips.twitch.tv/armadaugs/EnchantingHedgehogTTours</a>",
+        "title": "This Armada guy is ok. Maybe one day he will win something. Top in his neighborhood maybe?",
         "media_twitter": {
             "thumbnail": "https://clips-media-assets.twitch.tv/23702110880-offset-7076-preview.jpg"
         },
@@ -251,7 +265,8 @@
             "google",
             "facebook"
         ],
-        "text": "My blog is like 95% white space. I need some really cut down on margins and padding."
+        "text": "My blog is like 95% white space. I need some really cut down on margins and padding.",
+        "title": "My blog is like 95% white space. I need some really cut down on margins and padding."
     },
     {
         "created_at": 1479770697,
@@ -259,7 +274,8 @@
             "twitter",
             "facebook"
         ],
-        "text": "Well that was brutal. I should give Lucio a try now.",
+        "text": "Well that was brutal. I should give Lucio a try now. <a class=\"url\" href=\"https://www.youtube.com/shared?ci=ePHOb3tzanw\" rel=\"external nofollow\" target=\"_blank\">https://www.youtube.com/shared?ci=ePHOb3tzanw</a>",
+        "title": "Well that was brutal. I should give Lucio a try now.",
         "media_twitter": {
             "thumbnail": "https://i.ytimg.com/vi/VcA3cCQfe3s/maxresdefault.jpg"
         },
@@ -278,6 +294,7 @@
             "google"
         ],
         "text": "Well that was brutal. I should give Lucio a try now.",
+        "title": "Well that was brutal. I should give Lucio a try now.",
         "media_google": {
             "link": "http://buff.ly/2fzd4Jl",
             "title": "Vindication - YouTube",
@@ -295,6 +312,7 @@
             "facebook"
         ],
         "text": "Completed Advanced Wars Dual Strike. 3/4 so far. Only AW 2 left.",
+        "title": "Completed Advanced Wars Dual Strike. 3/4 so far. Only AW 2 left.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/5838df932bf7042a41f3dc9e/bba2fd8f7cff08f045f0e8245bafcaf5_c6b73c05b58624ebb1476103aa16fd8a9f4a22b5_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/5838df932bf7042a41f3dc9e/bba2fd8f7cff08f045f0e8245bafcaf5_830b64a1625e9df8989725dfc94015db2c886921_twitter"
@@ -315,7 +333,8 @@
             "google",
             "facebook"
         ],
-        "text": "Freedom!!"
+        "text": "Freedom!!",
+        "title": "Freedom!!"
     },
     {
         "created_at": 1480711031,
@@ -324,14 +343,16 @@
             "google",
             "facebook"
         ],
-        "text": "I hate that I had to go through TSA twice today. -_-"
+        "text": "I hate that I had to go through TSA twice today. -_-",
+        "title": "I hate that I had to go through TSA twice today. -_-"
     },
     {
         "created_at": 1483154921,
         "services": [
             "twitter"
         ],
-        "text": "Imgur GIF"
+        "text": "Imgur GIF <a class=\"url\" href=\"https://i.imgur.com/QSv6szF.gifv\" rel=\"external nofollow\" target=\"_blank\">https://i.imgur.com/QSv6szF.gifv</a>",
+        "title": "Imgur GIF"
     },
     {
         "created_at": 1483219056,
@@ -340,7 +361,8 @@
             "google",
             "facebook"
         ],
-        "text": "I can watch this loop all day!",
+        "text": "I can watch this loop all day! <a class=\"url\" href=\"https://imgur.com/QSv6szF\" rel=\"external nofollow\" target=\"_blank\">https://imgur.com/QSv6szF</a>",
+        "title": "I can watch this loop all day!",
         "media_google": {
             "link": "https://imgur.com/QSv6szF?utm_content=bufferc8ed4&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer",
             "title": "Adorable little disaster.",
@@ -367,6 +389,7 @@
             "facebook"
         ],
         "text": "The only place in SFO serving food right now.",
+        "title": "The only place in SFO serving food right now.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/586b83ef60754b4d325af60a/14c791762b44f5fc40b7db4ffc717c971405db9e_d544b33146bd58c1c36a050e33d57b5d43056414_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/586b83ef60754b4d325af60a/14c791762b44f5fc40b7db4ffc717c971405db9e_17681a97e7e2ae29fb29b0d43d16d0bbaa6a1901_twitter"
@@ -391,7 +414,8 @@
             "google",
             "facebook"
         ],
-        "text": "It was not a good idea to arrive to a -4 c Seattle with snow while wearing shorts."
+        "text": "It was not a good idea to arrive to a -4 c Seattle with snow while wearing shorts.",
+        "title": "It was not a good idea to arrive to a -4 c Seattle with snow while wearing shorts."
     },
     {
         "created_at": 1484098176,
@@ -400,7 +424,8 @@
             "google",
             "facebook"
         ],
-        "text": "I finally got time to fix some bugs in the Auraxis Control Center app. I am expecting to release new update later today."
+        "text": "I finally got time to fix some bugs in the Auraxis Control Center app. I am expecting to release new update later today.",
+        "title": "I finally got time to fix some bugs in the Auraxis Control Center app. I am expecting to release new update later today."
     },
     {
         "created_at": 1484186174,
@@ -411,6 +436,7 @@
             "facebook"
         ],
         "text": "New release. New bugs.",
+        "title": "New release. New bugs.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/5876e23e40b8c6714ee70a1f/6bd350037720de80ebd4b647e9faa0653e749c94_3dd3a25ad8ff871866146816ea28e4193a8963e6_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/5876e23e40b8c6714ee70a1f/6bd350037720de80ebd4b647e9faa0653e749c94_aa59a3499a117ba0dd9c3ed0a0570d32fc7c97c3_twitter"
@@ -434,14 +460,16 @@
             "twitter",
             "facebook"
         ],
-        "text": "It's raining in Seattle!! And tomorrow Will be warmer :)"
+        "text": "It&#039;s raining in Seattle!! And tomorrow Will be warmer :)",
+        "title": "It's raining in Seattle!! And tomorrow Will be warmer :)"
     },
     {
         "created_at": 1484709760,
         "services": [
             "google"
         ],
-        "text": "It's raining in Seattle!! And tomorrow Will be warmer :)"
+        "text": "It&#039;s raining in Seattle!! And tomorrow Will be warmer :)",
+        "title": "It's raining in Seattle!! And tomorrow Will be warmer :)"
     },
     {
         "created_at": 1484731096,
@@ -450,7 +478,8 @@
             "google",
             "facebook"
         ],
-        "text": "Great! I just locked myself out of my own laptop -_-"
+        "text": "Great! I just locked myself out of my own laptop -_-",
+        "title": "Great! I just locked myself out of my own laptop -_-"
     },
     {
         "created_at": 1484875805,
@@ -459,7 +488,8 @@
             "google",
             "facebook"
         ],
-        "text": "Lesson of the day. Take it easy and learn more about C++ pointers. Otherwise I will have lots of crashes in my future."
+        "text": "Lesson of the day. Take it easy and learn more about C++ pointers. Otherwise I will have lots of crashes in my future.",
+        "title": "Lesson of the day. Take it easy and learn more about C++ pointers. Otherwise I will have lots of crashes in my future."
     },
     {
         "created_at": 1484878620,
@@ -468,7 +498,8 @@
             "google",
             "facebook"
         ],
-        "text": "I am taking the 542 instead of the 545 today. I am living on the edge."
+        "text": "I am taking the 542 instead of the 545 today. I am living on the edge.",
+        "title": "I am taking the 542 instead of the 545 today. I am living on the edge."
     },
     {
         "created_at": 1484927153,
@@ -479,6 +510,7 @@
             "facebook"
         ],
         "text": "I am glad to have this little guy on my wrist again.",
+        "title": "I am glad to have this little guy on my wrist again.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/588230927a16f5363d2450b5/2154fdf81ed997d2cd12cd37a7bd2791.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/588230927a16f5363d2450b5/2154fdf81ed997d2cd12cd37a7bd2791.original.jpg"
@@ -503,14 +535,16 @@
             "google",
             "facebook"
         ],
-        "text": "There is a lot of religion in this inauguration."
+        "text": "There is a lot of religion in this inauguration. ",
+        "title": "There is a lot of religion in this inauguration."
     },
     {
         "created_at": 1485821068,
         "services": [
             "twitter"
         ],
-        "text": "",
+        "text": "<a class=\"url\" href=\"https://www.youtube.com/shared?ci=h1J9On9U6wI\" rel=\"external nofollow\" target=\"_blank\">https://www.youtube.com/shared?ci=h1J9On9U6wI</a> a great recap of the history of HipHop in Peru! <a href=\"https://twitter.com/#!/search?q=%23Peace\" title=\"#Peace\" class=\"hashtag\" rel=\"external nofollow\" target=\"_blank\">#Peace</a>",
+        "title": "",
         "media_twitter": {
             "thumbnail": "https://i.ytimg.com/vi/WpbDRH2scKg/hqdefault.jpg"
         }
@@ -521,7 +555,8 @@
             "google",
             "facebook"
         ],
-        "text": "a great recap of the history of HipHop in Peru! #Peace",
+        "text": "a great recap of the history of HipHop in Peru! <a href=\"https://twitter.com/#!/search?q=%23Peace\" title=\"#Peace\" class=\"hashtag\" rel=\"external nofollow\" target=\"_blank\">#Peace</a>",
+        "title": "a great recap of the history of HipHop in Peru! #Peace",
         "media_google": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/588fd48c8a62a7f735013114/028ddc32b069bb07612de6c6226ae0cacd3671cb_9337eedb43c259dfb80ba65d9b0accead615457a_thumbnail",
             "link": "https://www.youtube.com/shared?ci=h1J9On9U6wI&utm_content=buffer60477&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer",
@@ -548,6 +583,7 @@
             "facebook"
         ],
         "text": "This is the view from my apartment now.",
+        "title": "This is the view from my apartment now.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/5898ce0c7de2125520885815/24a15f32d6d1bc3aae792749551d354b.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/5898ce0c7de2125520885815/24a15f32d6d1bc3aae792749551d354b.original.jpg"
@@ -574,6 +610,7 @@
             "facebook"
         ],
         "text": "A picture from yesterday in Seattle.",
+        "title": "A picture from yesterday in Seattle.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/589c848c82ba2a1336b6d57a/0fe4d98e14ff65c71298adfc45e17411.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/589c848c82ba2a1336b6d57a/0fe4d98e14ff65c71298adfc45e17411.original.jpg"
@@ -600,6 +637,7 @@
             "facebook"
         ],
         "text": "And this is Seattle this rainy morning",
+        "title": "And this is Seattle this rainy morning",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/589c8830bfb8c6be3c91c88d/053e133e066186133efa3d564bc51c5748ac0708_6776fad483e90fe69821ec5f4a7af66e6e688052_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/589c8830bfb8c6be3c91c88d/053e133e066186133efa3d564bc51c5748ac0708_fec2b57b9c06d49d33e0e33a40260fcf73f3d48c_twitter"
@@ -624,7 +662,8 @@
             "google",
             "facebook"
         ],
-        "text": "I have some video games and stuff that I want to sell. I don't know if doing eBay, craigslist or something else -_-"
+        "text": "I have some video games and stuff that I want to sell. I don&#039;t know if doing eBay, craigslist or something else -_-",
+        "title": "I have some video games and stuff that I want to sell. I don't know if doing eBay, craigslist or something else -_-"
     },
     {
         "created_at": 1487011147,
@@ -633,7 +672,8 @@
             "google",
             "facebook"
         ],
-        "text": "Awesome!! I was able to get both PSOep1&2+ and PSOep3 on a deal that flew under everyone's radar on eBay."
+        "text": "Awesome!! I was able to get both PSOep1&amp;2+ and PSOep3 on a deal that flew under everyone&#039;s radar on eBay.",
+        "title": "Awesome!! I was able to get both PSOep1&2+ and PSOep3 on a deal that flew under everyone's radar on eBay."
     },
     {
         "created_at": 1487019551,
@@ -641,14 +681,16 @@
             "twitter",
             "facebook"
         ],
-        "text": "I am trying to be cost-neutral with my game acquisition. Selling some games should allow me to get new ones."
+        "text": "I am trying to be cost-neutral with my game acquisition. Selling some games should allow me to get new ones.",
+        "title": "I am trying to be cost-neutral with my game acquisition. Selling some games should allow me to get new ones."
     },
     {
         "created_at": 1487019551,
         "services": [
             "google"
         ],
-        "text": "I am trying to be cost-neutral with my game acquisition. Selling some games should allow me to get new ones."
+        "text": "I am trying to be cost-neutral with my game acquisition. Selling some games should allow me to get new ones.",
+        "title": "I am trying to be cost-neutral with my game acquisition. Selling some games should allow me to get new ones."
     },
     {
         "created_at": 1487233569,
@@ -659,6 +701,7 @@
             "facebook"
         ],
         "text": "Decisions....",
+        "title": "Decisions....",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/58a56222820f27bb0b0d09b1/133537010e7c8cd14bb49f29f32a64003b699766_15b0fc05d41aba8c9af89645ed4bc84367a1b364_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/58a56222820f27bb0b0d09b1/133537010e7c8cd14bb49f29f32a64003b699766_01bbe4c7d8cd175c1289929bbeaae4e86b9e8485_twitter"
@@ -684,6 +727,7 @@
             "facebook"
         ],
         "text": "My PSO collection!",
+        "title": "My PSO collection!",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/58a7c66c9c1d342444caaa27/57e15225886c01d219127453bd49581f452519a2_3a68bdfda6fd58c90a8d9101eb3ddb2ca08f83fa_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/58a7c66c9c1d342444caaa27/57e15225886c01d219127453bd49581f452519a2_51b5d7accfcf4e9c0dc1178e4036270553964753_twitter"
@@ -703,6 +747,7 @@
             "google"
         ],
         "text": "My PSO collection!",
+        "title": "My PSO collection!",
         "media_google": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/58a7c66c9c1d342444caaa26/57e15225886c01d219127453bd49581f452519a2_15f7039cfc4cf49ee80c0ac502acbdd0b6d464a5_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58a7c669c0b3e04a08caaa27/642f73babcd8e994bf2c1b9c6e792feb.original.jpg"
@@ -714,6 +759,7 @@
             "google"
         ],
         "text": "Done using SiteLeaf",
+        "title": "Done using SiteLeaf",
         "media_google": {
             "original": "http://ift.tt/2laRUUJ",
             "description": "Pages",
@@ -731,7 +777,8 @@
             "google",
             "facebook"
         ],
-        "text": "This is awesome. SuperTuxKart go ahead!!",
+        "text": "This is awesome. SuperTuxKart go ahead!! <a class=\"url\" href=\"http://steamcommunity.com/sharedfiles/filedetails/?id=850895445\" rel=\"external nofollow\" target=\"_blank\">http://steamcommunity.com/sharedfiles/filedetails/?id=850895445</a>",
+        "title": "This is awesome. SuperTuxKart go ahead!!",
         "media_twitter": {
             "thumbnail": "http://i.imgur.com/qrzKlmb.jpg"
         },
@@ -759,7 +806,8 @@
             "google",
             "facebook"
         ],
-        "text": "Cloudflare Reverse Proxies are Dumping Uninitialized Memory. This is serious :/",
+        "text": "Cloudflare Reverse Proxies are Dumping Uninitialized Memory. This is serious :/ <a class=\"url\" href=\"https://bugs.chromium.org/p/project-zero/issues/detail?id=1139\" rel=\"external nofollow\" target=\"_blank\">https://bugs.chromium.org/p/project-zero/issues/detail?id=1139</a>",
+        "title": "Cloudflare Reverse Proxies are Dumping Uninitialized Memory. This is serious :/",
         "media_twitter": {
             "thumbnail": "https://storage.googleapis.com/monorail-prod.appspot.com/26/attachments/1d77504c-8b0f-48d0-91f6-d6dde88fe4c0-thumbnail?Expires=1487953833&GoogleAccessId=monorail-prod%40appspot.gserviceaccount.com&Signature=gheKkw5Pcmun2HIZ4zpjZYFYzfq0if7GulubAa3DTGgUJ%2BQOZY4B3La2rL3zk%2BJtOkTKG2UpyYNfBSqo3%2BOKYREXaJwIuRj9wIdaNpf16WZgOhMMzowjxF5d6SHMGivGu8juu89SVsODiM9cK1hcFMakm326NT4kacorxjKxCTIGdv9cUfX0UHTpNFYWry%2F3qIPcd6VS1XRAzU%2Bq%2FUCN%2BdbhP1VQejtn15%2FUxeti4WD5bG0i314V0NMJRM7lmayxfXKkdfRuKziAAPy6LRxmcjrKcsyNFayO9d03%2B4cAZU1EFkeTGkjc5erzV8goSy7WD2X9%2FRJCCuCXCgmdWSJIUg%3D%3D"
         },
@@ -787,7 +835,8 @@
             "google",
             "facebook"
         ],
-        "text": "I still need to finish Bayonetta 1&2 U.U"
+        "text": "I still need to finish Bayonetta 1&amp;2 U.U",
+        "title": "I still need to finish Bayonetta 1&2 U.U"
     },
     {
         "created_at": 1488323294,
@@ -795,6 +844,7 @@
             "google"
         ],
         "text": "Enabling Chromium password storage in i3",
+        "title": "Enabling Chromium password storage in i3",
         "media_google": {
             "original": "http://ift.tt/2mHCXK0",
             "description": "Pages",
@@ -812,7 +862,8 @@
             "google",
             "facebook"
         ],
-        "text": "Idea/Graddle got screwed up and I had to spend 4 hours figuring it out. I don't even know what went wrong but restarting fixed it -_-"
+        "text": "Idea/Graddle got screwed up and I had to spend 4 hours figuring it out. I don&#039;t even know what went wrong but restarting fixed it -_-",
+        "title": "Idea/Graddle got screwed up and I had to spend 4 hours figuring it out. I don't even know what went wrong but restarting fixed it -_-"
     },
     {
         "created_at": 1489709729,
@@ -821,7 +872,8 @@
             "google",
             "facebook"
         ],
-        "text": "A beautiful day in Seattle but I will be stuck inside fixing bugs :/"
+        "text": "A beautiful day in Seattle but I will be stuck inside fixing bugs :/",
+        "title": "A beautiful day in Seattle but I will be stuck inside fixing bugs :/"
     },
     {
         "created_at": 1489866970,
@@ -830,6 +882,7 @@
             "facebook"
         ],
         "text": "I really would like this, please lets have knockback for sentry bastion",
+        "title": "I really would like this, please lets have knockback for sentry bastion",
         "media_google": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/58cd90dbecf957c76deba57c/586ffc915cc7e9ec7cc7cd0052402a2e9549f4de_bf00a8701c87bcd696cea8fdb693ab448c10f395_thumbnail",
             "link": "https://gfycat.com/HonoredThankfulGoa?utm_content=buffer7eb20&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer",
@@ -852,7 +905,8 @@
         "services": [
             "twitter"
         ],
-        "text": "",
+        "text": "<a class=\"url\" href=\"https://gfycat.com/HonoredThankfulGoa\" rel=\"external nofollow\" target=\"_blank\">https://gfycat.com/HonoredThankfulGoa</a> I really would like this, please lets have knockback for sentry bastion",
+        "title": "",
         "media_twitter": {
             "thumbnail": "https://thumbs.gfycat.com/HonoredThankfulGoa-mobile.jpg"
         }
@@ -864,7 +918,8 @@
             "google",
             "facebook"
         ],
-        "text": "I just did a late night New Leaf harvest and gathered 65K worth of fruit. Now my second bridge will finally be done."
+        "text": "I just did a late night New Leaf harvest and gathered 65K worth of fruit. Now my second bridge will finally be done.",
+        "title": "I just did a late night New Leaf harvest and gathered 65K worth of fruit. Now my second bridge will finally be done."
     },
     {
         "created_at": 1491082373,
@@ -874,6 +929,7 @@
             "facebook"
         ],
         "text": "Now that I am finally going to mod my N64, the N64RGB goes out of stock :/",
+        "title": "Now that I am finally going to mod my N64, the N64RGB goes out of stock :/",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58e01c69313331b35db67f5d/099e622476fdccb2c3a9849e9c9179b6.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58e01c69313331b35db67f5d/099e622476fdccb2c3a9849e9c9179b6.original.jpg"
@@ -895,6 +951,7 @@
             "facebook"
         ],
         "text": "So many people need to watch this video!",
+        "title": "So many people need to watch this video!",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/58e31fdbecf9571c04ae5122/965dc942257525403632c2044673a21b0792c828_0cf66d3b72502a07cf89f72722057b1ef2483373_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/58e31fdbecf9571c04ae5122/965dc942257525403632c2044673a21b0792c828_99810cbcff11c0788e5fcab6fa58e9aa1a6c4078_twitter"
@@ -917,6 +974,7 @@
             "facebook"
         ],
         "text": "At Microsoft we know how to solve problems.",
+        "title": "At Microsoft we know how to solve problems.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/58e4333cc48fce05200154d1/62706464c656c4ca98f5bb2a5802143a5f156605_9e68b2c98b81c733480ac044f27844c20ff04074_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/58e4333cc48fce05200154d1/62706464c656c4ca98f5bb2a5802143a5f156605_b5eaf7b4e02e38b53e7815f9729350c12decd6ea_twitter"
@@ -943,6 +1001,7 @@
             "facebook"
         ],
         "text": "I just got a PS2 slim. This thing is so tiny and it has a built-in PSU. It will be a great light-gun machine :D",
+        "title": "I just got a PS2 slim. This thing is so tiny and it has a built-in PSU. It will be a great light-gun machine :D",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58e454d58168e8e21643fa46/de019133af0f0f27497d4cff3d03c92c.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58e454d58168e8e21643fa46/de019133af0f0f27497d4cff3d03c92c.original.jpg"
@@ -969,6 +1028,7 @@
             "facebook"
         ],
         "text": "Why do you this to us Seattle? Where is the good weather? :(",
+        "title": "Why do you this to us Seattle? Where is the good weather? :(",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58e65ca6c48fce0739cb6e98/59695b72ca2357f4fd47a6866dad813e.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58e65ca6c48fce0739cb6e98/59695b72ca2357f4fd47a6866dad813e.original.jpg"
@@ -991,7 +1051,8 @@
         "services": [
             "twitter"
         ],
-        "text": "The memories. Pokemon - Gold &amp; Silver - Complete Soundtrack",
+        "text": "The memories. Pokemon - Gold &amp; Silver - Complete Soundtrack <a class=\"url\" href=\"https://www.youtube.com/watch?v=t-UUtff_ZTQ&amp;feature=youtu.be\" rel=\"external nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=t-UUtff_ZTQ&amp;feature=youtu.be</a>",
+        "title": "The memories. Pokemon - Gold &amp; Silver - Complete Soundtrack",
         "media_twitter": {
             "thumbnail": "https://i.ytimg.com/vi/t-UUtff_ZTQ/maxresdefault.jpg"
         }
@@ -1002,7 +1063,8 @@
             "google",
             "facebook"
         ],
-        "text": "The memories. Pokemon - Gold & Silver - Complete Soundtrack",
+        "text": "The memories. Pokemon - Gold &amp; Silver - Complete Soundtrack",
+        "title": "The memories. Pokemon - Gold & Silver - Complete Soundtrack",
         "media_google": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/58e688d88168e8a02a06fe94/965dc942257525403632c2044673a21b0792c828_fcb59bc6f1f76273801d047cd83675952763ce4f_thumbnail",
             "link": "https://www.youtube.com/watch?v=t-UUtff_ZTQ&feature=youtu.be&utm_content=buffer1450b&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer",
@@ -1027,7 +1089,8 @@
             "google",
             "facebook"
         ],
-        "text": "I am starting a transition from Imgur to Flicker as my image hosting."
+        "text": "I am starting a transition from Imgur to Flicker as my image hosting.",
+        "title": "I am starting a transition from Imgur to Flicker as my image hosting."
     },
     {
         "created_at": 1491611875,
@@ -1038,6 +1101,7 @@
             "facebook"
         ],
         "text": "Help! My bus is being attacked by waves!",
+        "title": "Help! My bus is being attacked by waves!",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58e830c68168e8b50ac4ffa2/bbb3429fc6bc0a4f61c7a6542fc3aa52.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58e830c68168e8b50ac4ffa2/bbb3429fc6bc0a4f61c7a6542fc3aa52.original.jpg"
@@ -1062,7 +1126,8 @@
             "google",
             "facebook"
         ],
-        "text": "Imgur->Flickr transition completed! The changes in my blog should be minimal."
+        "text": "Imgur-&gt;Flickr transition completed! The changes in my blog should be minimal.",
+        "title": "Imgur->Flickr transition completed! The changes in my blog should be minimal."
     },
     {
         "created_at": 1491693921,
@@ -1071,7 +1136,8 @@
             "google",
             "facebook"
         ],
-        "text": "My plan to focus on playing and completing one game at a time is not working out well :/"
+        "text": "My plan to focus on playing and completing one game at a time is not working out well :/",
+        "title": "My plan to focus on playing and completing one game at a time is not working out well :/"
     },
     {
         "created_at": 1491789088,
@@ -1079,6 +1145,7 @@
             "google"
         ],
         "text": "Reton City Retro 2017",
+        "title": "Reton City Retro 2017",
         "media_google": {
             "original": "https://cramsan.com/2017/04/09/Reton_City_Retro_2017/",
             "description": "Pages",
@@ -1096,7 +1163,8 @@
             "google",
             "facebook"
         ],
-        "text": "Office for iOS 2.0 is live. Please send feedback if you have any problems. #office #ios #microsoft"
+        "text": "Office for iOS 2.0 is live. Please send feedback if you have any problems. <a href=\"https://twitter.com/#!/search?q=%23office\" title=\"#office\" class=\"hashtag\" rel=\"external nofollow\" target=\"_blank\">#office</a> <a href=\"https://twitter.com/#!/search?q=%23ios\" title=\"#ios\" class=\"hashtag\" rel=\"external nofollow\" target=\"_blank\">#ios</a> <a href=\"https://twitter.com/#!/search?q=%23microsoft\" title=\"#microsoft\" class=\"hashtag\" rel=\"external nofollow\" target=\"_blank\">#microsoft</a>",
+        "title": "Office for iOS 2.0 is live. Please send feedback if you have any problems. #office #ios #microsoft"
     },
     {
         "created_at": 1491935088,
@@ -1105,7 +1173,8 @@
             "google",
             "facebook"
         ],
-        "text": "I wish I had realized earlier that Dolphin has a next-frame feature. It will make gathering frame data from melee so much easier."
+        "text": "I wish I had realized earlier that Dolphin has a next-frame feature. It will make gathering frame data from melee so much easier.",
+        "title": "I wish I had realized earlier that Dolphin has a next-frame feature. It will make gathering frame data from melee so much easier."
     },
     {
         "created_at": 1491969255,
@@ -1114,7 +1183,8 @@
             "google",
             "facebook"
         ],
-        "text": "Random fact of the day: SSBM runs at 60fps, IO polling is 120 per second. Only the second poll counts."
+        "text": "Random fact of the day: SSBM runs at 60fps, IO polling is 120 per second. Only the second poll counts.",
+        "title": "Random fact of the day: SSBM runs at 60fps, IO polling is 120 per second. Only the second poll counts."
     },
     {
         "created_at": 1492152257,
@@ -1123,7 +1193,8 @@
             "google",
             "facebook"
         ],
-        "text": "This is what melee character moveset data looks like uncompressed.",
+        "text": "This is what melee character moveset data looks like uncompressed. <a class=\"url\" href=\"https://www.flickr.com/photos/149389453@N05/33640690220/in/dateposted-public/\" rel=\"external nofollow\" target=\"_blank\">https://www.flickr.com/photos/149389453@N05/33640690220/in/dateposted-public/</a>",
+        "title": "This is what melee character moveset data looks like uncompressed.",
         "media_google": {
             "link": "https://www.flickr.com/photos/149389453@N05/33640690220/in/dateposted-public/?utm_content=buffer4cd66&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer",
             "title": "wxHexEditor_2017-04-13_23-39-38",
@@ -1147,7 +1218,8 @@
             "twitter",
             "facebook"
         ],
-        "text": "Ubuntu Is Switching to Wayland",
+        "text": "Ubuntu Is Switching to Wayland <a class=\"url\" href=\"http://www.omgubuntu.co.uk/2017/04/ubuntu-will-run-wayland-default\" rel=\"external nofollow\" target=\"_blank\">http://www.omgubuntu.co.uk/2017/04/ubuntu-will-run-wayland-default</a>",
+        "title": "Ubuntu Is Switching to Wayland",
         "media_twitter": {
             "thumbnail": "http://www.omgubuntu.co.uk/wp-content/uploads/2017/04/wayland-logo.jpg"
         },
@@ -1166,6 +1238,7 @@
             "google"
         ],
         "text": "Ubuntu Is Switching to Wayland",
+        "title": "Ubuntu Is Switching to Wayland",
         "media_google": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/58f6cc19d5b62f5e405afd15/e7b9da128dad81a49a0fe85e07e4af23a14ca091_5ba8507e226cb3f8723c287138f347f1a1ed90e7_thumbnail",
             "link": "http://www.omgubuntu.co.uk/2017/04/ubuntu-will-run-wayland-default?utm_content=buffere93b0&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer",
@@ -1182,7 +1255,8 @@
             "google",
             "facebook"
         ],
-        "text": "Its interesting going through melee files and seeing how all the data is organized.",
+        "text": "Its interesting going through melee files and seeing how all the data is organized. <a class=\"url\" href=\"https://www.flickr.com/photos/149389453@N05/34133161475/in/dateposted-public/\" rel=\"external nofollow\" target=\"_blank\">https://www.flickr.com/photos/149389453@N05/34133161475/in/dateposted-public/</a>",
+        "title": "Its interesting going through melee files and seeing how all the data is organized.",
         "media_google": {
             "link": "https://www.flickr.com/photos/149389453@N05/34133161475/in/dateposted-public/?utm_content=buffer89c64&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer",
             "title": "MasterHand_2017-04-18_23-16-16",
@@ -1207,7 +1281,8 @@
             "google",
             "facebook"
         ],
-        "text": "I feel so bad that I did not get to finish Valkyria Chronicles. I have been so busy and I just did not have enough time  :("
+        "text": "I feel so bad that I did not get to finish Valkyria Chronicles. I have been so busy and I just did not have enough time&nbsp;&nbsp;:(",
+        "title": "I feel so bad that I did not get to finish Valkyria Chronicles. I have been so busy and I just did not have enough time  :("
     },
     {
         "created_at": 1492733139,
@@ -1218,6 +1293,7 @@
             "facebook"
         ],
         "text": "Building 18 at Microsoft. Nice weather today at Redmond.",
+        "title": "Building 18 at Microsoft. Nice weather today at Redmond.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/58f94cd4d5b62fa04c8dd4c1/59d357d122aeaa175142955112a6f734e7f41439_9e20d22bbae53bef2bf2cb9d73871923a4310cd5_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/58f94cd4d5b62fa04c8dd4c1/59d357d122aeaa175142955112a6f734e7f41439_8371980a5acc10471abed991d05273d0a256226b_twitter"
@@ -1242,6 +1318,7 @@
             "facebook"
         ],
         "text": "At the VR hackathon!",
+        "title": "At the VR hackathon!",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/58faafd2c48fce055d4b56f4/aa0b83cb1c117b300be764e747cd40c4157ae2ab_96a4e256142d132f16ace5c2fbe2eb4dc27be9a3_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/58faafd2c48fce055d4b56f4/aa0b83cb1c117b300be764e747cd40c4157ae2ab_12f82ac23059eb4a81578de187f00e722d026d5e_twitter"
@@ -1257,6 +1334,7 @@
             "google"
         ],
         "text": "At the VR hackathon!",
+        "title": "At the VR hackathon!",
         "media_google": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/58faafd2c48fce055d4b56f3/aa0b83cb1c117b300be764e747cd40c4157ae2ab_fec395e0702316448b22f09d033be592f3218287_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58faafc5d5b62f527a4b56f2/5f7c683e29c54ab82f7679bead7b43be.original.jpg"
@@ -1270,7 +1348,8 @@
             "google",
             "facebook"
         ],
-        "text": "Phone and laptop  almost dead. No food. But I got free water! #seattlevr",
+        "text": "Phone and laptop  almost dead. No food. But I got free water! <a href=\"https://www.instagram.com/explore/tags/seattlevr\" title=\"#seattlevr\" class=\"hashtag\" rel=\"external nofollow\" target=\"_blank\">#seattlevr</a>",
+        "title": "Phone and laptop  almost dead. No food. But I got free water! #seattlevr",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58fabfb0d5b62f4a45db2c66/a622f31c47df014987466c111d00578c.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58fabfb0d5b62f4a45db2c66/a622f31c47df014987466c111d00578c.original.jpg"
@@ -1296,7 +1375,8 @@
             "google",
             "facebook"
         ],
-        "text": "Too soon! Club penguin shut down less than a month ago. Not cool. #seavrhack",
+        "text": "Too soon! Club penguin shut down less than a month ago. Not cool. <a href=\"https://www.instagram.com/explore/tags/seavrhack\" title=\"#seavrhack\" class=\"hashtag\" rel=\"external nofollow\" target=\"_blank\">#seavrhack</a>",
+        "title": "Too soon! Club penguin shut down less than a month ago. Not cool. #seavrhack",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58fac4d17f1d34b51c094cc5/8a726c3584cd35f902f39b948d82b388.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58fac4d17f1d34b51c094cc5/8a726c3584cd35f902f39b948d82b388.original.jpg"
@@ -1321,7 +1401,8 @@
             "google",
             "facebook"
         ],
-        "text": "Back for the second day of the #SeaVRHack",
+        "text": "Back for the second day of the <a href=\"https://twitter.com/#!/search?q=%23SeaVRHack\" title=\"#SeaVRHack\" class=\"hashtag\" rel=\"external nofollow\" target=\"_blank\">#SeaVRHack</a>",
+        "title": "Back for the second day of the #SeaVRHack",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58fb8518470c276305c5876e/f182af5553be64419252551736875fbf.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/58fb8518470c276305c5876e/f182af5553be64419252551736875fbf.original.jpg"
@@ -1341,6 +1422,7 @@
             "instagram"
         ],
         "text": "",
+        "title": "",
         "media_instagram": {
             "thumbnail": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/18095733_208364072995023_4200420093559046144_n.jpg",
             "picture": "https://scontent.cdninstagram.com/t51.2885-15/s1080x1080/sh0.08/e35/18095733_208364072995023_4200420093559046144_n.jpg"
@@ -1354,7 +1436,8 @@
             "google",
             "facebook"
         ],
-        "text": "Hacking my Jekyll blog from  my Pixel C :D",
+        "text": "Hacking my Jekyll blog from&nbsp;&nbsp;my Pixel C :D",
+        "title": "Hacking my Jekyll blog from  my Pixel C :D",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/58fe133cc48fce9b596507ab/344d59358c4bfb06871e33ce91cdbe357aed162a_622a331a85d0c14ee24340ac14dfa1b35df8a3d9_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/58fe133cc48fce9b596507ab/344d59358c4bfb06871e33ce91cdbe357aed162a_9c125894e2027b608b328cb71ef0ae3e5377e55c_twitter"
@@ -1381,6 +1464,7 @@
             "facebook"
         ],
         "text": "30$ for everything! Yay!",
+        "title": "30$ for everything! Yay!",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/59041c32fb7c3f0620f54ff5/aa2146a9ed8a86c2c9d38af8986c8933.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/59041c32fb7c3f0620f54ff5/aa2146a9ed8a86c2c9d38af8986c8933.original.jpg"
@@ -1406,6 +1490,7 @@
             "facebook"
         ],
         "text": "My GBA needs the on/off switch replaced. I need to be able to play Four-Swords!",
+        "title": "My GBA needs the on/off switch replaced. I need to be able to play Four-Swords!",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/59068ba554c82f550f6ffd11/722994936190ab58a3a930af95836fa4.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/59068ba554c82f550f6ffd11/722994936190ab58a3a930af95836fa4.original.jpg"
@@ -1428,6 +1513,7 @@
             "facebook"
         ],
         "text": "My GBA needs the on/off switch replaced. One more thing on my to-do list.",
+        "title": "My GBA needs the on/off switch replaced. One more thing on my to-do list.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/59068d4154c82f10176ffd15/f12d0430a0cf0855a943e94493ecb556.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/59068d4154c82f10176ffd15/f12d0430a0cf0855a943e94493ecb556.original.jpg"
@@ -1446,29 +1532,14 @@
         }
     },
     {
-        "created_at": 1493798365,
-        "services": [
-            "google"
-        ],
-        "text": "Updating site and generating index",
-        "media_google": {
-            "original": "https://cramsan.com/other/2017/05/02/Updating_site_and_generating_index/",
-            "description": "Docs",
-            "title": "Updating site and generating index Cesar Ramirez",
-            "link": "https://cramsan.com/other/2017/05/02/Updating_site_and_generating_index/?utm_content=buffer88529&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer",
-            "expanded_link": "https://cramsan.com/other/2017/05/02/Updating_site_and_generating_index/",
-            "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/59098ddd4cc08d8129281f32/cbe648909034c0624c205fe219d3fbd10052c715_86df7e6ee670cf105215cffd232e0d9142c9f26b_thumbnail",
-            "preview": "https://cramsan.com/public/icons/facebook.jpg"
-        }
-    },
-    {
         "created_at": 1494090897,
         "services": [
             "twitter",
             "google",
             "facebook"
         ],
-        "text": "Is Eren becoming the next Shinji?"
+        "text": "Is Eren becoming the next Shinji?",
+        "title": "Is Eren becoming the next Shinji?"
     },
     {
         "created_at": 1494775925,
@@ -1478,7 +1549,8 @@
             "google",
             "facebook"
         ],
-        "text": "It's official. My TV does not handle Y/Pb/Pr anymore. I don't really know what is busted :/. Looks like a sync issue to me.",
+        "text": "It&#039;s official. My TV does not handle Y/Pb/Pr anymore. I don&#039;t really know what is busted :/. Looks like a sync issue to me.",
+        "title": "It's official. My TV does not handle Y/Pb/Pr anymore. I don't really know what is busted :/. Looks like a sync issue to me.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/59187875b9b62f1816225e4f/2f76611209f2d7d981a9c70d695385e97890276f_deb9b77d120fa55d11566b102fe8a4fefa02af97_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/59187875b9b62f1816225e4f/2f76611209f2d7d981a9c70d695385e97890276f_3974db1918138f53cf4b2f6df1134f026b6ebbc5_twitter"
@@ -1503,7 +1575,8 @@
             "google",
             "facebook"
         ],
-        "text": "I guess I was wrong. My TV just does not do 480p, it only handles 480i. At least that mystery is solved."
+        "text": "I guess I was wrong. My TV just does not do 480p, it only handles 480i. At least that mystery is solved.",
+        "title": "I guess I was wrong. My TV just does not do 480p, it only handles 480i. At least that mystery is solved."
     },
     {
         "created_at": 1495569084,
@@ -1512,7 +1585,8 @@
             "google",
             "facebook"
         ],
-        "text": "1 Year Anniversary - Overwatch",
+        "text": "1 Year Anniversary - Overwatch <a class=\"url\" href=\"https://playoverwatch.com/en-gb/events/anniversary/\" rel=\"external nofollow\" target=\"_blank\">https://playoverwatch.com/en-gb/events/anniversary/</a>",
+        "title": "1 Year Anniversary - Overwatch",
         "media_twitter": {
             "thumbnail": "https://overwatch-a.akamaihd.net/img/logos/overwatch-share-3d5a268515283007bdf3452e877adac466d579f4b44abbd05aa0a98aba582eeaebc4541f1154e57ec5a43693345bebda953381a7b75b58adbd29d3f3eb439ad2.jpg"
         },
@@ -1542,6 +1616,7 @@
             "facebook"
         ],
         "text": "I am glad I can run OBS on Linux to record mi Wii/GCN with the ElGato. And everything is working great so far :)",
+        "title": "I am glad I can run OBS on Linux to record mi Wii/GCN with the ElGato. And everything is working great so far :)",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/5927f2425ed0b4825c773d70/0143848e43afbe60624bad8cfcea19fcc52c268f_45c2b898be3463604d5dec1584bd42fa083dc1f6_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/5927f2425ed0b4825c773d70/0143848e43afbe60624bad8cfcea19fcc52c268f_9c28b61e2da54c17d56bca0ff329cae1de7823c0_twitter"
@@ -1568,6 +1643,7 @@
             "facebook"
         ],
         "text": "Mt Rainier in a clear afternoon.",
+        "title": "Mt Rainier in a clear afternoon.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/59291d426f4d22c57464d781/feca6956c2607cefc4b0aaeac6b47fbc3a5d67f3_0723217b6d7257c9f9f9f71be470e8bbbe959343_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/59291d426f4d22c57464d781/feca6956c2607cefc4b0aaeac6b47fbc3a5d67f3_2be3729fa861578329fcc46b0783c53844143210_twitter"
@@ -1594,6 +1670,7 @@
             "facebook"
         ],
         "text": "Time to start ripping all my GCN/Wii games. The plan is to be able to play 100% from USB + PSO online from the Wii.",
+        "title": "Time to start ripping all my GCN/Wii games. The plan is to be able to play 100% from USB + PSO online from the Wii.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/593103aa8dcc957909f4aaf9/18495d0d956bc093476fe01a59c69b6a.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/593103aa8dcc957909f4aaf9/18495d0d956bc093476fe01a59c69b6a.original.jpg"
@@ -1617,6 +1694,7 @@
             "google"
         ],
         "text": "Configuring Wii to load games from USB media",
+        "title": "Configuring Wii to load games from USB media",
         "media_google": {
             "original": "https://cramsan.com/gaming/2017/06/02/Configuring_Wii_to_load_games_from_USB_media/",
             "description": "Pages",
@@ -1634,7 +1712,8 @@
             "google",
             "facebook"
         ],
-        "text": "I am done configuring my Wii, now time to start ripping games. Then I will look into PS2."
+        "text": "I am done configuring my Wii, now time to start ripping games. Then I will look into PS2.",
+        "title": "I am done configuring my Wii, now time to start ripping games. Then I will look into PS2."
     },
     {
         "created_at": 1496650038,
@@ -1643,7 +1722,8 @@
             "google",
             "facebook"
         ],
-        "text": "I wish I had known about this list before buying a USB thumb drive :/",
+        "text": "I wish I had known about this list before buying a USB thumb drive :/ <br />\n<a class=\"url\" href=\"https://wiki.gbatemp.net/wiki/USB_Devices_Compatibility_List#64GB\" rel=\"external nofollow\" target=\"_blank\">https://wiki.gbatemp.net/wiki/USB_Devices_Compatibility_List#64GB</a>",
+        "title": "I wish I had known about this list before buying a USB thumb drive :/",
         "media_google": {
             "link": "https://wiki.gbatemp.net/wiki/USB_Devices_Compatibility_List?utm_content=buffer7125b&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer#64GB",
             "title": "USB Devices Compatibility List - WikiTemp, the GBAtemp wiki",
@@ -1665,6 +1745,7 @@
             "facebook"
         ],
         "text": "ElGato game capture does not have any lag when doing HDMI passthrough!",
+        "title": "ElGato game capture does not have any lag when doing HDMI passthrough!",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/5936135c7a4e441146559b9d/d18b0ffe62db272765bfd618efb3fa83.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/5936135c7a4e441146559b9d/d18b0ffe62db272765bfd618efb3fa83.original.jpg"
@@ -1681,23 +1762,20 @@
     {
         "created_at": 1496717096,
         "services": [
+            "google",
             "facebook"
         ],
-        "text": "I am done configuring my Wii, now time to st",
-        "media_facebook": {
-            "link": "https://l.facebook.com/l.php?u=https%3A%2F%2Fcramsan.com%2Fgaming%2F2017%2F06%2F02%2FConfiguring_Wii_to_load_games_from_USB_media%2F&h=ATP0RKnz6uj4oJ0cCMEfnkV8isG11L2GvfxujA8-bAAVoTbU0yqpZub7lML50lSXofn2ntjelm0g5njGlhwP6yYm6aPVYb3SXAzhI5rGYA&s=1&enc=AZNcXJDLa9XTauDmW9ZIIdEt7P_XwnT-pG-CfmTZfi9K0DWapT1_IRS8VcggtSy2EBWCUP_iiUk9l-N6sTrDQZDkNsYS4ulvTRutiE158_othA",
-            "title": "Configuring Wii to load games from USB media Cesar Ramirez",
-            "description": "",
-            "thumbnail": "https://external.xx.fbcdn.net/safe_image.php?d=AQB000PMfwgzAijf&w=720&h=720&url=https%3A%2F%2Fcramsan.com%2Fpublic%2Ficons%2Freddit-alien.png&cfs=1&_nc_hash=AQAp_M8K3ByzVr0p",
-            "preview": "https://external.xx.fbcdn.net/safe_image.php?d=AQB000PMfwgzAijf&w=720&h=720&url=https%3A%2F%2Fcramsan.com%2Fpublic%2Ficons%2Freddit-alien.png&cfs=1&_nc_hash=AQAp_M8K3ByzVr0p"
-        }
-    },
-    {
-        "created_at": 1496717096,
-        "services": [
-            "facebook"
-        ],
-        "text": "Is Eren becoming the next Shinji?",
+        "text": "Updating site and generating index<br />\n<br />\nI finally cleaned up this blog. I moved the Game Collection and List of Applications pages to collections in the docs folder. My plan was to have a location where I can drop documents and pages that do not change often but that also do not need to be located in the root level. To accomplish this I used Jekylls collection which was both a blessing and a curse.<br />\n<br />\nJekylls Collections are useful to hold documents that share a common characteristic, in a similar way as categories. But where they differ is that you will have more power and control over a collection, with the power to define properties and variables across all pages of the same collection. The problem for me was that I wanted my pages to have hierarchical structure as well as an index on the first page, two features that are not available natively.<br />\n<br />\nThe solution was to use a bash script(of course) to generate an json file that contained the structure of the collection and then this file could be exposed via site.data. The script is located here and it currently works based on how I wanted to present my collection, but the plan is for the future to make it more flexible.<br />\n<br />\nThe result is neat and I can have pages organized across folders of different depths. Currently I only have two pages but I tested multiple pages and depths and it was working correctly. As I develop this blog I am sure more pages will be added.<br />\n<br />\nA picture of what my Pixel C looked like while I was working on finishing the changes.",
+        "title": "Updating site and generating index",
+        "media_google": {
+            "original": "https://cramsan.com/other/2017/05/02/Updating_site_and_generating_index/",
+            "description": "Docs",
+            "title": "Updating site and generating index Cesar Ramirez",
+            "link": "https://cramsan.com/other/2017/05/02/Updating_site_and_generating_index/?utm_content=buffer88529&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer",
+            "expanded_link": "https://cramsan.com/other/2017/05/02/Updating_site_and_generating_index/",
+            "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/59098ddd4cc08d8129281f32/cbe648909034c0624c205fe219d3fbd10052c715_86df7e6ee670cf105215cffd232e0d9142c9f26b_thumbnail",
+            "preview": "https://cramsan.com/public/icons/facebook.jpg"
+        },
         "media_facebook": {
             "link": "https://l.facebook.com/l.php?u=https%3A%2F%2Fcramsan.com%2Fother%2F2017%2F05%2F02%2FUpdating_site_and_generating_index%2F&h=ATOB7jm52D3WufyoGh3R9K6Y0x2yT3AcBw1MKenIT4gTayF5qqMVtsSprf6ANWJugFz5lpW1DBdmjLCTNL-PIXn1EUxX6BagHZ21mS10mg&s=1&enc=AZPOvWcTeG7MhM5C3quScoAL48gMTVdyXci7OI7uR7kX0MrCjrxjDmofesWQeZkl58D6Th4PgNzw1eyiDEUXZ8HeZ9iI4ANuQjrcQQepBxvQRQ",
             "title": "Updating site and generating index Cesar Ramirez",
@@ -1707,13 +1785,29 @@
         }
     },
     {
+        "created_at": 1496717096,
+        "services": [
+            "facebook"
+        ],
+        "text": "Configuring Wii to load games from USB media<br />\n<br />\nThis guide was developed based on my very limited knowledge and the most up to date information that I could find.<br />\n<br />\nIn order to reduce the wear and tear in my GameCube and Wii, I have decided to configure one of my Wiis to load all the games from an external media. It took me longer than it should have so I am documenting the process I went through so other people dont have to go through the same thing.<br />\n<br />\nInstall the HomeBrew channel<br />\n<br />\nStarting from a vanilla Wii, you first need to install the Homebrew channel, which will be your door to load almost all homebrew software. Head over to Wiibrew and select the exploit that best matches your system, the main factor here is the OS version of the Wii. My favorite method is LetterBomb because of how easy it is to execute and it does not even need a game.<br />\n<br />\nRequirements<br />\n<br />\nSD or SDHC formatted as FAT16 or FAT32.<br />\n<br />\nSystem Menu 4.3 (anything lower will not work).<br />\n<br />\nYour Wiis WiFi MAC Address (available from your Wiis system settings). This is needed because the Wii will only accept messages addressed to its specific MAC address.<br />\n<br />\nA way to copy the files from your PC to the SD card (card reader, printer, etc.)<br />\n<br />\nSome homebrew software to load. Although this isnt necessary, its highly recommended. The exploit will attempt to load boot.elf (or boot.dol if it cant be found) from the SD card root directory. For this example we will load the homebrew channel.<br />\n<br />\nInstructions<br />\n<br />\nOn your computer<br />\n<br />\nGo to BootMii and download the latest HackMii installer.<br />\n<br />\nExtract the content of the installer and find the boot.elf file.<br />\n<br />\nCopy the bool.elf file to the root of your sd card.<br />\n<br />\nGo to the LetterBomb page and enter the Mac address of your Wii, now a file will be downloaded.<br />\n<br />\nIf there is a folder titled private on your SD card, rename it to privateold<br />\n<br />\nCopy the private directory from the LetterBomb download to the root of your SD card.<br />\n<br />\nOn your Wii<br />\n<br />\nPut your SD card in your Wii and turn it on.<br />\n<br />\nGo into the Wii Message Board and navigate to Today, Yesterday or Two days ago.<br />\n<br />\nClick on the appropriate envelope, sit back and prepare for the hacking glory.<br />\n<br />\nWait for the Hackmii Installer to run tests on your Wii<br />\n<br />\nPress Wiimote 1 Button when told to continue installing HBC and BootMii.<br />\n<br />\nThe installation should be automatic from this point on, and your Wii will reboot.<br />\n<br />\nAt this point you should have the Homebrew channel installed and accesible from the Wii main menu. Now that the Homebrew channel is installed you have the power to load homebrew software directly from the SD card.<br />\n<br />\nInstall a WAD manager<br />\n<br />\nYou will also need a tool called a WAD manager. I suggest this page for detailed instructions.<br />\n<br />\nInstall the loader<br />\n<br />\nNow that we have access to loading homebrew from the SD card, the next step is to load something to read data from USB storage. For this we are going to use a USB loader, which does pretty much what its name say, it loads stuff from USB storage. The USB loader is the equivalent of user-space drivers to read and write from a device. It will handle accessing the storage device connected through USB as well as manage the filesystem. You can find the list of loaders [6][here]. Most loaders will work with the Wii in Wii mode, so they will be able to read Wii discs as well as load games from the disc tray. To been able to load gamecube games you will also need a Gamecube loader.<br />\n<br />\nWe will use USBLoaderGX as our USB loader and Nintendont as our Gamecube loader. When I started looking into using a Gamecube loader I wanted to user Devolution because it supports network connectivity for GC games, but sadly I was not able to get it to work.<br />\n<br />\nInstall USBLoaderGX<br />\n<br />\nRequirements<br />\n<br />\nYou will need the SD card previously configured<br />\n<br />\nA thumbdrive or USB hard-drive formatted as FAT32 to store games.<br />\n<br />\nInstructions<br />\n<br />\nThis is very important. You need to ensure you are using the latest files, otherwise things will not work as expected. Double check the version of everything.<br />\n<br />\nGo to the USBLoaderGX download page and download the latest file. As of now that is / Releases/New revisions (3.0+)/USBLoaderGX r1262.7z<br />\n<br />\nExtract the file and place it its content in the SD card. Now the folder called usbloader_gx should be inside sd:/apps/.<br />\n<br />\nNow you can load USBLoaderGX from the Homebrew channel. Give it a try to make sure everything is working as expected.<br />\n<br />\nAt this point you have USBLoaderGX working and you are ready to install Nintendont and rip some games.<br />\n<br />\nTo install Nintendont follow the instructions from here. If you dont see the settings to configure Nintendont in USBLoaderGX it may mean you have an old version of the USB loader. Please verify you have the latest version installed.<br />\n<br />\nConnect the USB media you want to rip your games to. On the USBLoaderGX settings, go to the Custom path settings and then change the default path for save and write games to, from the SD card to the USB drive. Now if you insert a gamecube disc, you will have the ",
+        "title": "Configuring Wii to load games from USB media",
+        "media_facebook": {
+            "link": "https://l.facebook.com/l.php?u=https%3A%2F%2Fcramsan.com%2Fgaming%2F2017%2F06%2F02%2FConfiguring_Wii_to_load_games_from_USB_media%2F&h=ATP0RKnz6uj4oJ0cCMEfnkV8isG11L2GvfxujA8-bAAVoTbU0yqpZub7lML50lSXofn2ntjelm0g5njGlhwP6yYm6aPVYb3SXAzhI5rGYA&s=1&enc=AZNcXJDLa9XTauDmW9ZIIdEt7P_XwnT-pG-CfmTZfi9K0DWapT1_IRS8VcggtSy2EBWCUP_iiUk9l-N6sTrDQZDkNsYS4ulvTRutiE158_othA",
+            "title": "Configuring Wii to load games from USB media Cesar Ramirez",
+            "description": "",
+            "thumbnail": "https://external.xx.fbcdn.net/safe_image.php?d=AQB000PMfwgzAijf&w=720&h=720&url=https%3A%2F%2Fcramsan.com%2Fpublic%2Ficons%2Freddit-alien.png&cfs=1&_nc_hash=AQAp_M8K3ByzVr0p",
+            "preview": "https://external.xx.fbcdn.net/safe_image.php?d=AQB000PMfwgzAijf&w=720&h=720&url=https%3A%2F%2Fcramsan.com%2Fpublic%2Ficons%2Freddit-alien.png&cfs=1&_nc_hash=AQAp_M8K3ByzVr0p"
+        }
+    },
+    {
         "created_at": 1496941078,
         "services": [
             "twitter",
             "google",
             "facebook"
         ],
-        "text": "It took me longer than expected but now I can load gamecube games from USB storage. Wii homebrew is great but still not perfect :/"
+        "text": "It took me longer than expected but now I can load gamecube games from USB storage. Wii homebrew is great but still not perfect :/",
+        "title": "It took me longer than expected but now I can load gamecube games from USB storage. Wii homebrew is great but still not perfect :/"
     },
     {
         "created_at": 1497333628,
@@ -1722,6 +1816,7 @@
             "google"
         ],
         "text": "",
+        "title": "",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/593f7f7c739b8b252f6570be/13ce0844696a6e12b24e676c3d1b9c611323012b_f90ec35efe071eba82b7d41ec97f0e4d6663d246_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/593f7f7c739b8b252f6570be/13ce0844696a6e12b24e676c3d1b9c611323012b_58ab6d332b0a8f428ee1a09e5b5086fda40ce2b1_twitter"
@@ -1737,6 +1832,7 @@
             "facebook"
         ],
         "text": "I bought some goodies from a co-worker today :)",
+        "title": "I bought some goodies from a co-worker today :)",
         "media_facebook": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/593f7f7c739b8b252f6570bc/13ce0844696a6e12b24e676c3d1b9c611323012b_02b1fb41c7ece14bed3e2237005a3ef94854d8e5_thumbnail",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/593f7f7c739b8b252f6570bc/13ce0844696a6e12b24e676c3d1b9c611323012b_d31eee7e88debe1597ec2a1fa64562538fac144a_facebook"
@@ -1750,6 +1846,7 @@
             "facebook"
         ],
         "text": "I finally got my N64RGB modchip. It is time to continue the journey to RGB all the things.",
+        "title": "I finally got my N64RGB modchip. It is time to continue the journey to RGB all the things.",
         "media_twitter": {
             "thumbnail": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/59409de36f4d226912a4d60c/88278709d787dafd0c7fa9d4dfd71ad0.original.jpg",
             "picture": "https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/59409de36f4d226912a4d60c/88278709d787dafd0c7fa9d4dfd71ad0.original.jpg"
