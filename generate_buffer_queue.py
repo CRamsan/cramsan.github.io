@@ -41,8 +41,6 @@ for service in data['services']:
         updateObject["created_at"] = update["created_at"]
         updateObject["services"].append(service['service'])
         updateObject["title"] = trimmedText
-        print (key)
-        print (trimmedText)
         if update["text_formatted"]:
             newText = update["text_formatted"]
         else:

@@ -1,4 +1,5 @@
 import requests
+import datetime
 import json
 import math
 import sys
@@ -23,8 +24,8 @@ def appendAccessToken(url):
     return url + "?" +  generateParam("access_token", ACCESS_TOKEN)
 
 # Return the url with the page, count and filter parameters appended to the end
-def appendUpdatePage(url, page, count, filt):
-    return url + generateParam("page", page) + generateParam("count", count) + generateParam("filter", filt)
+def appendUpdatePage(url, page, count, filt, since):
+    return url + generateParam("page", page) + generateParam("count", count) + generateParam("filter", filt) + generateParam("since", since)
 
 # Returns the url to get the user info
 def generateGetUserUrl():
@@ -59,6 +60,10 @@ services = getJSONObjectFromUrl(generateGetProfilesUrl())
 if services is None:
     print("Failed to get SERVICES")
     sys.exit()
+
+nowTime = datetime.datetime.now()
+agoTimestamp = (nowTime - datetime.timedelta(days=14)).strftime("%s")
+
 for service in services:
     updateCount = -1 # total number of updates
     pageCount = -1 # number of pages to iterate over
@@ -67,7 +72,7 @@ for service in services:
     friendly_service_name = service['formatted_service'] +  "(" + service['formatted_username'] + ")"
     shouldRetry = False
     while True:
-        targetURL = appendUpdatePage(generateGetUpdates(service['id']), pageIndex, PAGE_COUNT, UPDATE_FILTER)
+        targetURL = appendUpdatePage(generateGetUpdates(service['id']), pageIndex, PAGE_COUNT, UPDATE_FILTER, agoTimestamp)
         updatesResult = getJSONObjectFromUrl(targetURL) # Get a page of updates
         print ("Working with page " + str(pageIndex) + " from " + friendly_service_name)
         pageIndex = pageIndex + 1
