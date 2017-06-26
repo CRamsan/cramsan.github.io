@@ -30,14 +30,9 @@ for post in data:
         sanitazedTitle = sanitazedTitle.replace(character, '_')
     filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + ".md")
     if os.path.exists(filename):
-        print ("File " + filename + " already exists, adding service.")
-        extServices = post["services"]
-        if len(extServices) > 0:
-            filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + "_" + extServices[0]  +".md")
-        else:
-            print ("NO SERVICE?! Exiting")
-            sys.exit()
-        
+        print ("File " + filename + " already exists, skipping file")
+        continue
+
     fileHandler = open(filename, 'w')
     fileHandler.write("---\nlayout: post\ncategories: social\ntags: buffer\nbuffer: true\n")
     fileHandler.write("title: \"" + titleFull + "\"\n")
