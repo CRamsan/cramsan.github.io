@@ -2,3 +2,5 @@
 _site
 *.lock
 *.swp
+_data/buffer.json
+_data/post_queue.json
