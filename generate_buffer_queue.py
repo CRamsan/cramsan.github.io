@@ -39,7 +39,10 @@ for service in data['services']:
             buffDict[key] = {"created_at": 0, "services": [], "text": ""}
         updateObject = buffDict[key]
         updateObject["created_at"] = update["created_at"]
-        updateObject["services"].append(service['service'])
+        local_service = {"name": service['service']}
+        if "service_link" in update:
+            local_service["service_link"] = update["service_link"]
+        updateObject["services"].append(local_service)
         updateObject["title"] = trimmedText
         if update["text_formatted"]:
             newText = update["text_formatted"]

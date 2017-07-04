@@ -3,7 +3,7 @@
   {{ post.date | date: '%Y/%m/%d:%H:%M:%S' }}
   {% endif %}
   {% for service in post.services %}
-  {% include buffer_social_icon.html image_id=service %}
+  {% include buffer_social_icon.html param_service=service %}
   {% endfor %}
   {% if page.title == "Home" %}
     {{ post.content }}

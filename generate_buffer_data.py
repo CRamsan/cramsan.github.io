@@ -62,7 +62,7 @@ if services is None:
     sys.exit()
 
 nowTime = datetime.datetime.now()
-agoTimestamp = (nowTime - datetime.timedelta(days=14)).strftime("%s")
+agoTimestamp = (nowTime - datetime.timedelta(days=999)).strftime("%s")
 
 for service in services:
     updateCount = -1 # total number of updates

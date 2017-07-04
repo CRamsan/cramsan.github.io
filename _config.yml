@@ -30,3 +30,7 @@ exclude:
 - UPDATE.sh
 - generate_index.sh
 - generate_media.sh
+- generate_buffer_data.py
+- generate_buffer_queue.py
+- generate_buffer_posts.py
+- generate_flickrdb.py
