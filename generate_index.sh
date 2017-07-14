@@ -25,12 +25,12 @@ function listFiles() {
     local FILE_BASENAME=$(basename "$line")
     local FILE_EXTENSION="${FILE_BASENAME##*.}"
     local FILE_FILENAME="${FILE_BASENAME%.*}"
-    local FILE_TITLE="$(grep "title:" "$line" | sed 's/title: //g')"
     local NEW_DEPTH=$((TARGET_DEPTH+1))
-    if [ -z "$FILE_TITLE" ]; then
-      local FILE_TITLE="UNTITLED"
-    fi
     if [ -f "$line" ]; then
+      local FILE_TITLE="$(grep "title:" "$line" | sed 's/title: //g')"
+      if [ -z "$FILE_TITLE" ]; then
+        local FILE_TITLE="UNTITLED"
+      fi
       if [ ! -z "$ROOT_FOLDER" ]; then
         local LINK_URL="$ROOT_FOLDER/"
       else
