@@ -34,3 +34,4 @@ exclude:
 - generate_buffer_queue.py
 - generate_buffer_posts.py
 - generate_flickrdb.py
+- generate_social_data.sh

@@ -8,6 +8,9 @@ albums:
     rcr2017album: 
         source: https://www.flickr.com/photos/149389453@N05/33900509206/in/album-72157680636957130/
         first: https://c1.staticflickr.com/3/2849/33900509206_0841328718_z.jpg
+    mtraineeralbum:
+        source: https://www.flickr.com/photos/149389453@N05/36068180625/in/album-72157683819448724/
+        first: https://farm5.staticflickr.com/4307/35228103264_7a180a32b2_z.jpg
 youtube:
     gzcRDvooupQ: gzcRDvooupQ
 legacy:

@@ -1,8 +1,3 @@
-- name:        Github
-  url:         https://github.com/cramsan/
-  username:    'cramsan'
-  icon:        '/public/icons/GitHub.png'
-
 - name:        Twitter
   url:         https://twitter.com/cramsan_dev
   username:    '@cramsan_dev'
@@ -18,7 +13,22 @@
   username:    'Cesar Ramirez'
   icon:        '/public/icons/google_plus.png'
 
+- name:         Instagram
+  url:          https://www.instagram.com/cramsan/
+  username:     '@cramsan'
+  icon:         '/public/icons/instagram.png'
+
 - name:         reddit
   url:          https://www.reddit.com/u/CRamsan
   username:     cramsan
   icon:         '/public/icons/reddit-alien.png'
+
+- name:        Github
+  url:         https://github.com/cramsan/
+  username:    'cramsan'
+  icon:        '/public/icons/GitHub.png'
+
+- name:         flickr
+  url:          https://www.flickr.com/people/149389453@N05/
+  username:     'Cramsan Dev'
+  icon:         '/public/icons/flickr.png'
