@@ -29,6 +29,10 @@
   icon:        '/public/icons/GitHub.png'
 
 - name:         flickr
-  url:          https://www.flickr.com/people/149389453@N05/
+  url:          https://www.flickr.com/photos/149389453@N05/
   username:     'Cramsan Dev'
   icon:         '/public/icons/flickr.png'
+- name:         LinkedIn
+  url:          https://www.linkedin.com/in/cramsan
+  username:     cramsan
+  icon:         '/public/icons/linkedin.png'
