@@ -128,6 +128,15 @@ img {
   margin-bottom: 10px;
 }
 
+.navigatorContainer {
+  text-align:center;
+}
+
+.navigator {
+  margin: auto;
+  display: inline-block;
+}
+
 .programTitle {
   vertical-align: middle;
   font-weight: bold;
