@@ -12,7 +12,7 @@ To achieve this I am using a box with Ubuntu with two network cards and Wireshar
 
 In this setup the eth0 is the interface to the internal network and eth1 is the interface to the external network.
 
-# Configure the interfaces to do the routing
+## Configure the interfaces to do the routing
 
     # Set some variables
     ETH_INT="enp4s1"
@@ -45,7 +45,7 @@ In this setup the eth0 is the interface to the internal network and eth1 is the 
     
 At this point you can configure a device to the internal network and if you configure a static IP and DNS, you should have access to the external network/internel.
 
-# Configuring DHCP and DNS
+## Configuring DHCP and DNS
 
 This step is even easier than the first one.
 
@@ -74,7 +74,7 @@ At this point you should have dns and DHCP working in the internal network. One 
 
     sudo service NetworkManager stop
 
-# Now Wireshark
+## Now Wireshark
 
 You though that configuring dnsmaq was easy? Wireshark cannot be any simple:
 	
@@ -85,10 +85,10 @@ You though that configuring dnsmaq was easy? Wireshark cannot be any simple:
 
 You will need to log out and log back in for the group permission  to take effect. But now you can run Wireshark and select your internal network to listen to anything going through it.
 
-# Router
+## Router
 
 I decided to use a wifi router with DD-WRT to extend the network with 3 more ports + wifi. Now any device connected through the wired or wireless connections will be captured by Wireshark.
 
-# Sources
+## Sources
  - https://help.ubuntu.com/community/Internet/ConnectionSharing
 
