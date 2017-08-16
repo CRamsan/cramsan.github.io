@@ -36,3 +36,8 @@
   url:          https://www.linkedin.com/in/cramsan
   username:     cramsan
   icon:         '/public/icons/linkedin.png'
+  
+- name:         Youtube
+  url:          https://www.youtube.com/channel/UCTxhAOl_Mk0IXyR6Ry-7zdg
+  username:     CRamsan
+  icon:         '/public/icons/youtube.png' 
