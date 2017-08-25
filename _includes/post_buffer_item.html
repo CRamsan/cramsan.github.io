@@ -3,7 +3,7 @@
   {{ post.date | date: '%Y/%m/%d:%H:%M:%S' }}
   {% endif %}
   {% for service in post.services %}
-  {% if service.name == "googleplus" || service.name == "twitter" || service.name == "facebook"%}
+  {% if service.name == "google" or service.name == "twitter" or service.name == "facebook"%}
   {% include buffer_social_icon.html param_service=service %}
   {% endif %}
   {% endfor %}
