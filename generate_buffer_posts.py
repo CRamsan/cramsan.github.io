@@ -26,7 +26,7 @@ for post in data:
     fileDateString = value.strftime('%Y-%m-%d')
     titleFull = post["title"]
     title = post["title"][:40]
-    sanitazedTitle = title.replace('/', '').replace('\\', '')
+    sanitazedTitle = title.replace('/', '', '!').replace('\\', '')
     for character in [' ', '&', '?', ':', '^']:
         sanitazedTitle = sanitazedTitle.replace(character, '_')
     filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + ".md")
