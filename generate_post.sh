@@ -24,3 +24,5 @@ echo "tags: random" >> $NEW_FILE
 echo "categories: other" >> $NEW_FILE
 echo "---" >> $NEW_FILE
 echo >> $NEW_FILE
+
+vim $NEW_FILE

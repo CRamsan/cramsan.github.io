@@ -1,16 +1,20 @@
 albums: 
     b4vlV:
-        source: https://www.flickr.com/photos/149389453@N05/33761302772/in/album-72157682261361166/
+        source: https://www.flickr.com/photos/149389453@N05/albums/72157682261361166 
         first: https://c1.staticflickr.com/3/2859/33761302772_12ba4f76f4_z.jpg
     p6XhQ:
-        source: https://www.flickr.com/photos/149389453@N05/33516806490/in/album-72157678987835494/
+        source: https://www.flickr.com/photos/149389453@N05/albums/72157678987835494
         first: https://c1.staticflickr.com/3/2845/33516806490_378d730f33_z.jpg
     rcr2017album: 
-        source: https://www.flickr.com/photos/149389453@N05/33900509206/in/album-72157680636957130/
+        source: https://www.flickr.com/photos/149389453@N05/albums/72157680636957130
         first: https://c1.staticflickr.com/3/2849/33900509206_0841328718_z.jpg
     mtraineeralbum:
-        source: https://www.flickr.com/photos/149389453@N05/36068180625/in/album-72157683819448724/
+        source: https://www.flickr.com/photos/149389453@N05/albums/72157683819448724
         first: https://farm5.staticflickr.com/4307/35228103264_7a180a32b2_z.jpg
+    pax2017:
+        source: https://www.flickr.com/photos/149389453@N05/albums/72157686198657413
+        first: https://farm5.staticflickr.com/4439/36629247230_8a631f612f_z.jpg
+
 youtube:
     gzcRDvooupQ: gzcRDvooupQ
 legacy:
