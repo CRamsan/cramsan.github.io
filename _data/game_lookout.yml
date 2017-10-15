@@ -1,14 +1,10 @@
 - type: Hardware
   items:
-    - PS Vita
-    - PSP
     - Gamecube LCD screen
     - GBA Micro
 
 - type: Games
   items:
-    - Advanced Wars 2 CIB
-    - Eternal Darkness
     - Kirby Airride
     - Croc 2
     - Sheep Raider
