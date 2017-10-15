@@ -104,21 +104,28 @@
 - name: Nintendo Gamecube
   games:
   - 007 Nightfire
+  - Alien Hominid
   - Baten Kaitos Eternal Wings and the Lost Ocean
   - Baten Kaitos Origins
   - Battlaion Wars
+  - Billy Hatcher and the Giant Egg
+  - Eternal Darkness Sanity's Requiem
   - Extreme-G 3
   - Final Fantasy Crystal Chronicles
+  - Ikaruga
   - Killer 7
+  - Mario Kart Double Dash
   - Mario Party 5
   - Mario Party 6
   - Metroid Prime
   - Metroid Prime 2 Echoes
+  - Paper Mario The Thousand Year Door
   - Phantasy Star Online Episode I & II
   - Phantasy Star Online Episode I & II Plus
   - Phantasy Star Online Episode III C.A.R.D. Revolution
   - Pikmin
   - Pikmin 2
+  - Rayman 3
   - Resident Evil
   - Resident Evil 2
   - Resident Evil 3 Nemesis
@@ -130,11 +137,17 @@
   - Star Wars Rogue Squadron III Rebel Strike
   - Star Wars Rogue Squadron II Rogue Leader
   - Star Wars The Clone Wars
+  - Super Mario Sunshine
+  - Super Monkey Ball
+  - Super Monkey Ball 2
   - Super Smash Bros Melee
   - The Legend Of Zelda Four Swords Adventures
+  - The Legend Of Zelda Ocarina of Time
+  - The Legend Of Zelda The Wind Waker
   - Time Splitters 2
   - TimeSplitters Future Perfect
   - "Turok: Evolution"
+  - Viewtiful Joe
 
 - name: PlayStation
   games:
