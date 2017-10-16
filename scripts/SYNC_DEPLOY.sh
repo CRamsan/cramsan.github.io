@@ -1,5 +1,5 @@
 #!/bin/bash
 git reset --hard
 git pull origin master
-./DEPLOY_PROD.sh
+./scripts/DEPLOY_PROD.sh
 git push mirror master

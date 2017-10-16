@@ -16,22 +16,8 @@ gems:
 - jekyll-paginate
 exclude:
 - CNAME
-- DEPLOY_DEBUG.sh
-- DEPLOY_PROD.sh
-- DEPLOY_SERVE.sh
 - Gemfile
 - Gemfile.lock
-- generateMOTD.sh
-- generate_post.sh
-- INSTALL.sh
 - LICENSE.md
 - README.md
-- SYNC_DEPLOY.sh
-- UPDATE.sh
-- generate_index.sh
-- generate_media.sh
-- generate_buffer_data.py
-- generate_buffer_queue.py
-- generate_buffer_posts.py
-- generate_flickrdb.py
-- generate_social_data.sh
+- scripts

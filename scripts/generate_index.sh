@@ -1,3 +1,4 @@
+#!/bin/bash
 # This script makes heavy use of local variables due to some unexpexted
 # behaviours with variables being considered global. 
 
