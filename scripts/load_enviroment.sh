@@ -13,4 +13,4 @@ if [ ! -d ".git" ]; then
 fi
 
 CURRENT_DIR=$(pwd)
-export PATH=$CURRENT_DIR:$PATH
+export PATH=$CURRENT_DIR/scripts:$PATH
