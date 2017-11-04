@@ -19,7 +19,7 @@ NEW_FILE="$NEW_FOLDER/$TITLE.md"
 echo "New collection folder $NEW_FOLDER will be created."
 echo "File $NEW_FILE will be created as the index.html of this folder."
 
-mkdir "NEW_FOLDER"
+mkdir "$NEW_FOLDER"
 
 echo "---" > $NEW_FILE
 echo "layout: page" >> $NEW_FILE

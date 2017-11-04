@@ -1,5 +1,7 @@
 {"node":"docs",
 "level": "0",
+"link": "docs",
+"name": "Docs",
 "list": [
 {"level": "1",
 "link": "gaming",
@@ -11,6 +13,8 @@
 ,
 {"node":"Melee_Clone",
 "level": "1",
+"link": "Melee_Clone",
+"name": "Melee Clone",
 "list": [
 {"level": "2",
 "link": "Melee_Clone/1milestones",
@@ -24,8 +28,4 @@
 "link": "Melee_Clone/3statemachine",
 "name": "State Machine"}
 ]}
-,
-{"level": "1",
-"link": "Melee_Clone",
-"name": "Melee Clone"}
 ]}
