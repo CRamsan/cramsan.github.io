@@ -15,5 +15,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/2014603705489314
 ---
+
 Winter is here in Redmond.
+
 {% include post_image.html image_id=site.data.flickr.38086770376 %}

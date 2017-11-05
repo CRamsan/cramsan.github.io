@@ -13,5 +13,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1982546608695024
 ---
+
 GameCube controllers are expensive :/
+
 {% include post_image.html image_id=site.data.flickr.35925785184 %}

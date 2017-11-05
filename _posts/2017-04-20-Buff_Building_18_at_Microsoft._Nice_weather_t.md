@@ -14,5 +14,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1916303781985974
 ---
+
 Building 18 at Microsoft. Nice weather today at Redmond.
+
 {% include post_image.html image_id=site.data.flickr.33783998260 %}

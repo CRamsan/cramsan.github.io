@@ -13,4 +13,5 @@ services:
   - name: google
     link: https://plus.google.com/106027709116533359385/posts/5Phqq1xghai
 ---
+
 I am trying to be cost-neutral with my game acquisition. Selling some games should allow me to get new ones.

@@ -14,5 +14,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1918218498461169
 ---
+
 Hacking my Jekyll blog from&nbsp;&nbsp;my Pixel C :D
+
 {% include post_image.html image_id=site.data.flickr.33402377194 %}

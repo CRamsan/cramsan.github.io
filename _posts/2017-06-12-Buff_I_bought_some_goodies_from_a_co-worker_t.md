@@ -13,6 +13,7 @@ services:
   - name: google
     link: https://plus.google.com/106027709116533359385/posts/24c6J5xYbfN
 ---
+
 I bought some goodies from a co-worker today :)
 
 {% include post_image.html image_id=site.data.flickr.35238536516 %}

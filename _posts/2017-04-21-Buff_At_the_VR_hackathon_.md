@@ -13,5 +13,7 @@ services:
   - name: google
     link: https://plus.google.com/106027709116533359385/posts/jNr13MXeJnV
 ---
+
 At the VR hackathon!
+
 {% include post_image.html image_id=site.data.flickr.33345419464 %}

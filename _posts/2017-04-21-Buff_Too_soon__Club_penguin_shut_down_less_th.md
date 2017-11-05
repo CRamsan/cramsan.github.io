@@ -14,5 +14,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1916882588594760
 ---
+
 Too soon! Club penguin shut down less than a month ago. Not cool. <a href="https://www.instagram.com/explore/tags/seavrhack" title="#seavrhack" class="hashtag" rel="external nofollow" target="_blank">#seavrhack</a>
+
 {% include post_image.html image_id=site.data.flickr.33805131230 %}

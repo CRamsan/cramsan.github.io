@@ -52,7 +52,7 @@ for post in data:
         fileHandler.write("  - name: " + service["name"] + "\n")
         if "service_link" in service:
             fileHandler.write("    link: " + service["service_link"] + "\n")
-    fileHandler.write("---\n")
+    fileHandler.write("---\n\n")
     fileHandler.write(post["text"] + "\n")
     for media in ["media_twitter", "media_facebook", "media_google", "media_instagram"]:
         if media in post:
@@ -61,6 +61,6 @@ for post in data:
                 key = postMedia["picture"]
                 if key in urlMap:
                     imageId = urlMap[key]
-                    fileHandler.write("{% include post_image.html image_id=site.data.flickr." + imageId + " %}\n")
+                    fileHandler.write("\n{% include post_image.html image_id=site.data.flickr." + imageId + " %}\n")
                     break;
     print("Data was written to file " + filename)

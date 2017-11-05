@@ -13,5 +13,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1964765503806468
 ---
+
 I completed Pokemon Yellow on VC now and I am moving to Pokemon Crystal!
+
 {% include post_image.html image_id=site.data.flickr.35627422160 %}

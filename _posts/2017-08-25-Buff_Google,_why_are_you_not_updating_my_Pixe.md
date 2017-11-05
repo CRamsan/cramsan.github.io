@@ -13,5 +13,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1983643538585331
 ---
+
 Google, why are you not updating my Pixel C!
+
 {% include post_image.html image_id=site.data.flickr.36640364462 %}

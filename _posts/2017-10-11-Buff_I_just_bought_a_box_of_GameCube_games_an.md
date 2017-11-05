@@ -13,6 +13,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/2004202043196147
 ---
+
 I just bought a box of GameCube games and accessories from someone at work. To my surpise, there was also a GameCube component cable in it.
 
 {% include post_image.html image_id=site.data.flickr.37613080712 %}

@@ -13,7 +13,9 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/2014171515532533
 ---
-This phone is actually looking cute good.
+
+This phone is actually looking quite good.
+
 Watch, Listen, Play. The Razer Phone truly is a sight to behold  <a class="url" href="https://t.co/VoYcjsynFA" rel="external nofollow" target="_blank">https://t.co/VoYcjsynFA</a>&nbsp;&nbsp;<br />
 <br />
 <a href="https://twitter.com/#!/search?q=%23RazerPhone" title="#RazerPhone" class="hashtag" rel="external nofollow" target="_blank">#RazerPhone</a> <a class="url" href="https://t.co/85vZ0UwpAe" rel="external nofollow" target="_blank">https://t.co/85vZ0UwpAe</a>

@@ -13,5 +13,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1992109884405363
 ---
+
 This is now how I am packing my machines under my office desk. Scary stuff :/
+
 {% include post_image.html image_id=site.data.flickr.37039799586 %}

@@ -13,5 +13,6 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1939690532980632
 ---
+
 I wish I had known about this list before buying a USB thumb drive :/ <br />
 <a class="url" href="https://wiki.gbatemp.net/wiki/USB_Devices_Compatibility_List#64GB" rel="external nofollow" target="_blank">https://wiki.gbatemp.net/wiki/USB_Devices_Compatibility_List#64GB</a>

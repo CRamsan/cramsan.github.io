@@ -13,4 +13,5 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/2008255252790826
 ---
+
 Going from Gen1/2 straight to GenVII puts things in perspective. We have come a long ways from 1use TM, 2d sprites, no EVs or breeding.

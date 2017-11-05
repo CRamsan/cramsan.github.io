@@ -13,5 +13,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1995614677388217
 ---
+
 With @<a class="username" href="https://twitter.com/empathyawaits" rel="external nofollow" target="_blank">empathyawaits</a> at The Legend of Zelda Symphony of the Goddesses
+
 {% include post_image.html image_id=site.data.flickr.36586608543 %}

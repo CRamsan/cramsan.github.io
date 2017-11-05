@@ -13,5 +13,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/2007157546233930
 ---
+
 Just beat the Elite Four in Crystal. Now I will explore Kanto and then I will jump forward to GenV.
+
 {% include post_image.html image_id=site.data.flickr.23925202328 %}

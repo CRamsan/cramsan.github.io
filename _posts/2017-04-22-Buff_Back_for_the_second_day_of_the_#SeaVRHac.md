@@ -13,5 +13,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1917192378563781
 ---
+
 Back for the second day of the <a href="https://twitter.com/#!/search?q=%23SeaVRHack" title="#SeaVRHack" class="hashtag" rel="external nofollow" target="_blank">#SeaVRHack</a>
+
 {% include post_image.html image_id=site.data.flickr.34200961445 %}

@@ -13,5 +13,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1944322419184110
 ---
+
 I finally got my N64RGB modchip. It is time to continue the journey to RGB all the things.
+
 {% include post_image.html image_id=site.data.flickr.35165916771 %}

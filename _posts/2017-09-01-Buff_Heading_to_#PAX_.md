@@ -13,5 +13,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1986560411626977
 ---
+
 Heading to <a href="https://twitter.com/#!/search?q=%23PAX" title="#PAX" class="hashtag" rel="external nofollow" target="_blank">#PAX</a>!
+
 {% include post_image.html image_id=site.data.flickr.36778897786 %}

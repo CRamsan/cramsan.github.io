@@ -13,4 +13,5 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1866646100285076
 ---
+
 Lesson of the day. Take it easy and learn more about C++ pointers. Otherwise I will have lots of crashes in my future.

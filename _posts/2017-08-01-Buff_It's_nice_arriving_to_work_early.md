@@ -13,5 +13,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1972178676398484
 ---
+
 It&#039;s nice arriving to work early
+
 {% include post_image.html image_id=site.data.flickr.36271286446 %}

@@ -14,5 +14,7 @@ services:
   - name: facebook
     link: https://facebook.com/1658129037803451/posts/1934931363456549
 ---
+
 Mt Rainier in a clear afternoon.
+
 {% include post_image.html image_id=site.data.flickr.34109609573 %}
