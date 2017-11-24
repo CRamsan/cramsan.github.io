@@ -2,7 +2,7 @@
 title: "Cesar Ramirez"
 timezone: UTC
 collections:
-  docs:
+  resources:
     output: true
 highlighter: pygments
 permalink: pretty

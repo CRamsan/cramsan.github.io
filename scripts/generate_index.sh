@@ -76,4 +76,4 @@ function listFiles() {
   echo "]}"
   cd $ORIGINAL_FOLDER
 }
-listFiles "_docs" "0" "" "docs" > _data/collection_docs.json
+listFiles "_resources" "0" "" "resources" > _data/collection_resources.json
