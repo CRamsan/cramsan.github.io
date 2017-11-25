@@ -1,4 +1,4 @@
-HELP_MESSAGE="generate_docs_folder.sh [PAGE TITLE]"
+HELP_MESSAGE="generate_resources_folder.sh [PAGE TITLE]"
 
 if [ $# -eq 0 ]; then
   echo $HELP_MESSAGE
@@ -13,7 +13,7 @@ fi
 INPUT=$1
 TITLE="${INPUT//[^a-zA-Z0-9]/_}"
 NEW_FOLDER="$TITLE"
-NEW_FILE="$NEW_FOLDER/$TITLE.md"
+NEW_FILE="$TITLE.md"
 
 
 echo "New collection folder $NEW_FOLDER will be created."
