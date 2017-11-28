@@ -1,5 +1,7 @@
 {"node":"resources",
 "level": "0",
+"link": "resources",
+"name": "Resources",
 "list": [
 {"level": "1",
 "link": "gaming",
