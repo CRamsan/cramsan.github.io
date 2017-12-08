@@ -29,10 +29,7 @@
 "name": "State Machine"}
 ]}
 ,
-{"node":"Utilities",
-"level": "1",
+{"level": "1",
 "link": "Utilities",
-"name": "Utilities",
-"list": [
-]}
+"name": "Utilities"}
 ]}
