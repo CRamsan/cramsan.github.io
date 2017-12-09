@@ -26,7 +26,15 @@ var ValueToEncodingFunctionMapping = [{
 		{ "label" : "URL Component Encoded",
 			"id" : "urlComponentEncoded",
 			"decode" : urlComponentDecodeString, 
-			"encode" : urlComponentEncodeString }]
+			"encode" : urlComponentEncodeString },
+		{ "label" : "Lower Case",
+			"id" : "lowercase",
+			"decode" : noopEncodeString,
+			"encode" : lowercaseEncodeString },
+		{ "label" : "Upper Case",
+			"id" : "uppercase",
+			"decode" : noopEncodeString,
+			"encode" : uppercaseEncodeString }]
 },{
 	"title" : "Unsigned Integers",
 	"mapping" : [{ "label" : "Decimal",
@@ -103,7 +111,7 @@ function loadFunctions() {
 			div.appendChild(label)
 
 			var textArea = document.createElement("textArea")
-			textArea.rows = 8
+			textArea.rows = 4
 			textArea.id = section["id"]
 			textArea.style.width = "100%"
 			textArea.style.resize = "none"

@@ -21,6 +21,18 @@ function base64DecodeString(inputString) {
 	}) 
 }
 
+function uppercaseEncodeString(inputString) {
+	return handleEncoding(function(){
+		return inputString.toUpperCase();
+	}) 
+}
+
+function lowercaseEncodeString(inputString) {
+	return handleEncoding(function(){
+		return inputString.toLowerCase();
+	}) 
+}
+
 function urlEncodeString(inputString) {
 	return handleEncoding(function(){
 		return encodeURI(inputString);
