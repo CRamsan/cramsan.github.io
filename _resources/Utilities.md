@@ -47,11 +47,17 @@ var ValueToEncodingFunctionMapping = [{
 			"rows" : 1,
 			"decode" : hexToBinary, 
 			"encode" : binaryToHex },
-		{ "label" : "Binary",
-			"id" : "binary",
+		{ "label" : "Binary(LE)",
+			"id" : "binaryLE",
 			"rows" : 1,
 			"decode" : noopEncodeString, 
-			"encode" : noopEncodeString }]
+			"encode" : noopEncodeString },
+		{ "label" : "Binary(BE)",
+			"id" : "binaryBE",
+			"rows" : 1,
+			"decode" : BEBinaryToLEBinary, 
+			"encode" :  LEBinaryToBEBinary}]
+
 }]
 
 processInputChange = function(event, mapping) {

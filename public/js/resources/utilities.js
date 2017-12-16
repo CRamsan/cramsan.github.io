@@ -87,3 +87,16 @@ function binaryToHex(inputString) {
 	})
 
 }
+
+function BEBinaryToLEBinary(inputString) {
+	return handleEncoding(function() {
+		return inputString
+	}) 
+}
+
+function LEBinaryToBEBinary(inputString) {
+	return handleEncoding(function() {
+		return inputString
+	})
+}
+
