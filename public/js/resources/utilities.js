@@ -60,43 +60,70 @@ function urlComponentDecodeString(inputString) {
 function decimalToBinary(inputString) {
 	return handleEncoding(function() {
 		var decimal = parseInt(inputString, 10)
-		return decimal.toString(2)
+		var outputString = decimal.toString(2)
+		return outputString
 	})
 }
 
 
 function binaryToDecimal(inputString) {
 	return handleEncoding(function() {
-		var binary = parseInt(inputString, 2)
-		return binary.toString(10)
+		var decimal = parseInt(inputString, 2)
+		return decimal.toString(10)
 	})
 }
 
 function hexToBinary(inputString) {
 	return handleEncoding(function() {
-		var hex = parseInt(inputString, 16)
-		return hex.toString(2)
+		var decimal = parseInt(inputString, 16)
+		return decimal.toString(2)
 	})
 
 }
 
 function binaryToHex(inputString) {
 	return handleEncoding(function() {
-		var binary = parseInt(inputString, 2)
-		return binary.toString(16)
+		var decimal = parseInt(inputString, 2)
+		return decimal.toString(16)
 	})
 
 }
 
-function BEBinaryToLEBinary(inputString) {
+function binaryToSignedDecimal(inputString) {
 	return handleEncoding(function() {
-		return inputString
-	}) 
-}
-
-function LEBinaryToBEBinary(inputString) {
-	return handleEncoding(function() {
-		return inputString
+		if (inputString.length < 2)
+			return "Value too short"
+		// Extract the value after the first bit
+		var binValue = inputString.substring(1);
+		if (inputString.charAt(0) == '1') {
+			// If the first character is 1, then thi will be a
+			// negative number.
+			var nBitsValue = Math.pow(2, binValue.length)
+			var decimal = parseInt(binValue, 2)
+			var twosComplement = nBitsValue - decimal;
+			return (-1 * twosComplement).toString(10)
+		} else {
+			// If the first character is not 1, parse everything
+			// afterwards as a regular integer
+			return parseInt(binValue, 2).toString(10)
+		}
 	})
 }
 
+function signedDecimalToBinary(inputString) {
+	return handleEncoding(function() {
+		var signChar = inputString.charAt(0)
+		var testSignChar = '-'
+		if (signChar == testSignChar) {
+			// Transform -3 to 3
+			var decimal = parseInt(inputString.substring(1), 10)
+			var nBitsValue = Math.pow(2, 32)
+			var twosComplement = nBitsValue - decimal
+			return twosComplement.toString(2)
+		} else {
+			var decimal = parseInt(inputString, 10)
+			var outputString = "0" + decimal.toString(2)
+			return outputString
+		}
+	})
+}

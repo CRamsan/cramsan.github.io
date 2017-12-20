@@ -36,28 +36,27 @@ var ValueToEncodingFunctionMapping = [{
 			"decode" : noopEncodeString,
 			"encode" : uppercaseEncodeString }]
 },{
-	"title" : "Unsigned Integers",
-	"mapping" : [{ "label" : "Decimal",
-			"id" : "decimal",
+	"title" : "Binary",
+	"mapping" : [{ "label" : "Binary",
+			"id" : "binary",
 			"rows" : 1,
-			"decode" : decimalToBinary, 
-			"encode" : binaryToDecimal },
+			"decode" : noopEncodeString, 
+			"encode" : noopEncodeString },
 		{ "label" : "Hexadecimal",
 			"id" : "hexadecimal",
 			"rows" : 1,
 			"decode" : hexToBinary, 
 			"encode" : binaryToHex },
-		{ "label" : "Binary(LE)",
-			"id" : "binaryLE",
+		{ "label" : "Unsigned Decimal",
+			"id" : "decimal",
 			"rows" : 1,
-			"decode" : noopEncodeString, 
-			"encode" : noopEncodeString },
-		{ "label" : "Binary(BE)",
-			"id" : "binaryBE",
+			"decode" : decimalToBinary, 
+			"encode" : binaryToDecimal },
+		{ "label" : "Signed Decimal(32 bits)",
+			"id" : "sdecimal",
 			"rows" : 1,
-			"decode" : BEBinaryToLEBinary, 
-			"encode" :  LEBinaryToBEBinary}]
-
+			"decode" : signedDecimalToBinary,
+			"encode" : binaryToSignedDecimal}]
 }]
 
 processInputChange = function(event, mapping) {
