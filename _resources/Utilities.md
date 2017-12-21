@@ -122,6 +122,12 @@ function loadFunctions() {
 			textArea.style.resize = "none"
 			textArea.addEventListener("keyup", sectionFunc);
 			textArea.addEventListener("change", sectionFunc);
+			textArea.addEventListener("keydown", function(event){
+				if(event.keyCode == 13)
+				{ return false; }
+				else
+				{ return true; }
+			});
 			
 			var rowCount = section["rows"]
 			if (rowCount !== undefined) {

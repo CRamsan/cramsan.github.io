@@ -1,7 +1,7 @@
 function handleEncoding (encodingBlock) 
 {
 	try {
-		return encodingBlock();
+		return String(encodingBlock());
 	} catch (e) {
 		console.log(e)
 		return e.name + ":" + e.message;
@@ -76,7 +76,12 @@ function binaryToDecimal(inputString) {
 function hexToBinary(inputString) {
 	return handleEncoding(function() {
 		var decimal = parseInt(inputString, 16)
-		return decimal.toString(2)
+		if (!isNaN(decimal)) {
+			var outputString = decimal.toString(2)
+			outputString = outputString.padStart(4 * inputString.length, "0")
+			return outputString
+		}
+		return Number.NaN
 	})
 
 }
@@ -93,6 +98,8 @@ function binaryToSignedDecimal(inputString) {
 	return handleEncoding(function() {
 		if (inputString.length < 2)
 			return "Value too short"
+		if (inputString.length > 32)
+			return "Value is too large"
 		// Extract the value after the first bit
 		var binValue = inputString.substring(1);
 		if (inputString.charAt(0) == '1') {
@@ -122,8 +129,10 @@ function signedDecimalToBinary(inputString) {
 			return twosComplement.toString(2)
 		} else {
 			var decimal = parseInt(inputString, 10)
-			var outputString = "0" + decimal.toString(2)
-			return outputString
+			if (!isNaN(decimal))
+				return "0" + decimal.toString(2)
+			else
+				return Number.NaN
 		}
 	})
 }
