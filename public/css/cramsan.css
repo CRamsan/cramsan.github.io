@@ -173,3 +173,16 @@ img {
 .programIdent7 {
   margin-left: 60px;
 }
+
+.utilContainerDiv {
+
+}
+
+.utilInputLabel {
+
+}
+
+.utilInputText { 
+  resize: none;
+  width: 100%;
+}

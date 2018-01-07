@@ -104,22 +104,23 @@ function loadFunctions() {
 		sectionFunc = function(event) {
 			processInputChange(event, mappingArray)
 		}
+
+		var contentContainer = document.createElement("div");
+		contentContainer.classList.add('utilContainerDiv');
 		mappingArray.forEach(function(section) {
 			var div = document.createElement("div");
-			div.style.width = "50%";
-			div.style.float = "left";
-
+			div.classList.add('utilInputContainer');
 			var sectionLabel = section["label"]
 	
 			var label = document.createElement("p")
+			label.classList.add('utilInputLabel')
 			label.innerHTML = sectionLabel
 			div.appendChild(label)
 
 			var textArea = document.createElement("textArea")
+			textArea.classList.add('utilInputText');
 			textArea.rows = 4
 			textArea.id = section["id"]
-			textArea.style.width = "100%"
-			textArea.style.resize = "none"
 			textArea.addEventListener("keyup", sectionFunc);
 			textArea.addEventListener("change", sectionFunc);
 			textArea.addEventListener("keydown", function(event){
@@ -135,9 +136,10 @@ function loadFunctions() {
 			}
 
 			div.appendChild(textArea)
-
-			mainContainer.appendChild(div);
+			contentContainer.appendChild(div);
 		})
+		mainContainer.appendChild(contentContainer)
+		mainContainer.appendChild(document.createElement("hr"))
 	})
 }
 
