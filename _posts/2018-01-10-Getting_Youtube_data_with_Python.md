@@ -35,15 +35,15 @@ Now you have everything you need to access the Youtube Data API. You can run the
 Acessing the API is rather simple.
 
  - Create the YoutubeAPI object
-```
+{% highlight python %}
 def get_authenticated_service():
   flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, SCOPES)
   credentials = flow.run_console()
   return build(API_SERVICE_NAME, API_VERSION, credentials = credentials)
 youtube = get_authenticated_service()
-```
+{% endhighlight %}
  - Now get the list of uploaded videos. This  function will return the Id of the playlist that represents the upload list of the authenticated channel
-```
+{% highlight python %}
 def get_my_uploads_list():
   # Retrieve the contentDetails part of the channel resource for the
   # authenticated user's channel.
@@ -56,9 +56,9 @@ def get_my_uploads_list():
     # of videos uploaded to the authenticated user's channel.
     return channel['contentDetails']['relatedPlaylists']['uploads']
   return None
-```
+{% endhighlight %}
  - Now that you have the Id of the uploads playlist, you can use it to iterate over every video
-```
+{% highlight python %}
 def list_my_uploaded_videos(uploads_playlist_id):
   # Retrieve the list of videos uploaded to the authenticated user's channel.
   playlistitems_list_request = youtube.playlistItems().list(
@@ -76,4 +76,4 @@ def list_my_uploaded_videos(uploads_playlist_id):
       print '%s (%s)' % (title, video_id)
     playlistitems_list_request = youtube.playlistItems().list_next(
       playlistitems_list_request, playlistitems_list_response)
-```
+{% endhighlight %}

@@ -4,7 +4,6 @@ timezone: UTC
 collections:
   resources:
     output: true
-highlighter: pygments
 permalink: pretty
 url: https://cramsan.com
 author:
