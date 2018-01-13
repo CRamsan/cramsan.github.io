@@ -4,3 +4,4 @@ _site
 *.swp
 _data/buffer.json
 _data/post_queue.json
+scripts/client_secret.json

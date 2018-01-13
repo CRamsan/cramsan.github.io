@@ -1,3 +1,7 @@
 <div class="embeddedYoutube">
-  <iframe src="https://www.youtube.com/embed/{{  include.video_id  }}"></iframe>
+{% if include.video_id.snippet.resourceId.videoId %}
+  <iframe src="https://www.youtube.com/embed/{{  include.video_id.snippet.resourceId.videoId }}"></iframe>
+{% else %}
+  <iframe src="https://www.youtube.com/embed/{{  include.video_id }}"></iframe>
+{% endif %}
 </div>

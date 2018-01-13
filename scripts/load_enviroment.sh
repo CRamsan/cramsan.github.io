@@ -13,4 +13,4 @@ if [ ! -d ".git" ]; then
 fi
 
 CURRENT_DIR=$(pwd)
-export PATH=$CURRENT_DIR/scripts:/home/cramsan/.gem/ruby/2.4.0/bin/:$PATH
+export PATH=$CURRENT_DIR/scripts:/home/cramsan/.gem/ruby/2.5.0/bin/:$PATH

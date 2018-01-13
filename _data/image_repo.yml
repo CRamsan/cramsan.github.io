@@ -15,17 +15,3 @@ albums:
         source: https://www.flickr.com/photos/149389453@N05/albums/72157686198657413
         first: https://farm5.staticflickr.com/4439/36629247230_8a631f612f_z.jpg
 
-youtube:
-    gzcRDvooupQ: gzcRDvooupQ
-legacy:
-    host: https://i.imgur.com
-    images:
-        3jHUNDN: 3jHUNDN
-        F3RjwPn: F3RjwPn
-        MOE0DrN: MOE0DrN
-        27j3hpM: 27j3hpM
-        CtkaqlK: CtkaqlK
-    albums:
-        b4vlV: b4vlV
-        p6XhQ: p6XhQ
-
