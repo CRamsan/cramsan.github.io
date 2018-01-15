@@ -58,10 +58,7 @@ def list_my_uploaded_videos(uploads_playlist_id):
     maxResults=5
   )
 
-  # We need two structures. A dictionary that will use the video Id as the key.
-  # And an array of video Ids that is sorted chronologically. 
   json_data = {}
-  id_array = []
   print 'Videos in list %s' % uploads_playlist_id
   while playlistitems_list_request:
     playlistitems_list_response = playlistitems_list_request.execute()
@@ -75,22 +72,34 @@ def list_my_uploaded_videos(uploads_playlist_id):
       print '%s (%s)' % (title, video_id)
     playlistitems_list_request = youtube.playlistItems().list_next(
       playlistitems_list_request, playlistitems_list_response)
+  return json_data
   
-  # Now that we are done iterating the dictionary 
-  # save the dictionary
-  with open('youtube.json', 'w') as outfile:
-    json.dump(json_data, outfile)
+# Remove keyword arguments that are not set
+def remove_empty_kwargs(**kwargs):
+  good_kwargs = {}
+  if kwargs is not None:
+    for key, value in kwargs.iteritems():
+      if value:
+        good_kwargs[key] = value
+  return good_kwargs
 
-  # Iterate the dictionary and sort based on their date(position in the queue)
-  for key, value in sorted(json_data.iteritems(), key=lambda (k,v): v['snippet']['position']):
-    print "%s: %s" % (key, value) 
-    id_array.append(key)
+def playlists_list_mine(client, **kwargs):
+  # See full sample for function
+  kwargs = remove_empty_kwargs(**kwargs)
 
-  # Now save the video queue
-  with open('youtube_queue.json', 'w') as outfile:
-    json.dump(id_array, outfile)
+  response = client.playlists().list(
+    **kwargs
+  ).execute()
 
-
+  json_data = {}
+  # Print information about each video.
+  for playlist_item in response['items']:
+    title = playlist_item['snippet']['title']
+    playlist_id = playlist_item['id']
+    # Add the video item to the dictionary 
+    json_data[playlist_id] = playlist_item
+    print '%s (%s)' % (title, playlist_id)
+  return json_data
 
 if __name__ == '__main__':
   if len(sys.argv) < 4:
@@ -103,10 +112,32 @@ if __name__ == '__main__':
 
   youtube = get_authenticated_service()
   try:
+    video_data, playlist_data = None, None
+    id_array = []
     uploads_playlist_id = get_my_uploads_list()
     if uploads_playlist_id:
-      list_my_uploaded_videos(uploads_playlist_id)
+      video_data = list_my_uploaded_videos(uploads_playlist_id)
     else:
       print('There is no uploaded videos playlist for this user.')
+    
+    playlist_data = playlists_list_mine(youtube,
+        part='snippet,contentDetails',
+        mine=True,
+        onBehalfOfContentOwner='',
+        onBehalfOfContentOwnerChannel='')
+
+    # Iterate the dictionary and sort based on their date(position in the queue)
+    for key, value in sorted(video_data.iteritems(), key=lambda (k,v): v['snippet']['position']):
+      id_array.append(key)
+    # Now save the video queue
+    with open('youtube_queue.json', 'w') as outfile:
+      json.dump(id_array, outfile)
+
+    json_data = {'videos' : video_data, 'playlists' : playlist_data}
+    # Now that we are done iterating the dictionary 
+    # save the dictionary
+    with open('youtube.json', 'w') as outfile:
+      json.dump(json_data, outfile)
+
   except HttpError, e:
     print 'An HTTP error %d occurred:\n%s' % (e.resp.status, e.content)

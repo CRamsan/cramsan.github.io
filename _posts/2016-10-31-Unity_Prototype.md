@@ -6,4 +6,4 @@ categories: programming
 layout: post
 ---
 
-{% include post_youtube.html video_id=site.data.youtube.gzcRDvooupQ %}
+{% include post_youtube.html video_id=site.data.youtube.videos.gzcRDvooupQ %}
