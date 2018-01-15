@@ -17,4 +17,4 @@ services:
 
 Hacking my Jekyll blog from&nbsp;&nbsp;my Pixel C :D
 
-{% include post_image.html image_id=site.data.flickr.33402377194 %}
+{% include post_image.html image_id=site.data.flickr.photos.33402377194 %}

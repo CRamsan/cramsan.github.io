@@ -16,4 +16,4 @@ services:
 
 At the VR hackathon!
 
-{% include post_image.html image_id=site.data.flickr.33345419464 %}
+{% include post_image.html image_id=site.data.flickr.photos.33345419464 %}

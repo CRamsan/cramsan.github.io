@@ -17,4 +17,4 @@ services:
 
 Building 18 at Microsoft. Nice weather today at Redmond.
 
-{% include post_image.html image_id=site.data.flickr.33783998260 %}
+{% include post_image.html image_id=site.data.flickr.photos.33783998260 %}

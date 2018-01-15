@@ -16,4 +16,4 @@ services:
 
 I hate this weather with such passion. Forecast for today is between -3C and 4C. At least it&#039;s not raining. What a way to start the day -_-
 
-{% include post_image.html image_id=site.data.flickr.38492353894 %}
+{% include post_image.html image_id=site.data.flickr.photos.38492353894 %}

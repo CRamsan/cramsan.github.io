@@ -16,4 +16,4 @@ services:
 
 This is now how I am packing my machines under my office desk. Scary stuff :/
 
-{% include post_image.html image_id=site.data.flickr.37039799586 %}
+{% include post_image.html image_id=site.data.flickr.photos.37039799586 %}

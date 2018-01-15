@@ -16,4 +16,4 @@ services:
 
 It&#039;s nice arriving to work early
 
-{% include post_image.html image_id=site.data.flickr.36271286446 %}
+{% include post_image.html image_id=site.data.flickr.photos.36271286446 %}

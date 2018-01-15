@@ -1,6 +1,6 @@
 <div>
-  <a data-flickr-embed="true" data-context="true" href="{{ include.image_id.source }}">
-    <img src="{{ include.image_id.first }}" class="embeddedFlickrSlideshow">
+  <a data-flickr-embed="true" data-context="true" href="https://www.flickr.com/photos/149389453@N05/albums/{{ include.photoset.id }}">
+	<img src="https://c1.staticflickr.com/{{ include.photoset.farm }}/{{ include.photoset.server }}/{{ include.photoset.primary }}_{{ include.photoset.secret }}_z.jpg" class="embeddedFlickrSlideshow">
   </a>
   <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>

@@ -16,4 +16,4 @@ services:
 
 With @<a class="username" href="https://twitter.com/empathyawaits" rel="external nofollow" target="_blank">empathyawaits</a> at The Legend of Zelda Symphony of the Goddesses
 
-{% include post_image.html image_id=site.data.flickr.36586608543 %}
+{% include post_image.html image_id=site.data.flickr.photos.36586608543 %}

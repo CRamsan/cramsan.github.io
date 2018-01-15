@@ -16,4 +16,4 @@ services:
 
 Friday after work. The connector stop is dead.
 
-{% include post_image.html image_id=site.data.flickr.39659020451 %}
+{% include post_image.html image_id=site.data.flickr.photos.39659020451 %}

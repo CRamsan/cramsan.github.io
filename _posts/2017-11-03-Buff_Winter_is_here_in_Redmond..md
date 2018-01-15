@@ -18,4 +18,4 @@ services:
 
 Winter is here in Redmond.
 
-{% include post_image.html image_id=site.data.flickr.38086770376 %}
+{% include post_image.html image_id=site.data.flickr.photos.38086770376 %}

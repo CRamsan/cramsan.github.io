@@ -16,4 +16,4 @@ services:
 
 Christmas-opolys! Made while at work.
 
-{% include post_image.html image_id=site.data.flickr.38499193634 %}
+{% include post_image.html image_id=site.data.flickr.photos.38499193634 %}

@@ -16,4 +16,4 @@ services:
 
 Having some tea at the Lan Su Garden in Portland.
 
-{% include post_image.html image_id=site.data.flickr.38370076065 %}
+{% include post_image.html image_id=site.data.flickr.photos.38370076065 %}

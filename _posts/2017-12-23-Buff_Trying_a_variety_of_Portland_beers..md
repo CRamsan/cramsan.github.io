@@ -16,4 +16,4 @@ services:
 
 Trying a variety of Portland beers.
 
-{% include post_image.html image_id=site.data.flickr.38540221304 %}
+{% include post_image.html image_id=site.data.flickr.photos.38540221304 %}

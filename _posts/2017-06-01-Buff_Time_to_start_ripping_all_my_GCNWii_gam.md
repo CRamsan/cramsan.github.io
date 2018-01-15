@@ -17,4 +17,4 @@ services:
 
 Time to start ripping all my GCN/Wii games. The plan is to be able to play 100% from USB + PSO online from the Wii.
 
-{% include post_image.html image_id=site.data.flickr.34657890880 %}
+{% include post_image.html image_id=site.data.flickr.photos.34657890880 %}

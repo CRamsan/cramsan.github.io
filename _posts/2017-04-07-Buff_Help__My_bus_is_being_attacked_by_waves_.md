@@ -16,4 +16,4 @@ services:
 ---
 
 Help! My bus is being attacked by waves!
-{% include post_image.html image_id=site.data.flickr.33516909670 %}
+{% include post_image.html image_id=site.data.flickr.photos.33516909670 %}

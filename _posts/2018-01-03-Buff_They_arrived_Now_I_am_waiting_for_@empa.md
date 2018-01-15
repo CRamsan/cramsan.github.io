@@ -16,4 +16,4 @@ services:
 
 They arrived! Now I am waiting for @<a class="username" href="https://twitter.com/empathyawaits" rel="external nofollow" target="_blank">empathyawaits</a> so we can set them up together. <a href="https://twitter.com/#!/search?q=%23Pixel2" title="#Pixel2" class="hashtag" rel="external nofollow" target="_blank">#Pixel2</a>
 
-{% include post_image.html image_id=site.data.flickr.25617097018 %}
+{% include post_image.html image_id=site.data.flickr.photos.25617097018 %}

@@ -16,4 +16,4 @@ services:
 
 I completed Pokemon Yellow on VC now and I am moving to Pokemon Crystal!
 
-{% include post_image.html image_id=site.data.flickr.35627422160 %}
+{% include post_image.html image_id=site.data.flickr.photos.35627422160 %}

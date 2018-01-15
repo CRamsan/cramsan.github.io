@@ -16,4 +16,4 @@ services:
 
 I just bought a box of GameCube games and accessories from someone at work. To my surpise, there was also a GameCube component cable in it.
 
-{% include post_image.html image_id=site.data.flickr.37613080712 %}
+{% include post_image.html image_id=site.data.flickr.photos.37613080712 %}

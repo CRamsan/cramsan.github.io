@@ -16,6 +16,4 @@ services:
 
 Some pictures of my hike to Mt Rainier. 
 
-{% include post_album.html image_id=site.data.image_repo.albums.mtraineeralbum %}
-
-<a class="url" href="https://www.flickr.com/photos/149389453@N05/albums/72157683819448724" rel="external nofollow" target="_blank">https://www.flickr.com/photos/149389453@N05/albums/72157683819448724</a>
+{% include post_album.html photoset=site.data.flickr.photosets.72157683819448724 %}

@@ -16,4 +16,4 @@ services:
 
 I bought some goodies from a co-worker today :)
 
-{% include post_image.html image_id=site.data.flickr.35238536516 %}
+{% include post_image.html image_id=site.data.flickr.photos.35238536516 %}

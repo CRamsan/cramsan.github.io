@@ -14,14 +14,14 @@ One member, Beljoda, started working on a squad-lead assistant application for t
 
 But having a page that displays data straight from them API was nothing really new or special. So I decided to do something a bit more interesting and came to the idea of checking kills or deaths to trigger a screen shot. And this is the result:
 
-{% include post_image.html image_id=site.data.flickr.33105304383 %}
+{% include post_image.html image_id=site.data.flickr.photos.33105304383 %}
 
 I have a key bind that I use to show or hide this panel, and I also added a link to go to a 'lite' mode of the panel. This will minimize the window but it will keep taking screen shots based on the settings.
 
-{% include post_image.html image_id=site.data.flickr.33788443741 %}
+{% include post_image.html image_id=site.data.flickr.photos.33788443741 %}
 
 It is not Recursion Stat Tracker but it is a neat project, and I like keeping some records of my kills.
 
-{% include post_album.html image_id=site.data.image_repo.albums.p6XhQ %}
+{% include post_album.html photoset=site.data.flickr.photosets.72157678987835494 %}
 
 I have already submitted the application to the Overwolf team and it will be hopefully accepted in couple weeks.

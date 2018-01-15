@@ -16,4 +16,4 @@ services:
 
 GameCube controllers are expensive :/
 
-{% include post_image.html image_id=site.data.flickr.35925785184 %}
+{% include post_image.html image_id=site.data.flickr.photos.35925785184 %}

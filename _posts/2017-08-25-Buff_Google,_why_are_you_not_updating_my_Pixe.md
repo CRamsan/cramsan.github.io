@@ -16,4 +16,4 @@ services:
 
 Google, why are you not updating my Pixel C!
 
-{% include post_image.html image_id=site.data.flickr.36640364462 %}
+{% include post_image.html image_id=site.data.flickr.photos.36640364462 %}

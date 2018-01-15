@@ -16,4 +16,4 @@ services:
 
 Heading to <a href="https://twitter.com/#!/search?q=%23PAX" title="#PAX" class="hashtag" rel="external nofollow" target="_blank">#PAX</a>!
 
-{% include post_image.html image_id=site.data.flickr.36778897786 %}
+{% include post_image.html image_id=site.data.flickr.photos.36778897786 %}

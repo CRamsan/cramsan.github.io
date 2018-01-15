@@ -17,4 +17,4 @@ services:
 
 Too soon! Club penguin shut down less than a month ago. Not cool. <a href="https://www.instagram.com/explore/tags/seavrhack" title="#seavrhack" class="hashtag" rel="external nofollow" target="_blank">#seavrhack</a>
 
-{% include post_image.html image_id=site.data.flickr.33805131230 %}
+{% include post_image.html image_id=site.data.flickr.photos.33805131230 %}

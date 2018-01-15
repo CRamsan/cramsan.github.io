@@ -16,4 +16,4 @@ services:
 
 I finally got my N64RGB modchip. It is time to continue the journey to RGB all the things.
 
-{% include post_image.html image_id=site.data.flickr.35165916771 %}
+{% include post_image.html image_id=site.data.flickr.photos.35165916771 %}

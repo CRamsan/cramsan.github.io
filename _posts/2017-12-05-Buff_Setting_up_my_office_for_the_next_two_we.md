@@ -18,4 +18,4 @@ services:
 
 Setting up my office for the next two weeks.
 
-{% include post_image.html image_id=site.data.flickr.23987571897 %}
+{% include post_image.html image_id=site.data.flickr.photos.23987571897 %}

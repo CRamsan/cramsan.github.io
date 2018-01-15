@@ -17,4 +17,4 @@ services:
 
 30$ for everything! Yay!
 
-{% include post_image.html image_id=site.data.flickr.34202123831 %}
+{% include post_image.html image_id=site.data.flickr.photos.34202123831 %}

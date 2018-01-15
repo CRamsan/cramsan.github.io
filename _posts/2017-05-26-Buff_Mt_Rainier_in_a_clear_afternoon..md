@@ -17,4 +17,4 @@ services:
 
 Mt Rainier in a clear afternoon.
 
-{% include post_image.html image_id=site.data.flickr.34109609573 %}
+{% include post_image.html image_id=site.data.flickr.photos.34109609573 %}

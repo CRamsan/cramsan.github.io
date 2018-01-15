@@ -30,8 +30,26 @@ while(current_page <= last_page):
     # Next page
     current_page += 1
 
+current_page = 1
+last_page = 1
+out_photoset_dict = {}
+while(current_page <= last_page):
+    result = flickr.photosets_getList(user_id=target_user, per_page=10, page=current_page)
+    last_page = result['photosets']['pages']
+    total = result['photosets']['total']
+    page = result['photosets']['page']
+    photoset_list = result['photosets']['photoset']
+    for photoset in photoset_list:
+        photoset_id = photoset['id']
+        print (photoset_id)
+        # Use this information to generate the links
+        out_photoset_dict[photoset_id] = photoset
+    # Next page
+    current_page += 1
+
 fileHandler = open(OUTPUT_FILENAME, 'w')
 # Pretty print the list of pictures
-output = json.dumps(out_photo_dict, indent=4, ensure_ascii=False).encode('ascii', 'ignore').decode('ascii', 'ignore')
+flickr_data = {'photos' : out_photo_dict, 'photosets' : out_photoset_dict}
+output = json.dumps(flickr_data, indent=4, ensure_ascii=False).encode('ascii', 'ignore').decode('ascii', 'ignore')
 fileHandler.write(output)
 print("Data was written to file " + OUTPUT_FILENAME)

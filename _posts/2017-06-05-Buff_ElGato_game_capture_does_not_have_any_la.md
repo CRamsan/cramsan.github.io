@@ -16,4 +16,4 @@ services:
 
 ElGato game capture does not have any lag when doing HDMI passthrough!
 
-{% include post_image.html image_id=site.data.flickr.34963307862 %}
+{% include post_image.html image_id=site.data.flickr.photos.34963307862 %}

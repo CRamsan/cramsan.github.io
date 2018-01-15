@@ -17,4 +17,4 @@ services:
 
 I am glad I can run OBS on Linux to record mi Wii/GCN with the ElGato. And everything is working great so far :)
 
-{% include post_image.html image_id=site.data.flickr.34770361451 %}
+{% include post_image.html image_id=site.data.flickr.photos.34770361451 %}
