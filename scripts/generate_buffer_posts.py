@@ -32,7 +32,7 @@ for post in data:
     sanitazedTitle = title.replace('/', '').replace('\\', '').replace('!', '').replace('<', '').replace('>','')
     for character in [' ', '&', '?', ':', '^']:
         sanitazedTitle = sanitazedTitle.replace(character, '_')
-    filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + ".md")
+    filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + "_.md")
     if os.path.exists(filename):
         if SAVE_DUPLICATES:
             filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + "_resolve.md")
