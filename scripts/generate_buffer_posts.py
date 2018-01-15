@@ -18,8 +18,9 @@ flickrHandler = open(INPUT_FLICKRDB)
 flickrdb = json.load(flickrHandler)
 
 urlMap = {}
-for key, value in flickrdb.items():
-    urlMap[value["title"]] = key
+for key, value in flickrdb['photos'].items():
+    urlMapKey = value['title']
+    urlMap[urlMapKey] = key
 
 for post in data:
     timestamp = post['created_at']
