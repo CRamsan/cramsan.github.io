@@ -47,6 +47,10 @@ img {
   vertical-align: middle;
 }
 
+.paginator {
+  text-align: center;
+}
+
 .embeddedElement {
   max-width: 95%;
   max-height: 400px;

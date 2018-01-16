@@ -1,5 +1,5 @@
-<div>
-  <div class="paginator">
+<div class="paginator">
+  <span>
     {% if paginator.previous_page %}
       <button onclick="cramsanHelper.goToUrl('{{ paginator.previous_page_path }}')">
         Previous
@@ -11,5 +11,5 @@
         Next
       </button>
     {% endif %}
-  </div>
+  </span>
 </div>

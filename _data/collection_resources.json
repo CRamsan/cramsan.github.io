@@ -11,23 +11,37 @@
 "link": "listapplications",
 "name": "List of Applications"}
 ,
-{"node":"Melee_Clone",
+{"node":"Media",
 "level": "1",
-"link": "Melee_Clone",
-"name": "Melee Clone",
 "list": [
 {"level": "2",
-"link": "Melee_Clone/1milestones",
+"link": "Media/Photos",
+"name": "Photos"}
+,
+{"level": "2",
+"link": "Media/Videos",
+"name": "Videos"}
+]}
+,
+{"node":"Melee Clone",
+"level": "1",
+"list": [
+{"level": "2",
+"link": "Melee Clone/1milestones",
 "name": "Milestones"}
 ,
 {"level": "2",
-"link": "Melee_Clone/2states",
+"link": "Melee Clone/2states",
 "name": "States"}
 ,
 {"level": "2",
-"link": "Melee_Clone/3statemachine",
+"link": "Melee Clone/3statemachine",
 "name": "State Machine"}
 ]}
+,
+{"level": "1",
+"link": "Melee_Clone",
+"name": "Melee Clone"}
 ,
 {"level": "1",
 "link": "Utilities",
