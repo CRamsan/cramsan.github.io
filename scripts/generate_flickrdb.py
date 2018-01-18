@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 
 import flickrapi
+import functools
 import json
 
 api_key = u'92ff58ce873ed2a3fea11dc8f746f0cf'
 api_secret = u'bc4c31a72cc5a92d'
 target_user = '149389453@N05'
 OUTPUT_FILENAME = "_data/flickr.json"
+OUTPUT_QUEUE_FILENAME = "_data/flickr_queue.json"
 flickr = flickrapi.FlickrAPI(api_key, api_secret, format='parsed-json')
 
 current_page = 1
 last_page = 1
 out_photo_dict = {}
 while(current_page <= last_page):
-    result = flickr.photos.search(user_id=target_user, per_page=10, page=current_page, extras="description") # Get a page of the list of photos for this user
+    result = flickr.photos.search(user_id=target_user, per_page=10, page=current_page, extras="description,date_upload") # Get a page of the list of photos for this user
     last_page = result['photos']['pages']
     total = result['photos']['total']
     page = result['photos']['page']
@@ -48,8 +50,23 @@ while(current_page <= last_page):
     current_page += 1
 
 fileHandler = open(OUTPUT_FILENAME, 'w')
-# Pretty print the list of pictures
+# Pretty print the dictionary of pictures
 flickr_data = {'photos' : out_photo_dict, 'photosets' : out_photoset_dict}
 output = json.dumps(flickr_data, indent=4, ensure_ascii=False).encode('ascii', 'ignore').decode('ascii', 'ignore')
 fileHandler.write(output)
 print("Data was written to file " + OUTPUT_FILENAME)
+
+photo_queue = []
+photoset_queue = []
+# Generate the queue file 
+for key, value in sorted(out_photo_dict.items(), key=functools.cmp_to_key(lambda k,v: int(v[1]['dateupload']))):
+  photo_queue.append(key)
+for key, value in sorted(out_photoset_dict.items(), key=functools.cmp_to_key(lambda k,v: int(v[1]['date_create']))):
+  photoset_queue.append(key)
+
+fileHandler = open(OUTPUT_QUEUE_FILENAME, 'w')
+# Pretty print the queue
+flickr_data = {'photos' : photo_queue, 'photosets' : photoset_queue}
+output = json.dumps(flickr_data, indent=4, ensure_ascii=False).encode('ascii', 'ignore').decode('ascii', 'ignore')
+fileHandler.write(output)
+print("Data was written to file " + OUTPUT_QUEUE_FILENAME)
