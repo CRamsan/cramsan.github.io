@@ -20,3 +20,4 @@ exclude:
 - LICENSE.md
 - README.md
 - scripts
+- no_index
