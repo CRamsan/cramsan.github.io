@@ -11,18 +11,6 @@
 "link": "listapplications",
 "name": "List of Applications"}
 ,
-{"node":"Media",
-"level": "1",
-"list": [
-{"level": "2",
-"link": "Media/Photos",
-"name": "Photos"}
-,
-{"level": "2",
-"link": "Media/Videos",
-"name": "Videos"}
-]}
-,
 {"node":"Melee Clone",
 "level": "1",
 "list": [
