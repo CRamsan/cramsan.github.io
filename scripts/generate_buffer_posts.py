@@ -62,6 +62,6 @@ for post in data:
                 key = postMedia["picture"]
                 if key in urlMap:
                     imageId = urlMap[key]
-                    fileHandler.write("\n{% include post_image.html image_id=site.data.flickr." + imageId + " %}\n")
+                    fileHandler.write("\n{% include post_image.html image_id=site.data.flickr.photos." + imageId + " %}\n")
                     break;
     print("Data was written to file " + filename)

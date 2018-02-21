@@ -16,4 +16,4 @@ services:
 
 Bad UI is all around us.
 
-{% include post_image.html image_id=site.data.flickr.39447119165 %}
+{% include post_image.html image_id=site.data.flickr.photos.39447119165 %}
