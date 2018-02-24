@@ -33,12 +33,12 @@ for service in data['services']:
         keyText = trimmedText + "-"  + update['day']
 
         # Lets consume extra cicles and hash the key
-        key = keyText#hashlib.md5(keyText.encode('utf-8')).hexdigest()
+        key = hashlib.md5(keyText.encode('utf-8')).hexdigest()
 
         # If the key does not exist, create an object that contains the creation date and the update with it's properties.
         # When the key exists just update this values
         if not key in buffDict:
-            buffDict[key] = {"created_at": 0, "services": [], "text": ""}
+            buffDict[key] = {"created_at": 0, "services": [], "text": "", "key": key}
         updateObject = buffDict[key]
         updateObject["created_at"] = update["created_at"]
         local_service = {"name": service['service']}
