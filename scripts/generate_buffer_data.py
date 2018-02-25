@@ -2,30 +2,27 @@
 
 # This script will use the Buffer API to retrieve the latest posts.
 
-import requests
 import datetime
 import json
 import math
+import requests
 import sys
 
-ACCESS_TOKEN="1/2dbfd2b0e37518a915aefed94eb8759c"
+import constants
+import res.buffer_secret
 
 URL_GET_ROOT="https://api.bufferapp.com/1/"
 URL_GET_USER="user.json"
 URL_GET_PROFILES="profiles.json"
 URL_GET_UPDATES_SEC1="profiles/"
 URL_GET_UPDATES_SEC2="/updates/sent.json"
-OUTPUT_FILENAME="_data/buffer.json"
-
-PAGE_COUNT=55
-UPDATE_FILTER="default"
 
 def generateParam(key, value):
     return str(key) + "=" + str(value) + "&"
 
 # This should be the first function called on the URL. It returns the url with the access token appended to the end of it
 def appendAccessToken(url):
-    return url + "?" +  generateParam("access_token", ACCESS_TOKEN)
+    return url + "?" +  generateParam("access_token", res.buffer_secret.ACCESS_TOKEN)
 
 # Return the url with the page, count and filter parameters appended to the end
 def appendUpdatePage(url, page, count, filt, since):
@@ -76,14 +73,14 @@ for service in services:
     friendly_service_name = service['formatted_service'] +  "(" + service['formatted_username'] + ")"
     shouldRetry = False
     while True:
-        targetURL = appendUpdatePage(generateGetUpdates(service['id']), pageIndex, PAGE_COUNT, UPDATE_FILTER, agoTimestamp)
+        targetURL = appendUpdatePage(generateGetUpdates(service['id']), pageIndex, constants.BUFFER_PAGE_COUNT, constants.BUFFER_UPDATE_FILTER, agoTimestamp)
         updatesResult = getJSONObjectFromUrl(targetURL) # Get a page of updates
         print ("Working with page " + str(pageIndex) + " from " + friendly_service_name)
         pageIndex = pageIndex + 1
         if updateCount is -1:
             # First iteration, set the updateCount and pageCount values
             updateCount = updatesResult['total']
-            pageCount = math.ceil(updateCount / PAGE_COUNT)
+            pageCount = math.ceil(updateCount / constants.BUFFER_PAGE_COUNT)
             updatesRefactor['total'] = updateCount
             print ("Number of updates: " + friendly_service_name + " - count: " + str(updateCount) + " - pages: " + str(pageCount))
         elif updateCount is not updatesResult['total']:
@@ -110,8 +107,8 @@ for service in services:
 user['services'] = services
 
 # Write the resulting object to a file
-fileHandler = open(OUTPUT_FILENAME, 'w')
+fileHandler = open(constants.BUFFER_OUTPUT_FILENAME, 'w')
 # We need to encode->decode to remove unicode characters
 output = json.dumps(user, indent=4, ensure_ascii=False).encode('ascii', 'ignore').decode('ascii', 'ignore')
 fileHandler.write(output)
-print("Data was written to file " + OUTPUT_FILENAME)
+print("Data was written to file " + constants.BUFFER_OUTPUT_FILENAME)

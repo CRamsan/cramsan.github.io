@@ -5,21 +5,18 @@
 # sufix _resolve will be created. If the _resolvef file already exists then the 
 # file will be overwritten.
 
-import json
-import hashlib
 import datetime
+import hashlib
+import json
 import os
 import sys
 
-INPUT_FILENAME = "_data/post_queue.json"
-INPUT_FLICKRDB = "_data/flickr.json"
-OUTPUT_FOLDER = "_posts/"
-SAVE_DUPLICATES = True
+import constants
 
-fileHandler = open(INPUT_FILENAME)
+fileHandler = open(constants.POST_INPUT_FILENAME)
 data = json.load(fileHandler)
 
-flickrHandler = open(INPUT_FLICKRDB)
+flickrHandler = open(constants.POST_INPUT_FLICKRDB)
 flickrdb = json.load(flickrHandler)
 
 # Create a dictionary using the photo hash as the key
@@ -38,10 +35,10 @@ for post in data:
     sanitazedTitle = title.replace('/', '').replace('\\', '').replace('!', '').replace('<', '').replace('>','')
     for character in [' ', '&', '?', ':', '^']:
         sanitazedTitle = sanitazedTitle.replace(character, '_')
-    filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + "_.md")
+    filename = os.path.join(constants.POST_OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + "_.md")
     if os.path.exists(filename):
-        if SAVE_DUPLICATES:
-            filename = os.path.join(OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + "_resolve.md")
+        if constants.POST_SAVE_DUPLICATES:
+            filename = os.path.join(constants.POST_OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + "_resolve.md")
             print ("File already exists, saving as " + filename)
         else:
             print ("File " + filename + " already exists, skipping file")

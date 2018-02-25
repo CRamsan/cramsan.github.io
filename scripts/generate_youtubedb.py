@@ -1,10 +1,10 @@
 #!/usr/bin/python
 
 import argparse
-import sys
+import json
 import os
 import re
-import json
+import sys
 
 import google.oauth2.credentials
 import google_auth_oauthlib.flow
@@ -12,22 +12,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from google_auth_oauthlib.flow import InstalledAppFlow
 
-# The CLIENT_SECRETS_FILE variable specifies the name of a file that contains
-# the OAuth 2.0 information for this application, including its client_id and
-# client_secret. You can acquire an OAuth 2.0 client ID and client secret from
-# the {{ Google Cloud Console }} at
-# {{ https://cloud.google.com/console }}.
-CLIENT_SECRETS_FILE = ''
-
-# This OAuth 2.0 access scope allows for read-only access to the authenticated
-# user's account, but not other types of account access.
-SCOPES = ['https://www.googleapis.com/auth/youtube.readonly']
-API_SERVICE_NAME = 'youtube'
-API_VERSION = 'v3'
-
-# File names for output files
-FILE_DICT = 'youtube.json'
-FILE_ARRAY = 'youtube_queue.json'
+import constants
 
 # Authorize the request and store authorization credentials.
 def get_authenticated_service():
@@ -108,6 +93,11 @@ if __name__ == '__main__':
 
   FILE_DICT = sys.argv[1]
   FILE_ARRAY = sys.argv[2]
+  # The CLIENT_SECRETS_FILE variable specifies the name of a file that contains
+  # the OAuth 2.0 information for this application, including its client_id and
+  # client_secret. You can acquire an OAuth 2.0 client ID and client secret from
+  # the {{ Google Cloud Console }} at
+  # {{ https://cloud.google.com/console }}.
   CLIENT_SECRETS_FILE = sys.argv[3]
 
   youtube = get_authenticated_service()

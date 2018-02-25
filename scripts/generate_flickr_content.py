@@ -4,23 +4,20 @@
 # services used. This script will download each photo and compare their 
 # resolutions. The largest image will be uploaded to flickr.
 
-import struct
+import flickrapi
+import hashlib
 import imghdr
 import json
-import hashlib
+import tempfile
 import os
+import struct
 import sys
 import urllib.request
-import tempfile
-import flickrapi
 
-INPUT_FILENAME = "_data/post_queue.json"
-INPUT_FLICKRDB = "_data/flickr.json"
+import constants
+import res.flickr_secret
 
-api_key = u''
-api_secret = u''
-target_user = '149389453@N05'
-flickr = flickrapi.FlickrAPI(api_key, api_secret, format='parsed-json')
+flickr = flickrapi.FlickrAPI(res.flickr_secret.API_KEY, res.flickr_secret.API_SECRET, format='parsed-json')
 flickr.authenticate_via_browser(perms='delete')
 
 def get_image_size(fname):
@@ -58,10 +55,10 @@ def get_image_size(fname):
             return
         return width, height
 
-fileHandler = open(INPUT_FILENAME)
+fileHandler = open(constants.POST_INPUT_FILENAME)
 data = json.load(fileHandler)
 
-flickrHandler = open(INPUT_FLICKRDB)
+flickrHandler = open(constants.POST_INPUT_FLICKRDB)
 flickrdb = json.load(flickrHandler)
 
 largestSize = (0,0)

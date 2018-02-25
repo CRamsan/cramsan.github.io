@@ -5,13 +5,12 @@
 # time. Each post also contains metadate linking it to the specific 
 # post of each one of the services it was posted to.
 
-import json
 import hashlib
+import json
 
-INPUT_FILENAME = "_data/buffer.json"
-OUTPUT_FILENAME = "_data/post_queue.json"
+import constants
 
-fileHandler = open(INPUT_FILENAME)
+fileHandler = open(constants.BUFFER_OUTPUT_FILENAME)
 data = json.load(fileHandler)
 
 # This dictionary will use a key based on the data of the post. By doing this we can group 
@@ -69,8 +68,8 @@ for service in data['services']:
 unsortedList = list(buffDict.values())
 sortedList = sorted(unsortedList, key=lambda update: update['created_at'])
 
-fileHandler = open(OUTPUT_FILENAME, 'w')
+fileHandler = open(constants.POST_INPUT_FILENAME, 'w')
 # Pretty print the list of updates
 output = json.dumps(sortedList, indent=4, ensure_ascii=False).encode('ascii', 'ignore').decode('ascii', 'ignore')
 fileHandler.write(output)
-print("Data was written to file " + OUTPUT_FILENAME)
+print("Data was written to file " + constants.POST_INPUT_FILENAME)
