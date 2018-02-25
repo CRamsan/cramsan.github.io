@@ -7,7 +7,6 @@
 echo "The collection index is not being generated. Make sure generate_index.sh was already called."
 sleep 5
 
-# To run the server:
 bundle exec jekyll clean --dest tmp_site
 bundle exec jekyll build --trace --dest tmp_site
 rm -rf _site

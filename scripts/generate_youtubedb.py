@@ -17,7 +17,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 # client_secret. You can acquire an OAuth 2.0 client ID and client secret from
 # the {{ Google Cloud Console }} at
 # {{ https://cloud.google.com/console }}.
-CLIENT_SECRETS_FILE = 'client_secret.json'
+CLIENT_SECRETS_FILE = ''
 
 # This OAuth 2.0 access scope allows for read-only access to the authenticated
 # user's account, but not other types of account access.

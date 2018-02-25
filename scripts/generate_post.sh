@@ -1,3 +1,9 @@
+#!/bin/bash
+
+# Generate a new post file with the current date 
+# and the provided title. This helper script will
+# also populate the front matter.
+
 HELP_MESSAGE="generate_post.sh [POST TITLE]"
 
 if [ $# -eq 0 ]; then

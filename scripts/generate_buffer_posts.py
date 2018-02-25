@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+# This script will take the queue of buffer posts previously generated and it will
+# generate the jekyll posts. If the file already exists, then a new file with the 
+# sufix _resolve will be created. If the _resolvef file already exists then the 
+# file will be overwritten.
+
 import json
 import hashlib
 import datetime

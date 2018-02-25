@@ -1,3 +1,8 @@
+#!/bin/bash
+
+# This script will create a new folder and it's respective .md file
+# for it's content. 
+
 HELP_MESSAGE="generate_resources_folder.sh [PAGE TITLE]"
 
 if [ $# -eq 0 ]; then

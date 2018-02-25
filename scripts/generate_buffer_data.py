@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# This script will use the Buffer API to retrieve the latest posts.
+
 import requests
 import datetime
 import json

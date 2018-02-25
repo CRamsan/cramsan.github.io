@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+# This script will read all the buffer posts across all services and 
+# merge them. The result will be a queue of posts sorted by creation
+# time. Each post also contains metadate linking it to the specific 
+# post of each one of the services it was posted to.
+
 import json
 import hashlib
 

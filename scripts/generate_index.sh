@@ -113,4 +113,15 @@ function listFiles() {
   echo "]}"
   cd $ORIGINAL_FOLDER
 }
-listFiles "_resources" "0" "" "resources" > _data/collection_resources.json
+
+TARGET_FOLDER="_resources"
+TARGET_LABEL="resources"
+TARGET_OUTPUT="_data/collection_resources.json"
+
+# This scripts needs to be called from the repo root.
+if [ ! -d "$TARGET_FOLDER" ] 
+then
+  echo "$TARGET_FOLDER does not exist"
+fi
+
+listFiles "$TARGET_FOLDER" "0" "" "$TARGET_LABEL" > $TARGET_OUTPUT

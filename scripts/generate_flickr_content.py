@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# When a photos is posted to Buffer, a new photo is generated for each of the 
+# services used. This script will download each photo and compare their 
+# resolutions. The largest image will be uploaded to flickr.
+
 import struct
 import imghdr
 import json
@@ -13,8 +17,8 @@ import flickrapi
 INPUT_FILENAME = "_data/post_queue.json"
 INPUT_FLICKRDB = "_data/flickr.json"
 
-api_key = u'92ff58ce873ed2a3fea11dc8f746f0cf'
-api_secret = u'bc4c31a72cc5a92d'
+api_key = u''
+api_secret = u''
 target_user = '149389453@N05'
 flickr = flickrapi.FlickrAPI(api_key, api_secret, format='parsed-json')
 flickr.authenticate_via_browser(perms='delete')
@@ -100,4 +104,3 @@ for post in data:
     print ("Size: " + str(largestSize))
     print ("Title: " + title)
     resp = flickr.upload(imageurl, is_public=1, title=title, description=description, format='rest')
-    print (resp)
