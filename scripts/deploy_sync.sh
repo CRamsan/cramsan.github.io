@@ -4,5 +4,5 @@
 # Once the deployment is ready push the content to the mirror.
 git reset --hard
 git pull origin master
-./scripts/DEPLOY_PROD.sh
+./scripts/deploy_prod.sh
 git push mirror master
