@@ -2,6 +2,7 @@
 _site
 *.lock
 *.swp
+*.pyc
 _data/buffer.json
 _data/post_queue.json
 scripts/res/

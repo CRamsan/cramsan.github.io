@@ -10,7 +10,7 @@ import json
 
 import constants
 
-fileHandler = open(constants.BUFFER_OUTPUT_FILENAME)
+fileHandler = open(constants.BUFFER_DATA)
 data = json.load(fileHandler)
 
 # This dictionary will use a key based on the data of the post. By doing this we can group 

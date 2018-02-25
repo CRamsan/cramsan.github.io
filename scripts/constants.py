@@ -1,6 +1,6 @@
-BUFFER_OUTPUT_FILENAME="_data/buffer.json"
-BUFFER_PAGE_COUNT=55
-BUFFER_UPDATE_FILTER="default"
+BUFFER_DATA = "_data/buffer.json"
+BUFFER_PAGE_COUNT = 55
+BUFFER_UPDATE_FILTER = "default"
 
 # This OAuth 2.0 access scope allows for read-only access to the authenticated
 # user's account, but not other types of account access.

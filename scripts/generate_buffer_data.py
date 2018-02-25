@@ -107,8 +107,8 @@ for service in services:
 user['services'] = services
 
 # Write the resulting object to a file
-fileHandler = open(constants.BUFFER_OUTPUT_FILENAME, 'w')
+fileHandler = open(constants.BUFFER_DATA, 'w')
 # We need to encode->decode to remove unicode characters
 output = json.dumps(user, indent=4, ensure_ascii=False).encode('ascii', 'ignore').decode('ascii', 'ignore')
 fileHandler.write(output)
-print("Data was written to file " + constants.BUFFER_OUTPUT_FILENAME)
+print("Data was written to file " + constants.BUFFER_DATA)

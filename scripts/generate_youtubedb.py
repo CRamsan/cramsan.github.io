@@ -16,9 +16,9 @@ import constants
 
 # Authorize the request and store authorization credentials.
 def get_authenticated_service():
-  flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, SCOPES)
+  flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, constants.YT_SCOPES)
   credentials = flow.run_console()
-  return build(API_SERVICE_NAME, API_VERSION, credentials = credentials)
+  return build(constants.YT_API_SERVICE_NAME, constants.YT_API_VERSION, credentials = credentials)
 
 def get_my_uploads_list():
   # Retrieve the contentDetails part of the channel resource for the
@@ -120,14 +120,14 @@ if __name__ == '__main__':
     for key, value in sorted(video_data.iteritems(), key=lambda (k,v): v['snippet']['position']):
       id_array.append(key)
     # Now save the video queue
-    with open('youtube_queue.json', 'w') as outfile:
-      json.dump(id_array, outfile)
+    with open(constants.YT_FILE_ARRAY, 'w') as outfile:
+      json.dump(id_array, outfile, indent=4)
 
     json_data = {'videos' : video_data, 'playlists' : playlist_data}
     # Now that we are done iterating the dictionary 
     # save the dictionary
-    with open('youtube.json', 'w') as outfile:
-      json.dump(json_data, outfile)
+    with open(constants.YT_FILE_DICT, 'w') as outfile:
+      json.dump(json_data, outfile, indent=4)
 
   except HttpError, e:
     print 'An HTTP error %d occurred:\n%s' % (e.resp.status, e.content)
