@@ -22,9 +22,10 @@ data = json.load(fileHandler)
 flickrHandler = open(INPUT_FLICKRDB)
 flickrdb = json.load(flickrHandler)
 
+# Create a dictionary using the photo hash as the key
 urlMap = {}
 for key, value in flickrdb['photos'].items():
-    urlMapKey = value['title']
+    urlMapKey = value["description"]["_content"]
     urlMap[urlMapKey] = key
 
 for post in data:
@@ -60,13 +61,9 @@ for post in data:
             fileHandler.write("    link: " + service["service_link"] + "\n")
     fileHandler.write("---\n\n")
     fileHandler.write(post["text"] + "\n")
-    for media in ["media_twitter", "media_facebook", "media_google", "media_instagram"]:
-        if media in post:
-            postMedia = post[media]
-            if "picture" in postMedia:
-                key = postMedia["picture"]
-                if key in urlMap:
-                    imageId = urlMap[key]
-                    fileHandler.write("\n{% include post_image.html image_id=site.data.flickr.photos." + imageId + " %}\n")
-                    break;
+    if 'key' in post:
+        postHash = post['key']
+        if postHash in urlMap:
+            imageId = urlMap[postHash]
+            fileHandler.write("\n{% include post_image.html image_id=site.data.flickr.photos." + imageId + " %}\n")
     print("Data was written to file " + filename)
