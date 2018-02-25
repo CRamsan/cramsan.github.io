@@ -55,10 +55,10 @@ def get_image_size(fname):
             return
         return width, height
 
-fileHandler = open(constants.POST_INPUT_FILENAME)
+fileHandler = open(constants.POST_QUEUE)
 data = json.load(fileHandler)
 
-flickrHandler = open(constants.POST_INPUT_FLICKRDB)
+flickrHandler = open(constants.FLICKR_DICT)
 flickrdb = json.load(flickrHandler)
 
 largestSize = (0,0)

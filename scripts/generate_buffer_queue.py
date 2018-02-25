@@ -68,8 +68,8 @@ for service in data['services']:
 unsortedList = list(buffDict.values())
 sortedList = sorted(unsortedList, key=lambda update: update['created_at'])
 
-fileHandler = open(constants.POST_INPUT_FILENAME, 'w')
+fileHandler = open(constants.POST_QUEUE, 'w')
 # Pretty print the list of updates
 output = json.dumps(sortedList, indent=4, ensure_ascii=False).encode('ascii', 'ignore').decode('ascii', 'ignore')
 fileHandler.write(output)
-print("Data was written to file " + constants.POST_INPUT_FILENAME)
+print("Data was written to file " + constants.POST_QUEUE)

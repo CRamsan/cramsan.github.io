@@ -13,10 +13,10 @@ import sys
 
 import constants
 
-fileHandler = open(constants.POST_INPUT_FILENAME)
+fileHandler = open(constants.POST_QUEUE)
 data = json.load(fileHandler)
 
-flickrHandler = open(constants.POST_INPUT_FLICKRDB)
+flickrHandler = open(constants.FLICKR_DICT)
 flickrdb = json.load(flickrHandler)
 
 # Create a dictionary using the photo hash as the key
@@ -35,10 +35,10 @@ for post in data:
     sanitazedTitle = title.replace('/', '').replace('\\', '').replace('!', '').replace('<', '').replace('>','')
     for character in [' ', '&', '?', ':', '^']:
         sanitazedTitle = sanitazedTitle.replace(character, '_')
-    filename = os.path.join(constants.POST_OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + "_.md")
+    filename = os.path.join(constants.POST_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + "_.md")
     if os.path.exists(filename):
         if constants.POST_SAVE_DUPLICATES:
-            filename = os.path.join(constants.POST_OUTPUT_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + "_resolve.md")
+            filename = os.path.join(constants.POST_FOLDER, fileDateString + "-Buff_" + sanitazedTitle + "_resolve.md")
             print ("File already exists, saving as " + filename)
         else:
             print ("File " + filename + " already exists, skipping file")

@@ -11,13 +11,11 @@ YT_API_VERSION = 'v3'
 YT_FILE_DICT = 'youtube.json'
 YT_FILE_ARRAY = 'youtube_queue.json'
 
-FLICKR_FILENAME_QUEUE = '_data/flickr_queue.json'
-FLICKR_FILENAME_DICT = '_data/flickr.json'
+FLICKR_QUEUE = '_data/flickr_queue.json'
+FLICKR_DICT = '_data/flickr.json'
 FLICKR_PER_PAGE = 30
-FLICKR_OUTPUT_FOLDER = '_resources/Media/'
 FLICKR_USER = '149389453@N05'
 
-POST_INPUT_FILENAME = "_data/post_queue.json"
-POST_INPUT_FLICKRDB = "_data/flickr.json"
-POST_OUTPUT_FOLDER = "_posts/"
+POST_QUEUE = "_data/post_queue.json"
+POST_FOLDER = "_posts/"
 POST_SAVE_DUPLICATES = True

@@ -56,12 +56,12 @@ while(current_page <= last_page):
     current_page += 1
 
 
-fileHandler = open(constants.POST_INPUT_FLICKRDB, 'w')
+fileHandler = open(constants.FLICKR_DICT, 'w')
 # Pretty print the dictionary of pictures
 flickr_data = {'photos' : out_photo_dict, 'photosets' : out_photoset_dict}
 output = json.dumps(flickr_data, indent=4, ensure_ascii=False).encode('ascii', 'ignore').decode('ascii', 'ignore')
 fileHandler.write(output)
-print("Data was written to file " + constants.POST_INPUT_FLICKRDB)
+print("Data was written to file " + constants.FLICKR_DICT)
 
 photo_queue = []
 photoset_queue = []
@@ -71,9 +71,9 @@ for key, value in sorted(out_photo_dict.items(), key=functools.cmp_to_key(lambda
 for key, value in sorted(out_photoset_dict.items(), key=functools.cmp_to_key(lambda k,v: int(v[1]['date_create']))):
   photoset_queue.append(key)
 
-fileHandler = open(constants.FLICKR_FILENAME_QUEUE, 'w')
+fileHandler = open(constants.FLICKR_QUEUE, 'w')
 # Pretty print the queue
 flickr_data = {'photos' : photo_queue, 'photosets' : photoset_queue}
 output = json.dumps(flickr_data, indent=4, ensure_ascii=False).encode('ascii', 'ignore').decode('ascii', 'ignore')
 fileHandler.write(output)
-print("Queue was written to file " + constants.FLICKR_FILENAME_QUEUE)
+print("Queue was written to file " + constants.FLICKR_QUEUE)
