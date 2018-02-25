@@ -17,8 +17,8 @@ import flickrapi
 INPUT_FILENAME = "_data/post_queue.json"
 INPUT_FLICKRDB = "_data/flickr.json"
 
-api_key = u'92ff58ce873ed2a3fea11dc8f746f0cf'
-api_secret = u'bc4c31a72cc5a92d'
+api_key = u''
+api_secret = u''
 target_user = '149389453@N05'
 flickr = flickrapi.FlickrAPI(api_key, api_secret, format='parsed-json')
 flickr.authenticate_via_browser(perms='delete')

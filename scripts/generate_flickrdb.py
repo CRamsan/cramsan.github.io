@@ -4,8 +4,8 @@ import flickrapi
 import functools
 import json
 
-api_key = u'92ff58ce873ed2a3fea11dc8f746f0cf'
-api_secret = u'bc4c31a72cc5a92d'
+api_key = u''
+api_secret = u''
 target_user = '149389453@N05'
 # A dictionary of all the photos and albums. The key will be the id 
 # while the value contain all the required parameters to generate
