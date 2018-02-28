@@ -100,4 +100,12 @@ for post in data:
     print ("Uploading file: " + imageUrl)
     print ("Size: " + str(largestSize))
     print ("Title: " + title)
-    resp = flickr.upload(imageurl, is_public=1, title=title, description=description, format='rest')
+    print ("Tag: " + description)
+    while True:
+        willUpload = input("Do you want to upload this file?(y/n): ")
+        if willUpload == "y" or willUpload == "Y":
+            resp = flickr.upload(imageurl, is_public=1, title=title, description=description, format='rest')
+            break
+        elif willUpload == "n" or willUpload == "N":
+            print ("Skipping this file and going for the next.")
+            break

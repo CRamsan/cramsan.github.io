@@ -34,7 +34,7 @@ for service in data['services']:
         if newLineIndex != -1:
             textToTrim = textToTrim[0:newLineIndex]
         trimmedText = textToTrim.strip(' \t\n\r')
-        keyText = trimmedText + "-"  + update['day']
+        keyText = str(update['text'])[:140] + "-" + update['day']
 
         # Lets consume extra cicles and hash the key
         key = hashlib.md5(keyText.encode('utf-8')).hexdigest()

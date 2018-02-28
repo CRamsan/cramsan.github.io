@@ -17,23 +17,6 @@
             "web_page_url": "https://www.flickr.com/photos/149389453@N05/38661448520",
             "photo_source_url": "https://c5.staticflickr.com/4666/38661448520_03e537c7f7_z.jpg"
         },
-        "40459529821": {
-            "id": "40459529821",
-            "owner": "149389453@N05",
-            "secret": "c1283f328a",
-            "server": "4652",
-            "farm": 5,
-            "title": "Bad UI is all around us.",
-            "ispublic": 1,
-            "isfriend": 0,
-            "isfamily": 0,
-            "description": {
-                "_content": "5bf406b66a91381382e24dcd60112bf7"
-            },
-            "dateupload": "1519491218",
-            "web_page_url": "https://www.flickr.com/photos/149389453@N05/40459529821",
-            "photo_source_url": "https://c5.staticflickr.com/4652/40459529821_c1283f328a_z.jpg"
-        },
         "39447119165": {
             "id": "39447119165",
             "owner": "149389453@N05",
@@ -45,7 +28,7 @@
             "isfriend": 0,
             "isfamily": 0,
             "description": {
-                "_content": "Bad UI is all around us. <a href=\"https://buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f70477a5f/5a89c13c846cf7d40f4f0258/5df8e8f52483f4a75ad4912892f80e1a.original.jpeg\" rel=\"nofollow\">buffer-media-uploads.s3.amazonaws.com/56882cfb3d09300f704...</a>"
+                "_content": "5bf406b66a91381382e24dcd60112bf7"
             },
             "dateupload": "1518984192",
             "web_page_url": "https://www.flickr.com/photos/149389453@N05/39447119165",
