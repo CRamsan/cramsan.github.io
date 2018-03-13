@@ -61,15 +61,14 @@ data = json.load(fileHandler)
 flickrHandler = open(constants.FLICKR_DICT)
 flickrdb = json.load(flickrHandler)
 
-largestSize = (0,0)
-imageSize = 0
-imageUrl = ''
-
 urlMap = set()
 for key, value in flickrdb['photos'].items():
     urlMap.add(value['description']['_content'])
 
 for post in data:
+    largestSize = (0,0)
+    imageSize = 0
+    imageUrl = ''
     for media in ["media_twitter", "media_facebook", "media_google", "media_instagram"]:
         if media in post:
             postMedia = post[media]
