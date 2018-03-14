@@ -1,7 +1,8 @@
-This project is governed through two licenses. 
-The scripts and logic used in this blog, that is licensed under the Apache 2.0 license, and the content of it which is licensed under CC BY 4.0. All the files that end with '.md' are considered content while everything else is considered logic.
+This project is governed by two licenses. 
+The scripts and logic/code used in this blog are licensed under the Apache 2.0 license, and the content of is licensed under CC BY 4.0. All the files that end with '.md' are considered content while everything else is considered logic/code.
 
 For a description of Creative Commons Attribution Share Alike, please visit: https://creativecommons.org/licenses/by/4.0/
+
 The full text of the Apache 2.0 license is attached right below:
 
             Apache License
