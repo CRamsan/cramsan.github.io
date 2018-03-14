@@ -54,19 +54,16 @@ img {
 }
 
 .embeddedElement {
-  max-width: 95%;
-  max-height: 400px;
-  width: auto;
-  height: auto;
+  width: 95%;
+  max-height: 640px;
   display: block;
+  object-fit: cover; 
   margin: 0 auto;
 }
 
 .embeddedFlickrSlideshow {
   max-width: 95%;
-  max-height: 400px;
-  width: auto;
-  height: auto;
+  max-height: 640px;
   display: block;
   margin: 0 auto;
 }

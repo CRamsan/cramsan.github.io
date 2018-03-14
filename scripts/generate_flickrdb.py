@@ -30,7 +30,7 @@ while(current_page <= last_page):
         photo_server = photo['server']
         photo_farm = photo['farm']
         photo['web_page_url'] = 'https://www.flickr.com/photos/' + constants.FLICKR_USER + '/' + photo_id
-        photo['photo_source_url'] = 'https://c' + str(photo_farm) + '.staticflickr.com/' + str(photo_server) + '/' + str(photo_id) + '_' + str(photo_secret) + '_z.jpg'
+        photo['photo_source_url'] = 'https://c' + str(photo_farm) + '.staticflickr.com/' + str(photo_server) + '/' + str(photo_id) + '_' + str(photo_secret) + '_b.jpg'
         # Add this photo to the dictionary, using the photo id as the key.
         out_photo_dict[photo_id] = photo
     # Next page
