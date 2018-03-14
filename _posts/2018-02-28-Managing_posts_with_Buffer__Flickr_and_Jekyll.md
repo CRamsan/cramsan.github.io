@@ -39,7 +39,7 @@ At this point we have a dictionary of photos in Flickr that will have the post's
 ### YouTube
 I dont usually upload to YouTube, but I also have `generate_youtubedb.py` to generate a json file with all my videos and playlists. If I want to embed a video or playlist, I can simply use an include with the id of the video.
 
-### The restuls
+### The results
 
 After automating all these steps, I can post though Buffer to Google+, Facebook, Twitter and Instagram. Then a few times a week I can run a wrapper script to embed all the posts into the blog. This allows me to update my blog with my unfrequent social media posts. Even though I know it is not the best sollution, I really like how it works and the control I have over the entire process. I hope this was of help for you.
 
