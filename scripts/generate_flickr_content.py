@@ -18,7 +18,26 @@ import constants
 import res.flickr_secret
 
 flickr = flickrapi.FlickrAPI(res.flickr_secret.API_KEY, res.flickr_secret.API_SECRET, format='parsed-json')
-flickr.authenticate_via_browser(perms='delete')
+
+# Only do this if we don't have a valid token already
+if not flickr.token_valid(perms='write'):
+
+    # Get a request token
+    flickr.get_request_token(oauth_callback='oob')
+
+    # Open a browser at the authentication URL. Do this however
+    # you want, as long as the user visits that URL.
+    authorize_url = flickr.auth_url(perms='write')
+    print("Open: " + authorize_url)
+
+    # Get the verifier code from the user. Do this however you
+    # want, as long as the user gives the application the code.
+    verifier = str(input('Verifier code: '))
+
+    # Trade the request token for an access token
+    flickr.get_access_token(verifier)
+
+#flickr.authenticate_via_browser(perms='delete')
 
 def get_image_size(fname):
     '''Determine the image type of fhandle and return its size.
@@ -103,7 +122,9 @@ for post in data:
     while True:
         willUpload = input("Do you want to upload this file?(y/n): ")
         if willUpload == "y" or willUpload == "Y":
+            print ("Starting to upload")
             resp = flickr.upload(imageurl, is_public=1, title=title, description=description, format='rest')
+            print ("Upload completed")
             break
         elif willUpload == "n" or willUpload == "N":
             print ("Skipping this file and going for the next.")
