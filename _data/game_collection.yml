@@ -1,18 +1,37 @@
 - name: Game Boy Advance
   games:
   - Advanced Wars
+  - 'Advanced Wars 2: Black Hole Rising'
+  - Golden Sun
+  - Kingdom Hearts Chain of Memories
+  - Lego Star Wars
+  - Pokemon Emerald
+  - Pokemon FireRed
   - Pokemon Sapphire
+  - 'Super Mario World: Super Mario Advance 2'
+  - 'The Legend of Zelda: A Link to the Past and Four Swords'
+  - 'The Lord of the Rings: Return of the King'
 
 - name: Game Boy Color
   games:
+  - Pokemon Blue
   - Pokemon Crystal
+  - Pokemon Gold
+  - Pokemon Silver
+  - Pokemon Puzzle Challenge
+  - Pokemon Trading Cards Game
+  - Super Mario Bros Deluxe
+  - 'The Legend of Zelda: Oracle of Seasons'
+  - Wario Land 3
 
 - name: Nintendo 3DS
   games:
+  - 'Animal Crossing: New Leaf'
   - Bravely Default
   - Monster Hunter Generations
   - Pokemon Alpha Sapphire
   - Pokemon Sun
+  - 'Samurai Warriors: Chronicles'
   - Super Smash Bros 3DS
  
 - name: Nintendo 64
