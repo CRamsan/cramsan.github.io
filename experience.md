@@ -4,8 +4,8 @@ layout: page
 index: 2
 ---
 
-### Current: SDE at Microsoft
-June 2014 - Present
+### SDE I & SDE II at Microsoft
+June 2014 - September 2018
 
 - Part of the Office for iOS and Mac team, focused on the authentication and network stack.
 - Leverage proprietary and open source code across multiple teams both internal and external.
