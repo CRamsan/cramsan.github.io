@@ -4,5 +4,4 @@
 # the default url: http://127.0.0.1:4000
 # The instructions to set Jekyll are located at: https://help.github.com/articles/using-jekyll-with-pages
 
-./scripts/generate_index.sh
 bundle exec jekyll serve

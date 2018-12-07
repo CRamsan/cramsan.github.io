@@ -8,11 +8,6 @@
   username:    cramsan
   icon:        '/public/icons/facebook.jpg'
 
-- name:        Google+
-  url:         https://plus.google.com/b/113584520540475457169/113584520540475457169
-  username:    'CRamsan'
-  icon:        '/public/icons/google_plus.png'
-
 - name:         Instagram
   url:          https://www.instagram.com/cramsan/
   username:     '@cramsan'
@@ -32,6 +27,7 @@
   url:          https://www.flickr.com/photos/149389453@N05/
   username:     'Cramsan Dev'
   icon:         '/public/icons/flickr.png'
+
 - name:         LinkedIn
   url:          https://www.linkedin.com/in/cramsan
   username:     cramsan

@@ -21,3 +21,4 @@ exclude:
 - README.md
 - scripts
 - no_index
+- _wiki

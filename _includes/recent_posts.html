@@ -1,8 +1,0 @@
-<div class="w3-padding-left w3-padding-right">
-  <h2 class="noPadding">Recent Posts</h2>
-  {% for post in site.posts limit:10 %}
-    <div {% if page.url == post.url %}class="selected"{% endif %}>
-       <a href="{{ post.url }}"><li>{{ post.title }}</li></a>
-    </div>
-  {% endfor %}
-</div>
