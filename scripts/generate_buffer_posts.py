@@ -50,9 +50,6 @@ for post in data:
     fileHandler.write("date: " + dateString + "\n")
     fileHandler.write("services: \n")
     for service in post['services']:
-        if service["name"] == "instagram":
-            # Currently instagram posts do not have a media link and therefore we cannot link directly to the post
-            continue
         fileHandler.write("  - name: " + service["name"] + "\n")
         if "service_link" in service:
             fileHandler.write("    link: " + service["service_link"] + "\n")

@@ -11,7 +11,7 @@ author:
   url: https://cramsan.com/
   email: contact@cramsan.com
 paginate: 15
-gems:
+plugins:
 - jekyll-paginate
 exclude:
 - CNAME
