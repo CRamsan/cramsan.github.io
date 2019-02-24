@@ -3,7 +3,7 @@ site_dir: '../wiki'
 nav:
     - Home: index.md
     - Gaming: gaming.md
-    - Utilities: Utilities.md
+    - Utilities: utilities.md
     - About: about.md
 theme: 
     repo_name: 'CRamsan/cramsan.github.io'
@@ -24,6 +24,8 @@ theme:
               link: 'https://github.com/CRamsan'
             - type: 'twitter'
               link: 'https://twitter.com/cramsan_dev'
+extra_css:
+        - css/cramsan_wiki.css
 google_analytics:
   - 'UA-93675007-1'
   - 'auto'
