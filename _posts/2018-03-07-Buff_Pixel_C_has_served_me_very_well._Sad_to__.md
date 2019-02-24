@@ -12,4 +12,3 @@ services:
 
 Pixel C has served me very well. Sad to see we have reached EoL. <a class="url" href="https://buff.ly/2Iapw0P" rel="external nofollow" target="_blank">https://buff.ly/2Iapw0P</a>
 
-{% include post_image.html image_id=site.data.flickr.photos.40071018694 %}

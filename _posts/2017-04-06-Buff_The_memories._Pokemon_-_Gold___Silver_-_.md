@@ -14,4 +14,5 @@ services:
     link: https://twitter.com/cramsan_dev/status/850052677069418496
 ---
 
-The memories. Pokemon - Gold &amp; Silver - Complete Soundtrack <a class="url" href="https://www.youtube.com/watch?v=t-UUtff_ZTQ&amp;feature=youtu.be" rel="external nofollow" target="_blank">https://www.youtube.com/watch?v=t-UUtff_ZTQ&amp;feature=youtu.be</a>
+The memories. Pokemon - Gold &amp; Silver - Complete Soundtrack
+{% include post_youtube.html video_id="t-UUtff_ZTQ" %}

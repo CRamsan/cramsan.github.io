@@ -14,4 +14,6 @@ services:
     link: https://facebook.com/1658129037803451/posts/2045510759065275
 ---
 
-Super Sentai looks like the kind of show I should have started watching a long time ago. <a class="url" href="https://www.youtube.com/watch?v=JJCnFgFeGpg&amp;feature=youtu.be" rel="external nofollow" target="_blank">https://www.youtube.com/watch?v=JJCnFgFeGpg&amp;feature=youtu.be</a>
+Super Sentai looks like the kind of show I should have started watching a long time ago. 
+
+{% include post_youtube.html video_id="JJCnFgFeGpg" %}

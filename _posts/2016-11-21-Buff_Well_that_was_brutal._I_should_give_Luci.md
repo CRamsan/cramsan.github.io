@@ -14,4 +14,6 @@ services:
     link: https://plus.google.com/106027709116533359385/posts/6GJwDvZEKEY
 ---
 
-Well that was brutal. I should give Lucio a try now. <a class="url" href="https://www.youtube.com/shared?ci=ePHOb3tzanw" rel="external nofollow" target="_blank">https://www.youtube.com/shared?ci=ePHOb3tzanw</a>
+Well that was brutal. I should give Lucio a try now. 
+
+{% include post_youtube.html video_id="VcA3cCQfe3s" %}

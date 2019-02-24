@@ -12,4 +12,6 @@ services:
     link: https://facebook.com/1658129037803451/posts/2328741517408863
 ---
 
-How I miss Chaufa! <a class="url" href="https://www.youtube.com/watch?v=clAO-gMdE2o&amp;feature=youtu.be" rel="external nofollow" target="_blank">https://www.youtube.com/watch?v=clAO-gMdE2o&amp;feature=youtu.be</a>
+How I miss Chaufa!
+
+{% include post_youtube.html video_id="clAO-gMdE2o" %}
