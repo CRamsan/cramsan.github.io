@@ -141,5 +141,8 @@ function loadFunctions() {
 window.onload = loadFunctions;
 </script>
 
-<div id="divContainer">
-</div>
+<form>
+  <div id="divContainer">
+  </div>
+</form>
+
