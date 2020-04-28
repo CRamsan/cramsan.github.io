@@ -10,8 +10,8 @@ theme:
     repo_url: 'https://github.com/CRamsan/cramsan.github.io'
     favicon: 'assets/images/favicon.ico'
     name: material
-    logo:
-        icon: 'home'
+    icon:
+        logo: 'material/home'
     palette:
         primary: 'teal'
         accent: 'teal'
@@ -25,7 +25,8 @@ theme:
             - type: 'twitter'
               link: 'https://twitter.com/cramsan_dev'
 extra_css:
-        - css/cramsan_wiki.css
+    - css/cramsan_wiki.css
 google_analytics:
-  - 'UA-93675007-1'
-  - 'auto'
+    - 'UA-93675007-1'
+    - 'auto'
+ 
