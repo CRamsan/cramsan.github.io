@@ -1,8 +1,15 @@
 ---
-title: "Cramsan"
+title: Cramsan
 timezone: UTC
 collections:
+  posts:
+    title: Posts
+    output: true
   resources:
+    title: Resources
+    output: true
+  uploads:
+    title: Uploads
     output: true
 permalink: pretty
 url: https://cramsan.com

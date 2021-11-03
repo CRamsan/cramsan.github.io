@@ -1,8 +1,11 @@
 ---
 title: Trying SiteLeaf now
 date: 2016-11-17 02:05:00 Z
-tags: siteleaf blog
-categories: other
+categories:
+- other
+tags:
+- siteleaf
+- blog
 layout: post
 ---
 

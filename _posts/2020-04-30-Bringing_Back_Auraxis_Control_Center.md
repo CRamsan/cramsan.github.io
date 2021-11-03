@@ -1,8 +1,11 @@
 ---
-layout: post
 title: Bringing Back Auraxis Control Center
-tags: random
-categories: other
+date: 2020-04-30 00:00:00 Z
+categories:
+- other
+tags:
+- random
+layout: post
 ---
 
 I can't believe that I last updated this app on Sep 16, 2018. But with the release of the escalation update, I decided it was a good time to get back into updating this app. But I not only wanted to fix bugs here and there, I wanted to get back into listening to the community feedback and adding new features.

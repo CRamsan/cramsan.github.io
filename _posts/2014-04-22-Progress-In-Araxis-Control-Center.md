@@ -1,8 +1,12 @@
 ---
 title: Progress in Auraxix Control Center
 date: 2014-04-22 00:00:00 Z
-tags: planetside javascript
-categories: programming gaming
+categories:
+- programming
+- gaming
+tags:
+- planetside
+- javascript
 layout: post
 ---
 

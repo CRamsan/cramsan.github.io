@@ -1,8 +1,12 @@
 ---
 title: This is just a test, please ignore
 date: 2016-08-20 00:00:00 Z
-tags: test IFTTT blog
-categories: other
+categories:
+- other
+tags:
+- test
+- IFTTT
+- blog
 layout: post
 ---
 

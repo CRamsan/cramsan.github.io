@@ -1,8 +1,13 @@
 ---
-layout: post
 title: Enabling Chromium password storage in i3
-tags: chromium i3 linux
-categories: linux
+date: 2017-02-27 00:00:00 Z
+categories:
+- linux
+tags:
+- chromium
+- i3
+- linux
+layout: post
 ---
 
 Chroium may not use the correct password storage under linux if it fails to detect the desktop enviroment. In my case, when using i3 as my WM witout a desktop enviroment, Chromium was failing to unlock the keychain and a result all my creds would have been stored in plain text. To solve this problem you can use the `--password-store=<basic|gnome|kwallet>` paramenter. Since I use gnome-keyring, I will use --password-storage=gnome, to ensure Chromium stores all the creds in the gnome-keyring.

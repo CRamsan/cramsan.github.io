@@ -1,8 +1,12 @@
 ---
 title: This blog has moved... again
 date: 2016-04-14 00:00:00 Z
-tags: blog jekyll github
-categories: other
+categories:
+- other
+tags:
+- blog
+- jekyll
+- github
 layout: post
 ---
 

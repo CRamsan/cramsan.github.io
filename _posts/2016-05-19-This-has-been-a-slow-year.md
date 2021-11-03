@@ -1,8 +1,12 @@
 ---
 title: This has been a slow year
 date: 2016-05-19 00:00:00 Z
-tags: iot wemo raspberrypi
-categories: programming
+categories:
+- programming
+tags:
+- iot
+- wemo
+- raspberrypi
 layout: post
 ---
 

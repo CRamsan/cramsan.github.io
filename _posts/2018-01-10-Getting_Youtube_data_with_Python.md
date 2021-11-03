@@ -1,8 +1,13 @@
 ---
-layout: post
 title: Getting Youtube data with Python
-tags: programming youtube python
-categories: programming
+date: 2018-01-10 00:00:00 Z
+categories:
+- programming
+tags:
+- programming
+- youtube
+- python
+layout: post
 ---
 
 This is done with python 2 becuase most of the Youtube DATA libraries seem to support Python 2 better than 3. There may be versions of some of the libraries for Python 3 but I did not spend anytime investigating this route.

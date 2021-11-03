@@ -1,8 +1,14 @@
 ---
-layout: post
 title: Configuring Wii to load games from USB media
-tags: wii gamecube backup mods
-categories: gaming
+date: 2017-06-02 00:00:00 Z
+categories:
+- gaming
+tags:
+- wii
+- gamecube
+- backup
+- mods
+layout: post
 ---
 
 **This guide was developed based on my very limited knowledge and the most up to date information that I could find.**

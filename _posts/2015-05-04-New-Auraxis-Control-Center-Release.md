@@ -1,8 +1,12 @@
 ---
 title: New Auraxis Control Center Release
-tags: planetside programming
-categories: programming gaming
 date: 2015-05-04 00:00:00 Z
+categories:
+- programming
+- gaming
+tags:
+- planetside
+- programming
 layout: post
 ---
 

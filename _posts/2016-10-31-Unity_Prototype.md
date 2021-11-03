@@ -1,8 +1,11 @@
 ---
 title: Unity Prototype
 date: 2016-10-31 00:00:00 Z
-tags: unity prototype
-categories: programming 
+categories:
+- programming
+tags:
+- unity
+- prototype
 layout: post
 ---
 

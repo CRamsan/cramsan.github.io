@@ -1,8 +1,11 @@
 ---
 title: New Year, New Projects
 date: 2015-02-24 00:00:00 Z
-tags: youtube personal
-categories: other
+categories:
+- other
+tags:
+- youtube
+- personal
 layout: post
 ---
 

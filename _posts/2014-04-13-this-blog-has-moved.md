@@ -1,8 +1,11 @@
 ---
 title: This blog has moved
 date: 2014-04-13 00:00:00 Z
-tags: jekyll blog
-categories: other
+categories:
+- other
+tags:
+- jekyll
+- blog
 layout: post
 ---
 

@@ -1,13 +1,16 @@
 ---
+title: So their product leaves a residue and the fix is for the user to re apply oil
+  to the wooden surface. Insert &quot;you are using it wrong&quo
+date: 2018-02-15 11:11:17 Z
+categories:
+- social
+tags:
+- buffer
 layout: post
-categories: social
-tags: buffer
 buffer: true
-title: "So their product leaves a residue and the fix is for the user to re apply oil to the wooden surface. Insert &quot;you are using it wrong&quo"
-date: 2018-02-15 11:11:17
-services: 
-  - name: twitter
-    link: https://twitter.com/cramsan_dev/status/964215579551903744
+services:
+- name: twitter
+  link: https://twitter.com/cramsan_dev/status/964215579551903744
 ---
 
 So their product leaves a residue and the fix is for the user to re apply oil to the wooden surface. Insert &quot;you are using it wrong&quot; comment here.<br />

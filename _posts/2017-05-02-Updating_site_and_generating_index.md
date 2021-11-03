@@ -1,8 +1,11 @@
 ---
-layout: post
 title: Updating site and generating index
-tags: jekyll
-categories: other
+date: 2017-05-02 00:00:00 Z
+categories:
+- other
+tags:
+- jekyll
+layout: post
 ---
 
 I finally cleaned up this blog. I moved the "Game Collection" and "List of Applications" pages to collections in the "docs" folder. My plan was to have a location where I can drop documents and pages that do not change often but that also do not need to be located in the root level. To accomplish this I used Jekyll's collection which was both a blessing and a curse.

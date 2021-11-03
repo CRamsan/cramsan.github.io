@@ -1,8 +1,13 @@
 ---
 title: Planetside 2 Killboard for Overwolf
 date: 2014-04-17 00:00:00 Z
-tags: planetside javascript overwolf
-categories: gaming programming
+categories:
+- gaming
+- programming
+tags:
+- planetside
+- javascript
+- overwolf
 layout: post
 ---
 

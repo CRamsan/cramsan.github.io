@@ -1,8 +1,13 @@
 ---
 title: Still Integrating This Blog with IFTTT
 date: 2016-08-23 00:00:00 Z
-tags: ifttt blog twitter facebook
-categories: other
+categories:
+- other
+tags:
+- ifttt
+- blog
+- twitter
+- facebook
 layout: post
 ---
 

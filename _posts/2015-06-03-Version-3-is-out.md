@@ -1,8 +1,11 @@
 ---
 title: Auraxis Control Center version 3 is out!
 date: 2015-06-03 00:00:00 Z
-tags: programming planetside 
-categories: programming
+categories:
+- programming
+tags:
+- programming
+- planetside
 layout: post
 ---
 

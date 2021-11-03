@@ -1,8 +1,12 @@
 ---
-layout: post
 title: Configuring wireshark in Ubuntu
-tags: linux networking
-categories: development
+date: 2017-08-10 00:00:00 Z
+categories:
+- development
+tags:
+- linux
+- networking
+layout: post
 ---
 
 Since my job requires me to spend a lot of time looking at network traffic, I decided that it would be neat to have a way to capture traffic while at home as well.

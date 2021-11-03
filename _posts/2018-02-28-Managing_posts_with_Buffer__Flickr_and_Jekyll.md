@@ -1,8 +1,11 @@
 ---
-layout: post
 title: Managing posts with Buffer, Flickr and Jekyll
-tags: blog
-categories: other
+date: 2018-02-28 00:00:00 Z
+categories:
+- other
+tags:
+- blog
+layout: post
 ---
 
 Having a blog that relies on static pages can be quiet cumbersome. This site currently runs on Jekyll, which means there is no database, no CMS, no image storage. For the most part, the site is just HTLM, CSS, JS, Markdown, Liquid and JSON files. This used to work fine when I would not post things for several months, but as I want to post more, it became clear that I needed to come up with a better sollution. What I will describe here is not a system developed to handle the limitation of Jekyll, but rather a evolving sytem that fits my needs of how I do things.

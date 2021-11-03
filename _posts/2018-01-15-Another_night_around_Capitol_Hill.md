@@ -1,8 +1,11 @@
 ---
-layout: post
 title: Another night around Capitol Hill
-tags: random
-categories: other
+date: 2018-01-15 00:00:00 Z
+categories:
+- other
+tags:
+- random
+layout: post
 ---
 
 The weather was nice on Saturday so we decided to go out and enjoy the day.

@@ -1,8 +1,12 @@
 ---
-layout: post
 title: Done using SiteLeaf
-tags: siteieaf blog
-categories: other
+date: 2017-02-22 00:00:00 Z
+categories:
+- other
+tags:
+- siteieaf
+- blog
+layout: post
 ---
 
 Well that did not last long. I tried using Siteleaf but I had to drop it pretty quickly. The problem was that my personal workflow did not match well with Siteleaf's, constant commits, issues with sign in, issues with deployments and having to pay montly fee. At the end I just got back to hosting everything in AWS and manage it all  myself.

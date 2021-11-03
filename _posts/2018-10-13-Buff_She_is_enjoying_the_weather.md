@@ -1,15 +1,17 @@
 ---
+title: She is enjoying the weather
+date: 2018-10-13 10:12:40 Z
+categories:
+- social
+tags:
+- buffer
 layout: post
-categories: social
-tags: buffer
 buffer: true
-title: "She is enjoying the weather"
-date: 2018-10-13 10:12:40
-services: 
-  - name: twitter
-    link: https://twitter.com/cramsan_dev/status/1051158845823877120
-  - name: facebook
-    link: https://facebook.com/1658129037803451/posts/2242835135999502
+services:
+- name: twitter
+  link: https://twitter.com/cramsan_dev/status/1051158845823877120
+- name: facebook
+  link: https://facebook.com/1658129037803451/posts/2242835135999502
 ---
 
 She is enjoying the weather   <br />

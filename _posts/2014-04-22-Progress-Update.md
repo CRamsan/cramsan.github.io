@@ -1,8 +1,13 @@
 ---
 title: Progress Update
-tags: gaming programming API
-categories: gaming programming
 date: 2014-04-22 00:00:00 Z
+categories:
+- gaming
+- programming
+tags:
+- gaming
+- programming
+- API
 layout: post
 ---
 
