@@ -20,6 +20,7 @@ author:
 paginate: 15
 plugins:
 - jekyll-paginate
+- jekyll-feed
 exclude:
 - CNAME
 - Gemfile
