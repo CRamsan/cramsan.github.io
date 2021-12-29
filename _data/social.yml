@@ -3,30 +3,10 @@
   username:    '@cramsan_dev'
   icon:        '/public/icons/twitter.png'
 
-- name:        Facebook
-  url:         https://www.facebook.com/cramsan/
-  username:    cramsan
-  icon:        '/public/icons/facebook.jpg'
-
-- name:         Instagram
-  url:          https://www.instagram.com/cramsan/
-  username:     '@cramsan'
-  icon:         '/public/icons/instagram.png'
-
-- name:         reddit
-  url:          https://www.reddit.com/u/CRamsan
-  username:     cramsan
-  icon:         '/public/icons/reddit-alien.png'
-
 - name:        Github
   url:         https://github.com/cramsan/
   username:    'cramsan'
   icon:        '/public/icons/GitHub.png'
-
-- name:         flickr
-  url:          https://www.flickr.com/photos/149389453@N05/
-  username:     'Cramsan Dev'
-  icon:         '/public/icons/flickr.png'
 
 - name:         LinkedIn
   url:          https://www.linkedin.com/in/cramsan
