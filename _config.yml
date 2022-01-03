@@ -39,7 +39,7 @@ collections:
     output: true
 
 # Build settings
-theme: jekyll-theme-yat
+remote_theme: "jeffreytse/jekyll-theme-yat"
 permalink: pretty
 paginate: 15
 plugins:
