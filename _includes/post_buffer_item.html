@@ -3,11 +3,6 @@
   {% if post.buffer %}
     {{ post.date | date_to_string }}
   {% endif %}
-  {% for service in post.services %}
-    {% if service.name == "google" or service.name == "twitter" or service.name == "facebook" or service.name == "instagram" %}
-      {% include buffer_social_icon.html param_service=service %}
-    {% endif %}
-  {% endfor %}
   </h4>
 
   {% if page.title == "Home" %}
