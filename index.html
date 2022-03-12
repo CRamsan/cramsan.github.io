@@ -1,7 +1,33 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
 title: Home
+layout: default
+index: 1
 ---
+
+{% for post in paginator.posts %}
+  {% if post.buffer %}
+    {% include post_buffer_item.html %}
+  {% else %}
+    {% include post_item.html  %}
+  {% endif %}
+  <hr class="divider"></hr>
+{% endfor %}
+
+<!-- Pagination links -->
+<div>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">
+      Previous
+    </a>
+  {% else %}
+    <span>Previous</span>
+  {% endif %}
+  <span>
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Next</a>
+  {% else %}
+    <span>Next</span>
+  {% endif %}
+</div>

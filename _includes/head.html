@@ -1,0 +1,21 @@
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} {{ site.tagline }}
+    {% else %}
+      {{ page.title }} {{ site.title }}
+    {% endif %}
+  </title>
+
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/cramsan-layout.css">
+  <link rel="stylesheet" href="/public/cramsan-style.css">
+  <link rel="stylesheet" href="/public/pygments-default.css">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.ico">
+</head>

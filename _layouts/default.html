@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  {% include head.html %}
+
+  <body>
+    <header>
+       <h1>
+         <a href="/">
+          {% if page.title == "Home" %}
+            {% include motd.html %}
+          {% elsif page.buffer %}
+            {{ site.title  }}
+          {% else %}
+            {{ page.title }}
+          {% endif %}
+        </a>
+      </h1>
+    </header>
+    
+    <div id="container">
+      <div id="content">
+        {{ content }}
+      </div>
+    </div>
+
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </body>
+</html>

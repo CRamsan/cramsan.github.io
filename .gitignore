@@ -1,10 +1,5 @@
-*~
 _site
-*.lock
-*.swp
-*.pyc
-_data/buffer.json
-_data/post_queue.json
-.jekyll-cache/
-scripts/res/
-scripts/__pycache__/
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
