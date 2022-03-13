@@ -4,17 +4,7 @@
 
   <body>
     <header>
-       <h1>
-         <a href="/">
-          {% if page.title == "Home" %}
-            {% include motd.html %}
-          {% elsif page.buffer %}
-            {{ site.title  }}
-          {% else %}
-            {{ page.title }}
-          {% endif %}
-        </a>
-      </h1>
+      {% include header.html %}
     </header>
     
     <div id="container">

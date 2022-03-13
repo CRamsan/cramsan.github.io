@@ -4,7 +4,24 @@ body {
 }
 
 header {
-  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerColumn {
+  padding: 10px;
+	width: 100%;
+	max-width: 380px;
+}
+
+.pagesLink {
+  display: inline;
+  padding: 10px;
+  float: right;
+  margin: 0px;
 }
 
 #container {
@@ -19,6 +36,10 @@ header {
 #content img {
   max-width:100%;
   height:auto;
+}
+
+.post {
+   word-wrap: break-word;
 }
 
 .divider {
@@ -60,6 +81,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .footerColumn {
