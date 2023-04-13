@@ -8,7 +8,7 @@ The project I decided to do was [Minesweeeper](https://en.wikipedia.org/wiki/Min
 
 | Android                                     | Desktop                                     | iOS                                     |
 |---------------------------------------------|---------------------------------------------|-----------------------------------------|
-| <img src="https://github.com/CRamsan/minesweepers/blob/main/images/android.png?raw=true" width="200"/> | <img src="https://github.com/CRamsan/minesweepers/blob/main/images/desktop.png" width="550"/> | <img src="https://github.com/CRamsan/minesweepers/blob/main/images/ios.png" width="200"/> |
+| <img src="https://github.com/CRamsan/minesweepers/blob/main/images/android.png?raw=true" width="200"/> | <img src="https://github.com/CRamsan/minesweepers/blob/main/images/desktop.png?raw=true" width="550"/> | <img src="https://github.com/CRamsan/minesweepers/blob/main/images/ios.png?raw=true" width="200"/> |
 
 ## The Goal
 - Implement Minesweeper
@@ -20,55 +20,7 @@ The project I decided to do was [Minesweeeper](https://en.wikipedia.org/wiki/Min
 ## The Approach
 The application is split into a gradle modules for each target with one shared module that holds the game logic and shared UI code.
 
-```mermaid
-flowchart TD
-    subgraph Shared
-    
-        subgraph CommonTarget
-            direction LR
-            GameLogic(Game Logic)
-            SharedUI(Shared UI)
-        end
-
-        subgraph AndroidTarget
-            direction LR
-            AndroidImageLoader(Image Loader)
-            AndroidLayout(Android Layout)
-        end
-
-        subgraph JVMTarget
-            direction LR
-            JVMImageLoader(Image Loader)
-            DesktopLayout(Desktop Layout)
-        end
-
-        subgraph iOSTarget
-            direction LR
-            IOSImageLoader(Image Loader)
-            IOSLayout(iOS Layout)
-        end
-
-        CommonTarget-->AndroidTarget
-        CommonTarget-->JVMTarget
-        CommonTarget-->iOSTarget
-    end
-
-    subgraph AndroidApp
-        Activity(Activity)
-    end
-
-    subgraph JVMApp
-        Swing(Swing)
-    end
-
-    subgraph iOSApp
-        ViewController(ViewController)
-    end
-
-    AndroidTarget-->AndroidApp
-    JVMTarget-->JVMApp
-    iOSTarget-->iOSApp
-```
+[![](https://mermaid.ink/img/pako:eNqVlF1PwjAUhv_Kcq5GgmSTzX1cmBBIDAZj4tQLs5u6ltFI26V0IhL-uwc2gSEq9KI55_Q97dN3zZaQKcoghvFUzbMJ0cZ6HKTSwjErX3NNiomVYJnRqljNjeW-EkLJR6JzZnbL60G5ZpnhSlqjh-bKDRFspHKe2evI2oStpqQ69WloV4H1NNwTMIk8R1h6kmrF6XkwddNQkByhCGXa3sRWlbSOqkdkoUpj15lVpScQ3j7fnUeHDSeSDdjszaiiJquz08n4fXIe2fA-OZEMlTUVHvIv0f6Duri4_uWbHqiO-HqgOLjf3qGHz6dXFLtdenj5d24W9nfQ-r0fIRq9yZzL3N7Mf3QhWKPrmbN5X0mj1XSKvjbTn_s0_Nn5td1y60zl0ra-9aPyBuvQBsG0IJziD2G5VqVgJkywFGIMKdFvKaRyhTpSGpUsZAax0SVrQ1lQYtiAE7ySgHhMpjOsFkS-KCW-RZhCvIQPiD2nE0SeF7l-6Edh4LhtWEDcdb2Oe-VHjhd2o9AJuv6qDZ-bDZxOFHTdy_DSj9zQjYIrb_UFME9qPw?type=png)](https://mermaid.live/edit#pako:eNqVlF1PwjAUhv_Kcq5GgmSTzX1cmBBIDAZj4tQLs5u6ltFI26V0IhL-uwc2gSEq9KI55_Q97dN3zZaQKcoghvFUzbMJ0cZ6HKTSwjErX3NNiomVYJnRqljNjeW-EkLJR6JzZnbL60G5ZpnhSlqjh-bKDRFspHKe2evI2oStpqQ69WloV4H1NNwTMIk8R1h6kmrF6XkwddNQkByhCGXa3sRWlbSOqkdkoUpj15lVpScQ3j7fnUeHDSeSDdjszaiiJquz08n4fXIe2fA-OZEMlTUVHvIv0f6Duri4_uWbHqiO-HqgOLjf3qGHz6dXFLtdenj5d24W9nfQ-r0fIRq9yZzL3N7Mf3QhWKPrmbN5X0mj1XSKvjbTn_s0_Nn5td1y60zl0ra-9aPyBuvQBsG0IJziD2G5VqVgJkywFGIMKdFvKaRyhTpSGpUsZAax0SVrQ1lQYtiAE7ySgHhMpjOsFkS-KCW-RZhCvIQPiD2nE0SeF7l-6Edh4LhtWEDcdb2Oe-VHjhd2o9AJuv6qDZ-bDZxOFHTdy_DSj9zQjYIrb_UFME9qPw)
 
 You can see that all the game logic and most UI code is implemented in the common code. Then each platform's target 
 provides two things, an Image Loader and a Compose layout. The Image Helper helps to provide a platform specific approach
